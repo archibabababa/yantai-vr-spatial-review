@@ -1,6 +1,6 @@
 # Yantai VR spatial configuration review
 
-Research materials for **VR-enabled spatial configuration review: a post-occupancy museum case**, by Fan Huang, Yan Zhu and Jia Ning Luo. This repository accompanies a revised manuscript; it does not imply publication or acceptance.
+Research materials for **Spatial configuration review using virtual reality and space syntax: A retrospective museum case study**, by Fan Huang, Yan Zhu and Jia Ning Luo. This repository accompanies a revised manuscript; it does not imply publication or acceptance.
 
 ## Start here
 - **Supplementary data/Read me.txt** explains the de-identified ratings, source conflicts, item-specific denominators and sensitivity bounds.
