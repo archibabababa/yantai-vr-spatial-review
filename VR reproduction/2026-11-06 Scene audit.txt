@@ -1,0 +1,14 @@
+PRESENT-DAY ENGINEERING AUDIT; NOT A PARTICIPANT SESSION
+UTC: 2026-11-06T06:49:53.0946477Z
+Editor: 2022.3.62f3c1
+Scene: Assets/Scenes/SampleScene.unity
+Transform count: 133
+Missing MonoBehaviour scripts: 0
+MeshFilter count: 38
+RightControl count: 1
+Assigned target: Box1; localPosition=(-0.20020, 0.19900, -0.13400); localEulerAngles=(0.00000, 312.68000, 0.00000); localScale=(0.01667, 0.01667, 0.01667)
+Assigned target: Box2; localPosition=(-0.16100, 0.19900, 0.05290); localEulerAngles=(0.00000, 343.53400, 0.00000); localScale=(0.01667, 0.01667, 0.01667)
+Assigned target: Box3; localPosition=(-0.01440, 0.19900, -0.07410); localEulerAngles=(0.00000, 103.72160, 0.00000); localScale=(0.01667, 0.01667, 0.01667)
+Headset/controller interaction tested: NO
+Historical sequence reconstructed: NO
+Scene dependency audit: PASS

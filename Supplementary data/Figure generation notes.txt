@@ -1,0 +1,9 @@
+Figure generation
+
+Run Generate analytical figures.py in this directory with Python 3, NumPy and Matplotlib. Times New Roman must be installed for exact typography. The script reads the supplied CAD, graph CSVs and Figure input summaries.json and writes Figures 1, 4, 7, 8, 9 and 10 to the sibling Figures directory as PNG and SVG. It does not alter the photographs, Figure 3 or original model views.
+
+The input summaries are the already-reconciled questionnaire results. Validate them against Questionnaire descriptive results.csv and the provenance ledger using Recalculate results.py. No participant, graph point or low rating is excluded by the plotting script beyond the stated valid-value filters.
+
+Continuous metric colours retain the original blue-green-yellow-red palette (turbo) and common limits within each original/adjusted pair. Larger depth is not automatically better; legend values, rather than colour preference, govern interpretation. Ordered Likert greys code scores consistently, including discomfort where a high score indicates a worse experience. Scatterplot fits describe graph relationships and do not imply independent experimental replication.
+
+Figure 3 Original conceptual map.jpg preserves the source; the manuscript uses a copy cropped only at the outside white margins. No interior text, geometry or colour is altered. Its source labels describe the conceptual operation map. The retained implementation uses vertical scaling for the height control; it is not a separate tilt function.

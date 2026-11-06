@@ -1,0 +1,691 @@
+﻿record,participant,group,item,variable,label,paper_mark,scan_page,archive_A,archive_B,archive_student,display,exact_value,lower,upper,status,source,source_cell,note
+S01:Reference_Scale,S01,学生,Q7 built,Reference_Scale,尺度·参考场景,4,90,4,4.0,4.0,4,4,,,纸本可辨,P01,H2,
+S01:Video_Scale,S01,学生,Q7 video,Video_Scale,尺度·视频,2,90,2,2.0,2.0,2,2,,,纸本可辨,P01,I2,
+S01:Drawings_Scale,S01,学生,Q7 drawings,Drawings_Scale,尺度·图纸,4,90,4,4.0,4.0,4,4,,,纸本可辨,P01,J2,
+S01:VRSpace_Scale,S01,学生,Q7 VR,VRSpace_Scale,尺度·VR,4,90,4,4.0,4.0,4,4,,,纸本可辨,P01,K2,
+S01:Reference_Struct,S01,学生,Q8 built,Reference_Struct,结构·参考场景,4,90,4,4.0,4.0,4,4,,,纸本可辨,P01,L2,
+S01:Video_Struct,S01,学生,Q8 video,Video_Struct,结构·视频,2,90,2,2.0,2.0,2,2,,,纸本可辨,P01,M2,
+S01:Drawings_Struct,S01,学生,Q8 drawings,Drawings_Struct,结构·图纸,5,90,5,5.0,5.0,5,5,,,纸本可辨,P01,N2,
+S01:VRSpace_Struct,S01,学生,Q8 VR,VRSpace_Struct,结构·VR,4,91,4,4.0,4.0,4,4,,,纸本可辨,P01,O2,
+S01:Reference_Presence,S01,学生,Q9 built,Reference_Presence,临场感·参考场景,5,91,5,5.0,5.0,5,5,,,纸本可辨,P01,P2,
+S01:Video_Presence,S01,学生,Q9 video,Video_Presence,临场感·视频,3,91,3,3.0,3.0,3,3,,,纸本可辨,P01,Q2,
+S01:Drawings_Presence,S01,学生,Q9 drawings,Drawings_Presence,临场感·图纸,4,91,4,4.0,4.0,4,4,,,纸本可辨,P01,R2,
+S01:VRSpace_Presence,S01,学生,Q9 VR,VRSpace_Presence,临场感·VR,5,91,5,5.0,5.0,5,5,,,纸本可辨,P01,S2,
+S01:Circulation,S01,学生,Q10,Circulation,路径合理性,5,91,4,5.0,5.0,5,5,,,纸本可辨,P01,T2,当前总表为4，与纸面读数不同。
+S01:Display,S01,学生,Q11,Display,展示功能,5,91,4,5.0,5.0,5,5,,,纸本可辨,P01,U2,当前总表为4，与纸面读数不同。
+S01:Distinctiveness,S01,学生,Q12,Distinctiveness,空间辨识度,5,91,4,5.0,5.0,5,5,,,纸本可辨,P01,V2,当前总表为4，与纸面读数不同。
+S01:Comfort,S01,学生,Q13,Comfort,空间舒适度,4,91,4,4.0,4.0,4,4,,,纸本可辨,P01,W2,
+S01:Function,S01,学生,Q14,Function,功能需求,4,92,4,4.0,4.0,4,4,,,纸本可辨,P01,X2,
+S01:Satisfaction,S01,学生,Q15,Satisfaction,整体满意度,4,92,4,4.0,4.0,4,4,,,纸本可辨,P01,Y2,
+S01:VRInterface,S01,学生,Q16,VRInterface,界面易用性,3,92,4,3.0,3.0,3,3,,,纸本可辨,P01,Z2,当前总表为4，与纸面读数不同。
+S01:Discomfort,S01,学生,Q17,Discomfort,身体不适,2,92,1,2.0,2.0,2,2,,,纸本可辨,P01,AA2,当前总表为1，与纸面读数不同。
+S01:SpatialUnderstand,S01,学生,Q18,SpatialUnderstand,复杂空间关系理解,4,92,4,4.0,4.0,4,4,,,纸本可辨,P01,AB2,
+S01:IterationEfficiency,S01,学生,Q19,IterationEfficiency,迭代效率,3,92,,3.0,3.0,3,3,,,纸本可辨,P01,,当前总表缺此字段。
+S01:CreativeFreedom,S01,学生,Q20,CreativeFreedom,创作自由度,5,92,4,3.0,3.0,5,5,,,纸本可辨,P01,AC2,当前总表为4，与纸面读数不同。
+S02:Reference_Scale,S02,学生,Q7 built,Reference_Scale,尺度·参考场景,5,84,5,5.0,5.0,5,5,,,纸本可辨,P01,H3,
+S02:Video_Scale,S02,学生,Q7 video,Video_Scale,尺度·视频,5,84,5,5.0,5.0,5,5,,,纸本可辨,P01,I3,
+S02:Drawings_Scale,S02,学生,Q7 drawings,Drawings_Scale,尺度·图纸,5,84,5,5.0,5.0,5,5,,,纸本可辨,P01,J3,
+S02:VRSpace_Scale,S02,学生,Q7 VR,VRSpace_Scale,尺度·VR,5,84,5,5.0,5.0,5,5,,,纸本可辨,P01,K3,
+S02:Reference_Struct,S02,学生,Q8 built,Reference_Struct,结构·参考场景,5,84,5,5.0,5.0,5,5,,,纸本可辨,P01,L3,
+S02:Video_Struct,S02,学生,Q8 video,Video_Struct,结构·视频,5,84,5,5.0,5.0,5,5,,,纸本可辨,P01,M3,
+S02:Drawings_Struct,S02,学生,Q8 drawings,Drawings_Struct,结构·图纸,5,84,5,5.0,5.0,5,5,,,纸本可辨,P01,N3,
+S02:VRSpace_Struct,S02,学生,Q8 VR,VRSpace_Struct,结构·VR,3,85,3,3.0,3.0,3,3,,,纸本可辨,P01,O3,
+S02:Reference_Presence,S02,学生,Q9 built,Reference_Presence,临场感·参考场景,3,85,3,3.0,3.0,3,3,,,纸本可辨,P01,P3,
+S02:Video_Presence,S02,学生,Q9 video,Video_Presence,临场感·视频,5,85,5,5.0,5.0,5,5,,,纸本可辨,P01,Q3,
+S02:Drawings_Presence,S02,学生,Q9 drawings,Drawings_Presence,临场感·图纸,3,85,3,3.0,3.0,3,3,,,纸本可辨,P01,R3,
+S02:VRSpace_Presence,S02,学生,Q9 VR,VRSpace_Presence,临场感·VR,3,85,3,3.0,3.0,3,3,,,纸本可辨,P01,S3,
+S02:Circulation,S02,学生,Q10,Circulation,路径合理性,5,85,5,5.0,5.0,5,5,,,纸本可辨,P01,T3,
+S02:Display,S02,学生,Q11,Display,展示功能,5,85,5,5.0,5.0,5,5,,,纸本可辨,P01,U3,
+S02:Distinctiveness,S02,学生,Q12,Distinctiveness,空间辨识度,5,85,5,5.0,5.0,5,5,,,纸本可辨,P01,V3,
+S02:Comfort,S02,学生,Q13,Comfort,空间舒适度,5,85,5,5.0,5.0,5,5,,,纸本可辨,P01,W3,
+S02:Function,S02,学生,Q14,Function,功能需求,3,86,5,3.0,3.0,3,3,,,纸本可辨,P01,X3,当前总表为5，与纸面读数不同。
+S02:Satisfaction,S02,学生,Q15,Satisfaction,整体满意度,5,86,5,5.0,5.0,5,5,,,纸本可辨,P01,Y3,
+S02:VRInterface,S02,学生,Q16,VRInterface,界面易用性,5,86,5,5.0,5.0,5,5,,,纸本可辨,P01,Z3,
+S02:Discomfort,S02,学生,Q17,Discomfort,身体不适,0,86,2,1.0,1.0,0（越界）,,,,纸本越界,P01,AA3,纸面0超出1—5量表，未重编码 当前总表为2，与纸面读数不同。
+S02:SpatialUnderstand,S02,学生,Q18,SpatialUnderstand,复杂空间关系理解,5,86,5,5.0,5.0,5,5,,,纸本可辨,P01,AB3,
+S02:IterationEfficiency,S02,学生,Q19,IterationEfficiency,迭代效率,5,86,,5.0,5.0,5,5,,,纸本可辨,P01,,当前总表缺此字段。
+S02:CreativeFreedom,S02,学生,Q20,CreativeFreedom,创作自由度,5,86,5,5.0,5.0,5,5,,,纸本可辨,P01,AC3,
+S03:Reference_Scale,S03,学生,Q7 built,Reference_Scale,尺度·参考场景,4,78,4,4.0,4.0,4（待复核）,,,,笔迹待复核,P01,H4,4上有叠加笔画，需复核
+S03:Video_Scale,S03,学生,Q7 video,Video_Scale,尺度·视频,5,78,5,5.0,5.0,5,5,,,纸本可辨,P01,I4,
+S03:Drawings_Scale,S03,学生,Q7 drawings,Drawings_Scale,尺度·图纸,3,78,3,3.0,3.0,3,3,,,纸本可辨,P01,J4,
+S03:VRSpace_Scale,S03,学生,Q7 VR,VRSpace_Scale,尺度·VR,5,78,5,5.0,5.0,5,5,,,纸本可辨,P01,K4,
+S03:Reference_Struct,S03,学生,Q8 built,Reference_Struct,结构·参考场景,5,78,5,5.0,5.0,5,5,,,纸本可辨,P01,L4,
+S03:Video_Struct,S03,学生,Q8 video,Video_Struct,结构·视频,4,78,4,4.0,4.0,4（待复核）,,,,笔迹待复核,P01,M4,4上有叠加笔画，需复核
+S03:Drawings_Struct,S03,学生,Q8 drawings,Drawings_Struct,结构·图纸,4,78,4,4.0,4.0,4,4,,,纸本可辨,P01,N4,
+S03:VRSpace_Struct,S03,学生,Q8 VR,VRSpace_Struct,结构·VR,5,79,5,5.0,5.0,5,5,,,纸本可辨,P01,O4,
+S03:Reference_Presence,S03,学生,Q9 built,Reference_Presence,临场感·参考场景,4,79,4,4.0,4.0,4,4,,,纸本可辨,P01,P4,
+S03:Video_Presence,S03,学生,Q9 video,Video_Presence,临场感·视频,4,79,4,4.0,4.0,4,4,,,纸本可辨,P01,Q4,
+S03:Drawings_Presence,S03,学生,Q9 drawings,Drawings_Presence,临场感·图纸,5,79,5,5.0,5.0,5,5,,,纸本可辨,P01,R4,
+S03:VRSpace_Presence,S03,学生,Q9 VR,VRSpace_Presence,临场感·VR,4,79,4,4.0,4.0,4（待复核）,,,,笔迹待复核,P01,S4,4上有叠加笔画，需复核
+S03:Circulation,S03,学生,Q10,Circulation,路径合理性,4,79,4,4.0,4.0,4,4,,,纸本可辨,P01,T4,
+S03:Display,S03,学生,Q11,Display,展示功能,4,79,4,4.0,4.0,4,4,,,纸本可辨,P01,U4,
+S03:Distinctiveness,S03,学生,Q12,Distinctiveness,空间辨识度,4,79,4,4.0,4.0,4（待复核）,,,,笔迹待复核,P01,V4,4上有叠加笔画，需复核
+S03:Comfort,S03,学生,Q13,Comfort,空间舒适度,3,79,4,3.0,3.0,3,3,,,纸本可辨,P01,W4,当前总表为4，与纸面读数不同。
+S03:Function,S03,学生,Q14,Function,功能需求,4,80,4,4.0,4.0,4（待复核）,,,,笔迹待复核,P01,X4,4上有叠加笔画，需复核
+S03:Satisfaction,S03,学生,Q15,Satisfaction,整体满意度,5,80,4,5.0,5.0,5,5,,,纸本可辨,P01,Y4,当前总表为4，与纸面读数不同。
+S03:VRInterface,S03,学生,Q16,VRInterface,界面易用性,4,80,4,4.0,4.0,4,4,,,纸本可辨,P01,Z4,
+S03:Discomfort,S03,学生,Q17,Discomfort,身体不适,2,80,1,2.0,2.0,2,2,,,纸本可辨,P01,AA4,当前总表为1，与纸面读数不同。
+S03:SpatialUnderstand,S03,学生,Q18,SpatialUnderstand,复杂空间关系理解,5,80,4,5.0,5.0,5,5,,,纸本可辨,P01,AB4,当前总表为4，与纸面读数不同。
+S03:IterationEfficiency,S03,学生,Q19,IterationEfficiency,迭代效率,5,80,,5.0,5.0,5,5,,,纸本可辨,P01,,当前总表缺此字段。
+S03:CreativeFreedom,S03,学生,Q20,CreativeFreedom,创作自由度,5,80,4,5.0,5.0,5,5,,,纸本可辨,P01,AC4,当前总表为4，与纸面读数不同。
+S04:Reference_Scale,S04,学生,Q7 built,Reference_Scale,尺度·参考场景,3,72,3,3.0,3.0,3,3,,,纸本可辨,P01,H5,
+S04:Video_Scale,S04,学生,Q7 video,Video_Scale,尺度·视频,5,72,5,5.0,5.0,5,5,,,纸本可辨,P01,I5,
+S04:Drawings_Scale,S04,学生,Q7 drawings,Drawings_Scale,尺度·图纸,4,72,4,4.0,4.0,4,4,,,纸本可辨,P01,J5,
+S04:VRSpace_Scale,S04,学生,Q7 VR,VRSpace_Scale,尺度·VR,2,72,2,2.0,2.0,2,2,,,纸本可辨,P01,K5,
+S04:Reference_Struct,S04,学生,Q8 built,Reference_Struct,结构·参考场景,3,72,3,3.0,3.0,3,3,,,纸本可辨,P01,L5,
+S04:Video_Struct,S04,学生,Q8 video,Video_Struct,结构·视频,5,72,5,5.0,5.0,5,5,,,纸本可辨,P01,M5,
+S04:Drawings_Struct,S04,学生,Q8 drawings,Drawings_Struct,结构·图纸,4,72,4,4.0,4.0,4,4,,,纸本可辨,P01,N5,
+S04:VRSpace_Struct,S04,学生,Q8 VR,VRSpace_Struct,结构·VR,2,73,2,2.0,2.0,2,2,,,纸本可辨,P01,O5,
+S04:Reference_Presence,S04,学生,Q9 built,Reference_Presence,临场感·参考场景,3,73,3,3.0,3.0,3,3,,,纸本可辨,P01,P5,
+S04:Video_Presence,S04,学生,Q9 video,Video_Presence,临场感·视频,4,73,4,4.0,4.0,4,4,,,纸本可辨,P01,Q5,
+S04:Drawings_Presence,S04,学生,Q9 drawings,Drawings_Presence,临场感·图纸,3,73,3,3.0,3.0,3,3,,,纸本可辨,P01,R5,
+S04:VRSpace_Presence,S04,学生,Q9 VR,VRSpace_Presence,临场感·VR,3,73,3,3.0,3.0,3,3,,,纸本可辨,P01,S5,
+S04:Circulation,S04,学生,Q10,Circulation,路径合理性,3,73,5,3.0,3.0,3,3,,,纸本可辨,P01,T5,当前总表为5，与纸面读数不同。
+S04:Display,S04,学生,Q11,Display,展示功能,5,73,5,5.0,5.0,5,5,,,纸本可辨,P01,U5,
+S04:Distinctiveness,S04,学生,Q12,Distinctiveness,空间辨识度,5,73,5,5.0,5.0,5,5,,,纸本可辨,P01,V5,
+S04:Comfort,S04,学生,Q13,Comfort,空间舒适度,4,73,5,4.0,4.0,4,4,,,纸本可辨,P01,W5,当前总表为5，与纸面读数不同。
+S04:Function,S04,学生,Q14,Function,功能需求,3,74,5,3.0,3.0,3,3,,,纸本可辨,P01,X5,当前总表为5，与纸面读数不同。
+S04:Satisfaction,S04,学生,Q15,Satisfaction,整体满意度,3,74,5,3.0,3.0,3,3,,,纸本可辨,P01,Y5,当前总表为5，与纸面读数不同。
+S04:VRInterface,S04,学生,Q16,VRInterface,界面易用性,3,74,5,3.0,3.0,3,3,,,纸本可辨,P01,Z5,当前总表为5，与纸面读数不同。
+S04:Discomfort,S04,学生,Q17,Discomfort,身体不适,2,74,2,2.0,2.0,2,2,,,纸本可辨,P01,AA5,
+S04:SpatialUnderstand,S04,学生,Q18,SpatialUnderstand,复杂空间关系理解,5,74,5,5.0,5.0,5,5,,,纸本可辨,P01,AB5,
+S04:IterationEfficiency,S04,学生,Q19,IterationEfficiency,迭代效率,3,74,,3.0,3.0,3,3,,,纸本可辨,P01,,当前总表缺此字段。
+S04:CreativeFreedom,S04,学生,Q20,CreativeFreedom,创作自由度,3,74,5,3.0,3.0,3,3,,,纸本可辨,P01,AC5,当前总表为5，与纸面读数不同。
+S05:Reference_Scale,S05,学生,Q7 built,Reference_Scale,尺度·参考场景,3,66,3,3.0,3.0,3,3,,,纸本可辨,P01,H6,
+S05:Video_Scale,S05,学生,Q7 video,Video_Scale,尺度·视频,4,66,4,4.0,4.0,4,4,,,纸本可辨,P01,I6,
+S05:Drawings_Scale,S05,学生,Q7 drawings,Drawings_Scale,尺度·图纸,4,66,4,4.0,4.0,4,4,,,纸本可辨,P01,J6,
+S05:VRSpace_Scale,S05,学生,Q7 VR,VRSpace_Scale,尺度·VR,4,66,4,4.0,4.0,4,4,,,纸本可辨,P01,K6,
+S05:Reference_Struct,S05,学生,Q8 built,Reference_Struct,结构·参考场景,4,66,4,4.0,4.0,4,4,,,纸本可辨,P01,L6,
+S05:Video_Struct,S05,学生,Q8 video,Video_Struct,结构·视频,3,66,3,3.0,3.0,3,3,,,纸本可辨,P01,M6,
+S05:Drawings_Struct,S05,学生,Q8 drawings,Drawings_Struct,结构·图纸,4,66,4,4.0,4.0,4,4,,,纸本可辨,P01,N6,
+S05:VRSpace_Struct,S05,学生,Q8 VR,VRSpace_Struct,结构·VR,4,67,4,4.0,4.0,4,4,,,纸本可辨,P01,O6,
+S05:Reference_Presence,S05,学生,Q9 built,Reference_Presence,临场感·参考场景,4,67,4,4.0,4.0,4,4,,,纸本可辨,P01,P6,
+S05:Video_Presence,S05,学生,Q9 video,Video_Presence,临场感·视频,4,67,4,4.0,4.0,4,4,,,纸本可辨,P01,Q6,
+S05:Drawings_Presence,S05,学生,Q9 drawings,Drawings_Presence,临场感·图纸,4,67,5,5.0,5.0,4,4,,,纸本可辨,P01,R6,当前总表为5，与纸面读数不同。
+S05:VRSpace_Presence,S05,学生,Q9 VR,VRSpace_Presence,临场感·VR,4,67,4,4.0,4.0,4,4,,,纸本可辨,P01,S6,
+S05:Circulation,S05,学生,Q10,Circulation,路径合理性,3,67,4,3.0,3.0,3,3,,,纸本可辨,P01,T6,当前总表为4，与纸面读数不同。
+S05:Display,S05,学生,Q11,Display,展示功能,3,67,4,3.0,3.0,3,3,,,纸本可辨,P01,U6,当前总表为4，与纸面读数不同。
+S05:Distinctiveness,S05,学生,Q12,Distinctiveness,空间辨识度,4,67,4,4.0,4.0,4,4,,,纸本可辨,P01,V6,
+S05:Comfort,S05,学生,Q13,Comfort,空间舒适度,4,67,4,4.0,4.0,4,4,,,纸本可辨,P01,W6,
+S05:Function,S05,学生,Q14,Function,功能需求,4,68,4,4.0,4.0,4,4,,,纸本可辨,P01,X6,
+S05:Satisfaction,S05,学生,Q15,Satisfaction,整体满意度,4,68,4,4.0,4.0,4,4,,,纸本可辨,P01,Y6,
+S05:VRInterface,S05,学生,Q16,VRInterface,界面易用性,3,68,4,3.0,3.0,3,3,,,纸本可辨,P01,Z6,当前总表为4，与纸面读数不同。
+S05:Discomfort,S05,学生,Q17,Discomfort,身体不适,4,68,1,4.0,4.0,4,4,,,纸本可辨,P01,AA6,当前总表为1，与纸面读数不同。
+S05:SpatialUnderstand,S05,学生,Q18,SpatialUnderstand,复杂空间关系理解,4,68,4,4.0,4.0,4,4,,,纸本可辨,P01,AB6,
+S05:IterationEfficiency,S05,学生,Q19,IterationEfficiency,迭代效率,4,68,,4.0,4.0,4,4,,,纸本可辨,P01,,当前总表缺此字段。
+S05:CreativeFreedom,S05,学生,Q20,CreativeFreedom,创作自由度,4,68,4,4.0,4.0,4,4,,,纸本可辨,P01,AC6,
+S06:Reference_Scale,S06,学生,Q7 built,Reference_Scale,尺度·参考场景,4,60,4,4.0,4.0,4,4,,,纸本可辨,P01,H7,
+S06:Video_Scale,S06,学生,Q7 video,Video_Scale,尺度·视频,4,60,4,4.0,4.0,4,4,,,纸本可辨,P01,I7,
+S06:Drawings_Scale,S06,学生,Q7 drawings,Drawings_Scale,尺度·图纸,5,60,5,5.0,5.0,5,5,,,纸本可辨,P01,J7,
+S06:VRSpace_Scale,S06,学生,Q7 VR,VRSpace_Scale,尺度·VR,4,60,4,4.0,4.0,4,4,,,纸本可辨,P01,K7,
+S06:Reference_Struct,S06,学生,Q8 built,Reference_Struct,结构·参考场景,4,60,4,4.0,4.0,4,4,,,纸本可辨,P01,L7,
+S06:Video_Struct,S06,学生,Q8 video,Video_Struct,结构·视频,4,60,4,4.0,4.0,4,4,,,纸本可辨,P01,M7,
+S06:Drawings_Struct,S06,学生,Q8 drawings,Drawings_Struct,结构·图纸,5,60,5,5.0,5.0,5,5,,,纸本可辨,P01,N7,
+S06:VRSpace_Struct,S06,学生,Q8 VR,VRSpace_Struct,结构·VR,4,61,4,4.0,4.0,4,4,,,纸本可辨,P01,O7,
+S06:Reference_Presence,S06,学生,Q9 built,Reference_Presence,临场感·参考场景,4,61,4,4.0,4.0,4,4,,,纸本可辨,P01,P7,
+S06:Video_Presence,S06,学生,Q9 video,Video_Presence,临场感·视频,4,61,5,5.0,5.0,4,4,,,纸本可辨,P01,Q7,当前总表为5，与纸面读数不同。
+S06:Drawings_Presence,S06,学生,Q9 drawings,Drawings_Presence,临场感·图纸,5,61,4,4.0,4.0,5,5,,,纸本可辨,P01,R7,当前总表为4，与纸面读数不同。
+S06:VRSpace_Presence,S06,学生,Q9 VR,VRSpace_Presence,临场感·VR,4,61,4,4.0,4.0,4,4,,,纸本可辨,P01,S7,
+S06:Circulation,S06,学生,Q10,Circulation,路径合理性,4,61,5,4.0,4.0,4,4,,,纸本可辨,P01,T7,当前总表为5，与纸面读数不同。
+S06:Display,S06,学生,Q11,Display,展示功能,4,61,5,4.0,4.0,4,4,,,纸本可辨,P01,U7,当前总表为5，与纸面读数不同。
+S06:Distinctiveness,S06,学生,Q12,Distinctiveness,空间辨识度,4,61,5,4.0,4.0,4,4,,,纸本可辨,P01,V7,当前总表为5，与纸面读数不同。
+S06:Comfort,S06,学生,Q13,Comfort,空间舒适度,4,61,5,4.0,4.0,4,4,,,纸本可辨,P01,W7,当前总表为5，与纸面读数不同。
+S06:Function,S06,学生,Q14,Function,功能需求,4,62,5,5.0,5.0,4,4,,,纸本可辨,P01,X7,当前总表为5，与纸面读数不同。
+S06:Satisfaction,S06,学生,Q15,Satisfaction,整体满意度,4,62,5,4.0,4.0,4,4,,,纸本可辨,P01,Y7,当前总表为5，与纸面读数不同。
+S06:VRInterface,S06,学生,Q16,VRInterface,界面易用性,5,62,5,5.0,5.0,5,5,,,纸本可辨,P01,Z7,
+S06:Discomfort,S06,学生,Q17,Discomfort,身体不适,1,62,2,1.0,1.0,1,1,,,纸本可辨,P01,AA7,当前总表为2，与纸面读数不同。
+S06:SpatialUnderstand,S06,学生,Q18,SpatialUnderstand,复杂空间关系理解,4,62,5,4.0,4.0,4,4,,,纸本可辨,P01,AB7,当前总表为5，与纸面读数不同。
+S06:IterationEfficiency,S06,学生,Q19,IterationEfficiency,迭代效率,3,62,,3.0,3.0,3,3,,,纸本可辨,P01,,当前总表缺此字段。
+S06:CreativeFreedom,S06,学生,Q20,CreativeFreedom,创作自由度,5,62,5,5.0,5.0,5,5,,,纸本可辨,P01,AC7,
+S07:Reference_Scale,S07,学生,Q7 built,Reference_Scale,尺度·参考场景,5,51,5,5.0,5.0,5,5,,,纸本可辨,P01,H8,
+S07:Video_Scale,S07,学生,Q7 video,Video_Scale,尺度·视频,5,51,5,5.0,5.0,5,5,,,纸本可辨,P01,I8,
+S07:Drawings_Scale,S07,学生,Q7 drawings,Drawings_Scale,尺度·图纸,5,51,5,5.0,5.0,5,5,,,纸本可辨,P01,J8,
+S07:VRSpace_Scale,S07,学生,Q7 VR,VRSpace_Scale,尺度·VR,3,51,3,3.0,3.0,3,3,,,纸本可辨,P01,K8,
+S07:Reference_Struct,S07,学生,Q8 built,Reference_Struct,结构·参考场景,4,51,4,4.0,4.0,4,4,,,纸本可辨,P01,L8,
+S07:Video_Struct,S07,学生,Q8 video,Video_Struct,结构·视频,5,51,5,5.0,5.0,5,5,,,纸本可辨,P01,M8,
+S07:Drawings_Struct,S07,学生,Q8 drawings,Drawings_Struct,结构·图纸,5,51,5,5.0,5.0,5,5,,,纸本可辨,P01,N8,
+S07:VRSpace_Struct,S07,学生,Q8 VR,VRSpace_Struct,结构·VR,3,52,3,3.0,3.0,3,3,,,纸本可辨,P01,O8,
+S07:Reference_Presence,S07,学生,Q9 built,Reference_Presence,临场感·参考场景,5,52,5,5.0,5.0,5,5,,,纸本可辨,P01,P8,
+S07:Video_Presence,S07,学生,Q9 video,Video_Presence,临场感·视频,5,52,5,5.0,5.0,5,5,,,纸本可辨,P01,Q8,
+S07:Drawings_Presence,S07,学生,Q9 drawings,Drawings_Presence,临场感·图纸,5,52,5,5.0,5.0,5,5,,,纸本可辨,P01,R8,
+S07:VRSpace_Presence,S07,学生,Q9 VR,VRSpace_Presence,临场感·VR,3,52,3,3.0,3.0,3,3,,,纸本可辨,P01,S8,
+S07:Circulation,S07,学生,Q10,Circulation,路径合理性,2,52,4,2.0,2.0,2,2,,,纸本可辨,P01,T8,当前总表为4，与纸面读数不同。
+S07:Display,S07,学生,Q11,Display,展示功能,3,52,4,3.0,3.0,3,3,,,纸本可辨,P01,U8,当前总表为4，与纸面读数不同。
+S07:Distinctiveness,S07,学生,Q12,Distinctiveness,空间辨识度,2,52,4,4.0,2.0,2,2,,,纸本可辨,P01,V8,当前总表为4，与纸面读数不同。
+S07:Comfort,S07,学生,Q13,Comfort,空间舒适度,3,52,4,3.0,3.0,3,3,,,纸本可辨,P01,W8,当前总表为4，与纸面读数不同。
+S07:Function,S07,学生,Q14,Function,功能需求,2,54,4,2.0,2.0,2,2,,,纸本可辨,P01,X8,当前总表为4，与纸面读数不同。
+S07:Satisfaction,S07,学生,Q15,Satisfaction,整体满意度,3,54,5,3.0,3.0,3,3,,,纸本可辨,P01,Y8,当前总表为5，与纸面读数不同。
+S07:VRInterface,S07,学生,Q16,VRInterface,界面易用性,4,54,4,4.0,4.0,4,4,,,纸本可辨,P01,Z8,
+S07:Discomfort,S07,学生,Q17,Discomfort,身体不适,1,54,1,1.0,1.0,1,1,,,纸本可辨,P01,AA8,
+S07:SpatialUnderstand,S07,学生,Q18,SpatialUnderstand,复杂空间关系理解,4,54,4,4.0,4.0,4,4,,,纸本可辨,P01,AB8,
+S07:IterationEfficiency,S07,学生,Q19,IterationEfficiency,迭代效率,3,54,,2.0,2.0,3,3,,,纸本可辨,P01,,当前总表缺此字段。
+S07:CreativeFreedom,S07,学生,Q20,CreativeFreedom,创作自由度,3,54,4,3.0,3.0,3,3,,,纸本可辨,P01,AC8,当前总表为4，与纸面读数不同。
+S08:Reference_Scale,S08,学生,Q7 built,Reference_Scale,尺度·参考场景,4,45,4,4.0,4.0,4,4,,,纸本可辨,P01,H9,
+S08:Video_Scale,S08,学生,Q7 video,Video_Scale,尺度·视频,4,45,4,4.0,4.0,4,4,,,纸本可辨,P01,I9,
+S08:Drawings_Scale,S08,学生,Q7 drawings,Drawings_Scale,尺度·图纸,4,45,4,4.0,4.0,4,4,,,纸本可辨,P01,J9,
+S08:VRSpace_Scale,S08,学生,Q7 VR,VRSpace_Scale,尺度·VR,4,45,4,4.0,4.0,4,4,,,纸本可辨,P01,K9,
+S08:Reference_Struct,S08,学生,Q8 built,Reference_Struct,结构·参考场景,3,45,5,5.0,3.0,3,3,,,纸本可辨,P01,L9,当前总表为5，与纸面读数不同。
+S08:Video_Struct,S08,学生,Q8 video,Video_Struct,结构·视频,3,45,3,3.0,3.0,3,3,,,纸本可辨,P01,M9,
+S08:Drawings_Struct,S08,学生,Q8 drawings,Drawings_Struct,结构·图纸,3,45,3,3.0,3.0,3,3,,,纸本可辨,P01,N9,
+S08:VRSpace_Struct,S08,学生,Q8 VR,VRSpace_Struct,结构·VR,4,46,4,4.0,4.0,4,4,,,纸本可辨,P01,O9,
+S08:Reference_Presence,S08,学生,Q9 built,Reference_Presence,临场感·参考场景,4,46,4,4.0,4.0,4,4,,,纸本可辨,P01,P9,
+S08:Video_Presence,S08,学生,Q9 video,Video_Presence,临场感·视频,4,46,4,4.0,4.0,4,4,,,纸本可辨,P01,Q9,
+S08:Drawings_Presence,S08,学生,Q9 drawings,Drawings_Presence,临场感·图纸,3,46,3,3.0,3.0,3,3,,,纸本可辨,P01,R9,
+S08:VRSpace_Presence,S08,学生,Q9 VR,VRSpace_Presence,临场感·VR,4,46,4,4.0,4.0,4,4,,,纸本可辨,P01,S9,
+S08:Circulation,S08,学生,Q10,Circulation,路径合理性,4,46,5,4.0,4.0,4,4,,,纸本可辨,P01,T9,当前总表为5，与纸面读数不同。
+S08:Display,S08,学生,Q11,Display,展示功能,4,46,5,4.0,4.0,4,4,,,纸本可辨,P01,U9,当前总表为5，与纸面读数不同。
+S08:Distinctiveness,S08,学生,Q12,Distinctiveness,空间辨识度,4,46,5,3.0,4.0,4,4,,,纸本可辨,P01,V9,当前总表为5，与纸面读数不同。
+S08:Comfort,S08,学生,Q13,Comfort,空间舒适度,4,46,5,4.0,4.0,4,4,,,纸本可辨,P01,W9,当前总表为5，与纸面读数不同。
+S08:Function,S08,学生,Q14,Function,功能需求,4,47,5,4.0,4.0,4,4,,,纸本可辨,P01,X9,当前总表为5，与纸面读数不同。
+S08:Satisfaction,S08,学生,Q15,Satisfaction,整体满意度,4,47,5,4.0,4.0,4,4,,,纸本可辨,P01,Y9,当前总表为5，与纸面读数不同。
+S08:VRInterface,S08,学生,Q16,VRInterface,界面易用性,5,47,5,5.0,5.0,5,5,,,纸本可辨,P01,Z9,
+S08:Discomfort,S08,学生,Q17,Discomfort,身体不适,1,47,2,1.0,1.0,1,1,,,纸本可辨,P01,AA9,当前总表为2，与纸面读数不同。
+S08:SpatialUnderstand,S08,学生,Q18,SpatialUnderstand,复杂空间关系理解,5,47,5,5.0,5.0,5,5,,,纸本可辨,P01,AB9,
+S08:IterationEfficiency,S08,学生,Q19,IterationEfficiency,迭代效率,5,47,,5.0,5.0,5,5,,,纸本可辨,P01,,当前总表缺此字段。
+S08:CreativeFreedom,S08,学生,Q20,CreativeFreedom,创作自由度,5,47,5,5.0,5.0,5,5,,,纸本可辨,P01,AC9,
+S09:Reference_Scale,S09,学生,Q7 built,Reference_Scale,尺度·参考场景,4,39,4,4.0,4.0,4,4,,,纸本可辨,P01,H10,
+S09:Video_Scale,S09,学生,Q7 video,Video_Scale,尺度·视频,4,39,4,4.0,4.0,4,4,,,纸本可辨,P01,I10,
+S09:Drawings_Scale,S09,学生,Q7 drawings,Drawings_Scale,尺度·图纸,4,39,4,4.0,4.0,4,4,,,纸本可辨,P01,J10,
+S09:VRSpace_Scale,S09,学生,Q7 VR,VRSpace_Scale,尺度·VR,5,39,5,5.0,5.0,5,5,,,纸本可辨,P01,K10,
+S09:Reference_Struct,S09,学生,Q8 built,Reference_Struct,结构·参考场景,3,39,5,5.0,3.0,3,3,,,纸本可辨,P01,L10,当前总表为5，与纸面读数不同。
+S09:Video_Struct,S09,学生,Q8 video,Video_Struct,结构·视频,4,39,4,4.0,4.0,4,4,,,纸本可辨,P01,M10,
+S09:Drawings_Struct,S09,学生,Q8 drawings,Drawings_Struct,结构·图纸,4,39,4,4.0,4.0,4,4,,,纸本可辨,P01,N10,
+S09:VRSpace_Struct,S09,学生,Q8 VR,VRSpace_Struct,结构·VR,4,40,4,4.0,4.0,4,4,,,纸本可辨,P01,O10,
+S09:Reference_Presence,S09,学生,Q9 built,Reference_Presence,临场感·参考场景,3,40,4,4.0,3.0,3,3,,,纸本可辨,P01,P10,当前总表为4，与纸面读数不同。
+S09:Video_Presence,S09,学生,Q9 video,Video_Presence,临场感·视频,4,40,4,4.0,4.0,4,4,,,纸本可辨,P01,Q10,
+S09:Drawings_Presence,S09,学生,Q9 drawings,Drawings_Presence,临场感·图纸,3,40,3,3.0,3.0,3,3,,,纸本可辨,P01,R10,
+S09:VRSpace_Presence,S09,学生,Q9 VR,VRSpace_Presence,临场感·VR,5,40,5,5.0,5.0,5,5,,,纸本可辨,P01,S10,
+S09:Circulation,S09,学生,Q10,Circulation,路径合理性,4,40,4,4.0,4.0,4,4,,,纸本可辨,P01,T10,
+S09:Display,S09,学生,Q11,Display,展示功能,4,40,4,4.0,4.0,4,4,,,纸本可辨,P01,U10,
+S09:Distinctiveness,S09,学生,Q12,Distinctiveness,空间辨识度,4,40,4,4.0,4.0,4,4,,,纸本可辨,P01,V10,
+S09:Comfort,S09,学生,Q13,Comfort,空间舒适度,4,40,4,4.0,4.0,4,4,,,纸本可辨,P01,W10,
+S09:Function,S09,学生,Q14,Function,功能需求,4,41,4,4.0,4.0,4,4,,,纸本可辨,P01,X10,
+S09:Satisfaction,S09,学生,Q15,Satisfaction,整体满意度,4,41,5,4.0,4.0,4,4,,,纸本可辨,P01,Y10,当前总表为5，与纸面读数不同。
+S09:VRInterface,S09,学生,Q16,VRInterface,界面易用性,5,41,5,5.0,5.0,5,5,,,纸本可辨,P01,Z10,
+S09:Discomfort,S09,学生,Q17,Discomfort,身体不适,1,41,1,1.0,1.0,1,1,,,纸本可辨,P01,AA10,
+S09:SpatialUnderstand,S09,学生,Q18,SpatialUnderstand,复杂空间关系理解,5,41,5,5.0,5.0,5,5,,,纸本可辨,P01,AB10,
+S09:IterationEfficiency,S09,学生,Q19,IterationEfficiency,迭代效率,4,41,,4.0,4.0,4,4,,,纸本可辨,P01,,当前总表缺此字段。
+S09:CreativeFreedom,S09,学生,Q20,CreativeFreedom,创作自由度,5,41,5,5.0,5.0,5,5,,,纸本可辨,P01,AC10,
+S10:Reference_Scale,S10,学生,Q7 built,Reference_Scale,尺度·参考场景,空白,33,3,3.0,3.0,1—2,,1,2,区间记录,P01,H11,2026-11-06用户确认：勾为4—5，空白为1—2；精确整数未知。
+S10:Video_Scale,S10,学生,Q7 video,Video_Scale,尺度·视频,勾,33,5,5.0,5.0,4—5,,4,5,区间记录,P01,I11,2026-11-06用户确认：勾为4—5，空白为1—2；精确整数未知。
+S10:Drawings_Scale,S10,学生,Q7 drawings,Drawings_Scale,尺度·图纸,勾,33,4,4.0,4.0,4—5,,4,5,区间记录,P01,J11,2026-11-06用户确认：勾为4—5，空白为1—2；精确整数未知。
+S10:VRSpace_Scale,S10,学生,Q7 VR,VRSpace_Scale,尺度·VR,勾,33,4,4.0,4.0,4—5,,4,5,区间记录,P01,K11,2026-11-06用户确认：勾为4—5，空白为1—2；精确整数未知。
+S10:Reference_Struct,S10,学生,Q8 built,Reference_Struct,结构·参考场景,勾,33,5,5.0,5.0,4—5,,4,5,区间记录,P01,L11,2026-11-06用户确认：勾为4—5，空白为1—2；精确整数未知。
+S10:Video_Struct,S10,学生,Q8 video,Video_Struct,结构·视频,勾,33,4,4.0,4.0,4—5,,4,5,区间记录,P01,M11,2026-11-06用户确认：勾为4—5，空白为1—2；精确整数未知。
+S10:Drawings_Struct,S10,学生,Q8 drawings,Drawings_Struct,结构·图纸,勾,33,2,2.0,2.0,4—5,,4,5,区间记录,P01,N11,2026-11-06用户确认：勾为4—5，空白为1—2；精确整数未知。
+S10:VRSpace_Struct,S10,学生,Q8 VR,VRSpace_Struct,结构·VR,空白,34,4,4.0,4.0,1—2,,1,2,区间记录,P01,O11,2026-11-06用户确认：勾为4—5，空白为1—2；精确整数未知。
+S10:Reference_Presence,S10,学生,Q9 built,Reference_Presence,临场感·参考场景,勾,34,5,5.0,5.0,4—5,,4,5,区间记录,P01,P11,2026-11-06用户确认：勾为4—5，空白为1—2；精确整数未知。
+S10:Video_Presence,S10,学生,Q9 video,Video_Presence,临场感·视频,勾,34,4,4.0,4.0,4—5,,4,5,区间记录,P01,Q11,2026-11-06用户确认：勾为4—5，空白为1—2；精确整数未知。
+S10:Drawings_Presence,S10,学生,Q9 drawings,Drawings_Presence,临场感·图纸,空白,34,2,2.0,2.0,1—2,,1,2,区间记录,P01,R11,2026-11-06用户确认：勾为4—5，空白为1—2；精确整数未知。
+S10:VRSpace_Presence,S10,学生,Q9 VR,VRSpace_Presence,临场感·VR,勾,34,4,4.0,4.0,4—5,,4,5,区间记录,P01,S11,2026-11-06用户确认：勾为4—5，空白为1—2；精确整数未知。
+S10:Circulation,S10,学生,Q10,Circulation,路径合理性,空白,34,5,3.0,3.0,1—2,,1,2,区间记录,P01,T11,2026-11-06用户确认：勾为4—5，空白为1—2；精确整数未知。
+S10:Display,S10,学生,Q11,Display,展示功能,勾,34,5,4.0,4.0,4—5,,4,5,区间记录,P01,U11,2026-11-06用户确认：勾为4—5，空白为1—2；精确整数未知。
+S10:Distinctiveness,S10,学生,Q12,Distinctiveness,空间辨识度,勾,34,5,3.0,5.0,4—5,,4,5,区间记录,P01,V11,2026-11-06用户确认：勾为4—5，空白为1—2；精确整数未知。
+S10:Comfort,S10,学生,Q13,Comfort,空间舒适度,勾,34,5,5.0,5.0,4—5,,4,5,区间记录,P01,W11,2026-11-06用户确认：勾为4—5，空白为1—2；精确整数未知。
+S10:Function,S10,学生,Q14,Function,功能需求,勾,35,5,5.0,5.0,4—5,,4,5,区间记录,P01,X11,2026-11-06用户确认：勾为4—5，空白为1—2；精确整数未知。
+S10:Satisfaction,S10,学生,Q15,Satisfaction,整体满意度,勾,35,5,4.0,4.0,4—5,,4,5,区间记录,P01,Y11,2026-11-06用户确认：勾为4—5，空白为1—2；精确整数未知。
+S10:VRInterface,S10,学生,Q16,VRInterface,界面易用性,勾,35,5,5.0,5.0,4—5,,4,5,区间记录,P01,Z11,2026-11-06用户确认：勾为4—5，空白为1—2；精确整数未知。
+S10:Discomfort,S10,学生,Q17,Discomfort,身体不适,空白,35,2,1.0,1.0,1—2,,1,2,区间记录,P01,AA11,2026-11-06用户确认：勾为4—5，空白为1—2；精确整数未知。
+S10:SpatialUnderstand,S10,学生,Q18,SpatialUnderstand,复杂空间关系理解,勾,35,5,5.0,5.0,4—5,,4,5,区间记录,P01,AB11,2026-11-06用户确认：勾为4—5，空白为1—2；精确整数未知。
+S10:IterationEfficiency,S10,学生,Q19,IterationEfficiency,迭代效率,空白,35,,2.0,2.0,1—2,,1,2,区间记录,P01,,2026-11-06用户确认：勾为4—5，空白为1—2；精确整数未知。 当前总表缺此字段。
+S10:CreativeFreedom,S10,学生,Q20,CreativeFreedom,创作自由度,勾,35,5,4.0,4.0,4—5,,4,5,区间记录,P01,AC11,2026-11-06用户确认：勾为4—5，空白为1—2；精确整数未知。
+S11:Reference_Scale,S11,学生,Q7 built,Reference_Scale,尺度·参考场景,4,27,4,4.0,4.0,4,4,,,纸本可辨,P01,H12,
+S11:Video_Scale,S11,学生,Q7 video,Video_Scale,尺度·视频,4,27,4,4.0,4.0,4,4,,,纸本可辨,P01,I12,
+S11:Drawings_Scale,S11,学生,Q7 drawings,Drawings_Scale,尺度·图纸,3,27,3,3.0,3.0,3,3,,,纸本可辨,P01,J12,
+S11:VRSpace_Scale,S11,学生,Q7 VR,VRSpace_Scale,尺度·VR,4,27,4,4.0,4.0,4,4,,,纸本可辨,P01,K12,
+S11:Reference_Struct,S11,学生,Q8 built,Reference_Struct,结构·参考场景,4,27,4,4.0,4.0,4,4,,,纸本可辨,P01,L12,
+S11:Video_Struct,S11,学生,Q8 video,Video_Struct,结构·视频,4,27,4,4.0,4.0,4,4,,,纸本可辨,P01,M12,
+S11:Drawings_Struct,S11,学生,Q8 drawings,Drawings_Struct,结构·图纸,3,27,3,3.0,3.0,3,3,,,纸本可辨,P01,N12,
+S11:VRSpace_Struct,S11,学生,Q8 VR,VRSpace_Struct,结构·VR,4,28,4,4.0,4.0,4,4,,,纸本可辨,P01,O12,
+S11:Reference_Presence,S11,学生,Q9 built,Reference_Presence,临场感·参考场景,4,28,4,4.0,4.0,4,4,,,纸本可辨,P01,P12,
+S11:Video_Presence,S11,学生,Q9 video,Video_Presence,临场感·视频,4,28,4,4.0,4.0,4,4,,,纸本可辨,P01,Q12,
+S11:Drawings_Presence,S11,学生,Q9 drawings,Drawings_Presence,临场感·图纸,3,28,3,3.0,3.0,3,3,,,纸本可辨,P01,R12,
+S11:VRSpace_Presence,S11,学生,Q9 VR,VRSpace_Presence,临场感·VR,5,28,5,5.0,5.0,5,5,,,纸本可辨,P01,S12,
+S11:Circulation,S11,学生,Q10,Circulation,路径合理性,4,28,4,4.0,4.0,4,4,,,纸本可辨,P01,T12,
+S11:Display,S11,学生,Q11,Display,展示功能,5,28,4,5.0,5.0,5,5,,,纸本可辨,P01,U12,当前总表为4，与纸面读数不同。
+S11:Distinctiveness,S11,学生,Q12,Distinctiveness,空间辨识度,4,28,4,3.0,4.0,4,4,,,纸本可辨,P01,V12,
+S11:Comfort,S11,学生,Q13,Comfort,空间舒适度,4,28,4,4.0,4.0,4,4,,,纸本可辨,P01,W12,
+S11:Function,S11,学生,Q14,Function,功能需求,4,29,5,4.0,4.0,4,4,,,纸本可辨,P01,X12,当前总表为5，与纸面读数不同。
+S11:Satisfaction,S11,学生,Q15,Satisfaction,整体满意度,4,29,5,4.0,4.0,4,4,,,纸本可辨,P01,Y12,当前总表为5，与纸面读数不同。
+S11:VRInterface,S11,学生,Q16,VRInterface,界面易用性,4,29,5,4.0,4.0,4,4,,,纸本可辨,P01,Z12,当前总表为5，与纸面读数不同。
+S11:Discomfort,S11,学生,Q17,Discomfort,身体不适,4,29,1,4.0,4.0,4,4,,,纸本可辨,P01,AA12,当前总表为1，与纸面读数不同。
+S11:SpatialUnderstand,S11,学生,Q18,SpatialUnderstand,复杂空间关系理解,5,29,5,5.0,5.0,5,5,,,纸本可辨,P01,AB12,
+S11:IterationEfficiency,S11,学生,Q19,IterationEfficiency,迭代效率,4,29,,4.0,4.0,4,4,,,纸本可辨,P01,,当前总表缺此字段。
+S11:CreativeFreedom,S11,学生,Q20,CreativeFreedom,创作自由度,4,29,5,4.0,4.0,4,4,,,纸本可辨,P01,AC12,当前总表为5，与纸面读数不同。
+S12:Reference_Scale,S12,学生,Q7 built,Reference_Scale,尺度·参考场景,5,21,5,5.0,5.0,5,5,,,纸本可辨,P01,H13,
+S12:Video_Scale,S12,学生,Q7 video,Video_Scale,尺度·视频,5,21,5,5.0,5.0,5,5,,,纸本可辨,P01,I13,
+S12:Drawings_Scale,S12,学生,Q7 drawings,Drawings_Scale,尺度·图纸,3,21,3,3.0,3.0,3,3,,,纸本可辨,P01,J13,
+S12:VRSpace_Scale,S12,学生,Q7 VR,VRSpace_Scale,尺度·VR,5,21,5,5.0,5.0,5,5,,,纸本可辨,P01,K13,
+S12:Reference_Struct,S12,学生,Q8 built,Reference_Struct,结构·参考场景,5,21,5,5.0,5.0,5,5,,,纸本可辨,P01,L13,
+S12:Video_Struct,S12,学生,Q8 video,Video_Struct,结构·视频,4,21,3,3.0,3.0,4,4,,,纸本可辨,P01,M13,当前总表为3，与纸面读数不同。
+S12:Drawings_Struct,S12,学生,Q8 drawings,Drawings_Struct,结构·图纸,4,21,4,4.0,4.0,4,4,,,纸本可辨,P01,N13,
+S12:VRSpace_Struct,S12,学生,Q8 VR,VRSpace_Struct,结构·VR,5,22,5,5.0,5.0,5,5,,,纸本可辨,P01,O13,
+S12:Reference_Presence,S12,学生,Q9 built,Reference_Presence,临场感·参考场景,5,22,5,5.0,5.0,5,5,,,纸本可辨,P01,P13,
+S12:Video_Presence,S12,学生,Q9 video,Video_Presence,临场感·视频,3,22,3,3.0,3.0,3,3,,,纸本可辨,P01,Q13,
+S12:Drawings_Presence,S12,学生,Q9 drawings,Drawings_Presence,临场感·图纸,3,22,3,3.0,3.0,3,3,,,纸本可辨,P01,R13,
+S12:VRSpace_Presence,S12,学生,Q9 VR,VRSpace_Presence,临场感·VR,5,22,5,5.0,5.0,5,5,,,纸本可辨,P01,S13,
+S12:Circulation,S12,学生,Q10,Circulation,路径合理性,5,22,5,5.0,5.0,5,5,,,纸本可辨,P01,T13,
+S12:Display,S12,学生,Q11,Display,展示功能,5,22,5,5.0,5.0,5,5,,,纸本可辨,P01,U13,
+S12:Distinctiveness,S12,学生,Q12,Distinctiveness,空间辨识度,5,22,5,3.0,5.0,5,5,,,纸本可辨,P01,V13,
+S12:Comfort,S12,学生,Q13,Comfort,空间舒适度,4,22,5,4.0,4.0,4,4,,,纸本可辨,P01,W13,当前总表为5，与纸面读数不同。
+S12:Function,S12,学生,Q14,Function,功能需求,5,23,5,5.0,5.0,5,5,,,纸本可辨,P01,X13,
+S12:Satisfaction,S12,学生,Q15,Satisfaction,整体满意度,4,23,5,4.0,4.0,4,4,,,纸本可辨,P01,Y13,当前总表为5，与纸面读数不同。
+S12:VRInterface,S12,学生,Q16,VRInterface,界面易用性,3,23,5,3.0,3.0,3,3,,,纸本可辨,P01,Z13,当前总表为5，与纸面读数不同。
+S12:Discomfort,S12,学生,Q17,Discomfort,身体不适,3,23,2,3.0,3.0,3,3,,,纸本可辨,P01,AA13,当前总表为2，与纸面读数不同。
+S12:SpatialUnderstand,S12,学生,Q18,SpatialUnderstand,复杂空间关系理解,4,23,5,4.0,4.0,4,4,,,纸本可辨,P01,AB13,当前总表为5，与纸面读数不同。
+S12:IterationEfficiency,S12,学生,Q19,IterationEfficiency,迭代效率,4,23,,4.0,4.0,4,4,,,纸本可辨,P01,,当前总表缺此字段。
+S12:CreativeFreedom,S12,学生,Q20,CreativeFreedom,创作自由度,4,23,5,4.0,4.0,4,4,,,纸本可辨,P01,AC13,当前总表为5，与纸面读数不同。
+S13:Reference_Scale,S13,学生,Q7 built,Reference_Scale,尺度·参考场景,3,15,3,3.0,3.0,3（待复核）,,,,笔迹待复核,P01,H14,改写后可见数字，需复核
+S13:Video_Scale,S13,学生,Q7 video,Video_Scale,尺度·视频,4,15,4,4.0,4.0,4（待复核）,,,,笔迹待复核,P01,I14,改写后可见数字，需复核
+S13:Drawings_Scale,S13,学生,Q7 drawings,Drawings_Scale,尺度·图纸,3,15,3,3.0,3.0,3（待复核）,,,,笔迹待复核,P01,J14,改写后可见数字，需复核
+S13:VRSpace_Scale,S13,学生,Q7 VR,VRSpace_Scale,尺度·VR,2,15,2,2.0,2.0,2（待复核）,,,,笔迹待复核,P01,K14,改写后可见数字，需复核
+S13:Reference_Struct,S13,学生,Q8 built,Reference_Struct,结构·参考场景,3,15,5,5.0,3.0,3（待复核）,,,,笔迹待复核,P01,L14,改写后可见数字，需复核 当前总表为5，与纸面读数不同。
+S13:Video_Struct,S13,学生,Q8 video,Video_Struct,结构·视频,4,15,4,4.0,4.0,4,4,,,纸本可辨,P01,M14,
+S13:Drawings_Struct,S13,学生,Q8 drawings,Drawings_Struct,结构·图纸,3,15,3,3.0,3.0,3,3,,,纸本可辨,P01,N14,
+S13:VRSpace_Struct,S13,学生,Q8 VR,VRSpace_Struct,结构·VR,4,16,4,4.0,4.0,4,4,,,纸本可辨,P01,O14,
+S13:Reference_Presence,S13,学生,Q9 built,Reference_Presence,临场感·参考场景,1,16,4,4.0,1.0,1,1,,,纸本可辨,P01,P14,当前总表为4，与纸面读数不同。
+S13:Video_Presence,S13,学生,Q9 video,Video_Presence,临场感·视频,5,16,5,5.0,5.0,5,5,,,纸本可辨,P01,Q14,
+S13:Drawings_Presence,S13,学生,Q9 drawings,Drawings_Presence,临场感·图纸,3,16,3,3.0,3.0,3,3,,,纸本可辨,P01,R14,
+S13:VRSpace_Presence,S13,学生,Q9 VR,VRSpace_Presence,临场感·VR,3,16,3,3.0,3.0,3,3,,,纸本可辨,P01,S14,
+S13:Circulation,S13,学生,Q10,Circulation,路径合理性,4,16,4,4.0,4.0,4,4,,,纸本可辨,P01,T14,
+S13:Display,S13,学生,Q11,Display,展示功能,4,16,4,4.0,4.0,4,4,,,纸本可辨,P01,U14,
+S13:Distinctiveness,S13,学生,Q12,Distinctiveness,空间辨识度,3,16,4,3.0,3.0,3,3,,,纸本可辨,P01,V14,当前总表为4，与纸面读数不同。
+S13:Comfort,S13,学生,Q13,Comfort,空间舒适度,4,16,4,4.0,4.0,4,4,,,纸本可辨,P01,W14,
+S13:Function,S13,学生,Q14,Function,功能需求,3,17,5,3.0,3.0,3,3,,,纸本可辨,P01,X14,当前总表为5，与纸面读数不同。
+S13:Satisfaction,S13,学生,Q15,Satisfaction,整体满意度,4,17,5,4.0,4.0,4,4,,,纸本可辨,P01,Y14,当前总表为5，与纸面读数不同。
+S13:VRInterface,S13,学生,Q16,VRInterface,界面易用性,4,17,5,4.0,4.0,4,4,,,纸本可辨,P01,Z14,当前总表为5，与纸面读数不同。
+S13:Discomfort,S13,学生,Q17,Discomfort,身体不适,4,17,1,4.0,4.0,4,4,,,纸本可辨,P01,AA14,当前总表为1，与纸面读数不同。
+S13:SpatialUnderstand,S13,学生,Q18,SpatialUnderstand,复杂空间关系理解,5,17,5,5.0,5.0,5（待复核）,,,,笔迹待复核,P01,AB14,改写后可见5，需复核
+S13:IterationEfficiency,S13,学生,Q19,IterationEfficiency,迭代效率,5,17,,5.0,5.0,5,5,,,纸本可辨,P01,,当前总表缺此字段。
+S13:CreativeFreedom,S13,学生,Q20,CreativeFreedom,创作自由度,5,17,5,5.0,5.0,5,5,,,纸本可辨,P01,AC14,
+S14:Reference_Scale,S14,学生,Q7 built,Reference_Scale,尺度·参考场景,4,9,4,4.0,4.0,4,4,,,纸本可辨,P01,H15,
+S14:Video_Scale,S14,学生,Q7 video,Video_Scale,尺度·视频,4,9,4,4.0,4.0,4,4,,,纸本可辨,P01,I15,
+S14:Drawings_Scale,S14,学生,Q7 drawings,Drawings_Scale,尺度·图纸,3,9,3,3.0,3.0,3,3,,,纸本可辨,P01,J15,
+S14:VRSpace_Scale,S14,学生,Q7 VR,VRSpace_Scale,尺度·VR,4,9,4,4.0,4.0,4,4,,,纸本可辨,P01,K15,
+S14:Reference_Struct,S14,学生,Q8 built,Reference_Struct,结构·参考场景,3,9,5,5.0,3.0,3,3,,,纸本可辨,P01,L15,当前总表为5，与纸面读数不同。
+S14:Video_Struct,S14,学生,Q8 video,Video_Struct,结构·视频,4,9,4,4.0,4.0,4,4,,,纸本可辨,P01,M15,
+S14:Drawings_Struct,S14,学生,Q8 drawings,Drawings_Struct,结构·图纸,2,9,2,2.0,2.0,2,2,,,纸本可辨,P01,N15,
+S14:VRSpace_Struct,S14,学生,Q8 VR,VRSpace_Struct,结构·VR,4,10,4,4.0,4.0,4,4,,,纸本可辨,P01,O15,
+S14:Reference_Presence,S14,学生,Q9 built,Reference_Presence,临场感·参考场景,5,10,5,5.0,5.0,5,5,,,纸本可辨,P01,P15,
+S14:Video_Presence,S14,学生,Q9 video,Video_Presence,临场感·视频,3,10,3,3.0,3.0,3,3,,,纸本可辨,P01,Q15,
+S14:Drawings_Presence,S14,学生,Q9 drawings,Drawings_Presence,临场感·图纸,2,10,2,2.0,2.0,2,2,,,纸本可辨,P01,R15,
+S14:VRSpace_Presence,S14,学生,Q9 VR,VRSpace_Presence,临场感·VR,5,10,5,5.0,5.0,5,5,,,纸本可辨,P01,S15,
+S14:Circulation,S14,学生,Q10,Circulation,路径合理性,4,10,5,4.0,4.0,4,4,,,纸本可辨,P01,T15,当前总表为5，与纸面读数不同。
+S14:Display,S14,学生,Q11,Display,展示功能,2,10,5,2.0,2.0,2,2,,,纸本可辨,P01,U15,当前总表为5，与纸面读数不同。
+S14:Distinctiveness,S14,学生,Q12,Distinctiveness,空间辨识度,3,10,5,3.0,3.0,3,3,,,纸本可辨,P01,V15,当前总表为5，与纸面读数不同。
+S14:Comfort,S14,学生,Q13,Comfort,空间舒适度,3,10,5,3.0,3.0,3,3,,,纸本可辨,P01,W15,当前总表为5，与纸面读数不同。
+S14:Function,S14,学生,Q14,Function,功能需求,4,11,5,4.0,4.0,4,4,,,纸本可辨,P01,X15,当前总表为5，与纸面读数不同。
+S14:Satisfaction,S14,学生,Q15,Satisfaction,整体满意度,4,11,5,4.0,4.0,4,4,,,纸本可辨,P01,Y15,当前总表为5，与纸面读数不同。
+S14:VRInterface,S14,学生,Q16,VRInterface,界面易用性,4,11,5,4.0,4.0,4,4,,,纸本可辨,P01,Z15,当前总表为5，与纸面读数不同。
+S14:Discomfort,S14,学生,Q17,Discomfort,身体不适,1,11,2,1.0,1.0,1,1,,,纸本可辨,P01,AA15,当前总表为2，与纸面读数不同。
+S14:SpatialUnderstand,S14,学生,Q18,SpatialUnderstand,复杂空间关系理解,5,11,5,5.0,5.0,5,5,,,纸本可辨,P01,AB15,
+S14:IterationEfficiency,S14,学生,Q19,IterationEfficiency,迭代效率,4,11,,4.0,4.0,4,4,,,纸本可辨,P01,,当前总表缺此字段。
+S14:CreativeFreedom,S14,学生,Q20,CreativeFreedom,创作自由度,3,11,5,3.0,3.0,3,3,,,纸本可辨,P01,AC15,当前总表为5，与纸面读数不同。
+S15:Reference_Scale,S15,学生,Q7 built,Reference_Scale,尺度·参考场景,5,3,5,5.0,5.0,5,5,,,纸本可辨,P01,H16,
+S15:Video_Scale,S15,学生,Q7 video,Video_Scale,尺度·视频,2,3,2,2.0,2.0,2,2,,,纸本可辨,P01,I16,
+S15:Drawings_Scale,S15,学生,Q7 drawings,Drawings_Scale,尺度·图纸,2,3,2,2.0,2.0,2,2,,,纸本可辨,P01,J16,
+S15:VRSpace_Scale,S15,学生,Q7 VR,VRSpace_Scale,尺度·VR,4,3,4,4.0,4.0,4,4,,,纸本可辨,P01,K16,
+S15:Reference_Struct,S15,学生,Q8 built,Reference_Struct,结构·参考场景,5,3,5,5.0,5.0,5,5,,,纸本可辨,P01,L16,
+S15:Video_Struct,S15,学生,Q8 video,Video_Struct,结构·视频,2,3,2,2.0,2.0,2,2,,,纸本可辨,P01,M16,
+S15:Drawings_Struct,S15,学生,Q8 drawings,Drawings_Struct,结构·图纸,2,3,2,2.0,2.0,2,2,,,纸本可辨,P01,N16,
+S15:VRSpace_Struct,S15,学生,Q8 VR,VRSpace_Struct,结构·VR,4,4,4,4.0,4.0,4,4,,,纸本可辨,P01,O16,
+S15:Reference_Presence,S15,学生,Q9 built,Reference_Presence,临场感·参考场景,5,4,5,5.0,5.0,5,5,,,纸本可辨,P01,P16,
+S15:Video_Presence,S15,学生,Q9 video,Video_Presence,临场感·视频,2,4,2,2.0,2.0,2,2,,,纸本可辨,P01,Q16,
+S15:Drawings_Presence,S15,学生,Q9 drawings,Drawings_Presence,临场感·图纸,2,4,2,2.0,2.0,2,2,,,纸本可辨,P01,R16,
+S15:VRSpace_Presence,S15,学生,Q9 VR,VRSpace_Presence,临场感·VR,4,4,4,4.0,4.0,4,4,,,纸本可辨,P01,S16,
+S15:Circulation,S15,学生,Q10,Circulation,路径合理性,4,4,4,4.0,4.0,4,4,,,纸本可辨,P01,T16,
+S15:Display,S15,学生,Q11,Display,展示功能,4,4,4,4.0,4.0,4,4,,,纸本可辨,P01,U16,
+S15:Distinctiveness,S15,学生,Q12,Distinctiveness,空间辨识度,4,4,4,4.0,4.0,4,4,,,纸本可辨,P01,V16,
+S15:Comfort,S15,学生,Q13,Comfort,空间舒适度,3,4,4,3.0,3.0,3,3,,,纸本可辨,P01,W16,当前总表为4，与纸面读数不同。
+S15:Function,S15,学生,Q14,Function,功能需求,3,5,5,3.0,3.0,3,3,,,纸本可辨,P01,X16,当前总表为5，与纸面读数不同。
+S15:Satisfaction,S15,学生,Q15,Satisfaction,整体满意度,4,5,5,4.0,4.0,4,4,,,纸本可辨,P01,Y16,当前总表为5，与纸面读数不同。
+S15:VRInterface,S15,学生,Q16,VRInterface,界面易用性,3,5,5,3.0,3.0,3,3,,,纸本可辨,P01,Z16,当前总表为5，与纸面读数不同。
+S15:Discomfort,S15,学生,Q17,Discomfort,身体不适,2,5,1,2.0,2.0,2,2,,,纸本可辨,P01,AA16,当前总表为1，与纸面读数不同。
+S15:SpatialUnderstand,S15,学生,Q18,SpatialUnderstand,复杂空间关系理解,5,5,5,5.0,5.0,5,5,,,纸本可辨,P01,AB16,
+S15:IterationEfficiency,S15,学生,Q19,IterationEfficiency,迭代效率,5,5,,5.0,5.0,5,5,,,纸本可辨,P01,,当前总表缺此字段。
+S15:CreativeFreedom,S15,学生,Q20,CreativeFreedom,创作自由度,5,5,5,5.0,5.0,5,5,,,纸本可辨,P01,AC16,
+P01:Reference_Scale,P01,专家／项目相关人员,Q7 built,Reference_Scale,尺度·参考场景,,,4,4.0,,4,4,,,电子两版一致,V1、V2,H17,同一顺序两版数值一致，但尚无专家中文原答核验。
+P01:Video_Scale,P01,专家／项目相关人员,Q7 video,Video_Scale,尺度·视频,,,4,4.0,,4,4,,,电子两版一致,V1、V2,I17,同一顺序两版数值一致，但尚无专家中文原答核验。
+P01:Drawings_Scale,P01,专家／项目相关人员,Q7 drawings,Drawings_Scale,尺度·图纸,,,3,3.0,,3,3,,,电子两版一致,V1、V2,J17,同一顺序两版数值一致，但尚无专家中文原答核验。
+P01:VRSpace_Scale,P01,专家／项目相关人员,Q7 VR,VRSpace_Scale,尺度·VR,,,4,4.0,,4,4,,,电子两版一致,V1、V2,K17,同一顺序两版数值一致，但尚无专家中文原答核验。
+P01:Reference_Struct,P01,专家／项目相关人员,Q8 built,Reference_Struct,结构·参考场景,,,4,4.0,,4,4,,,电子两版一致,V1、V2,L17,同一顺序两版数值一致，但尚无专家中文原答核验。
+P01:Video_Struct,P01,专家／项目相关人员,Q8 video,Video_Struct,结构·视频,,,3,3.0,,3,3,,,电子两版一致,V1、V2,M17,同一顺序两版数值一致，但尚无专家中文原答核验。
+P01:Drawings_Struct,P01,专家／项目相关人员,Q8 drawings,Drawings_Struct,结构·图纸,,,4,4.0,,4,4,,,电子两版一致,V1、V2,N17,同一顺序两版数值一致，但尚无专家中文原答核验。
+P01:VRSpace_Struct,P01,专家／项目相关人员,Q8 VR,VRSpace_Struct,结构·VR,,,3,3.0,,3,3,,,电子两版一致,V1、V2,O17,同一顺序两版数值一致，但尚无专家中文原答核验。
+P01:Reference_Presence,P01,专家／项目相关人员,Q9 built,Reference_Presence,临场感·参考场景,,,5,5.0,,5,5,,,电子两版一致,V1、V2,P17,同一顺序两版数值一致，但尚无专家中文原答核验。
+P01:Video_Presence,P01,专家／项目相关人员,Q9 video,Video_Presence,临场感·视频,,,4,4.0,,4,4,,,电子两版一致,V1、V2,Q17,同一顺序两版数值一致，但尚无专家中文原答核验。
+P01:Drawings_Presence,P01,专家／项目相关人员,Q9 drawings,Drawings_Presence,临场感·图纸,,,2,2.0,,2,2,,,电子两版一致,V1、V2,R17,同一顺序两版数值一致，但尚无专家中文原答核验。
+P01:VRSpace_Presence,P01,专家／项目相关人员,Q9 VR,VRSpace_Presence,临场感·VR,,,4,4.0,,4,4,,,电子两版一致,V1、V2,S17,同一顺序两版数值一致，但尚无专家中文原答核验。
+P01:Circulation,P01,专家／项目相关人员,Q10,Circulation,路径合理性,,,4,4.0,,4,4,,,电子两版一致,V1、V2,T17,同一顺序两版数值一致，但尚无专家中文原答核验。
+P01:Display,P01,专家／项目相关人员,Q11,Display,展示功能,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,U17,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P01:Distinctiveness,P01,专家／项目相关人员,Q12,Distinctiveness,空间辨识度,,,4,4.0,,4,4,,,电子两版一致,V1、V2,V17,同一顺序两版数值一致，但尚无专家中文原答核验。
+P01:Comfort,P01,专家／项目相关人员,Q13,Comfort,空间舒适度,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,W17,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P01:Function,P01,专家／项目相关人员,Q14,Function,功能需求,,,4,4.0,,4,4,,,电子两版一致,V1、V2,X17,同一顺序两版数值一致，但尚无专家中文原答核验。
+P01:Satisfaction,P01,专家／项目相关人员,Q15,Satisfaction,整体满意度,,,4,4.0,,4,4,,,电子两版一致,V1、V2,Y17,同一顺序两版数值一致，但尚无专家中文原答核验。
+P01:VRInterface,P01,专家／项目相关人员,Q16,VRInterface,界面易用性,,,4,4.0,,4,4,,,电子两版一致,V1、V2,Z17,同一顺序两版数值一致，但尚无专家中文原答核验。
+P01:Discomfort,P01,专家／项目相关人员,Q17,Discomfort,身体不适,,,1,2.0,,V1:1 / V2:2,,,,电子两版冲突,V1、V2,AA17,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P01:SpatialUnderstand,P01,专家／项目相关人员,Q18,SpatialUnderstand,复杂空间关系理解,,,4,5.0,,V1:4 / V2:5,,,,电子两版冲突,V1、V2,AB17,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P01:IterationEfficiency,P01,专家／项目相关人员,Q19,IterationEfficiency,迭代效率,,,,4.0,,4（归档单源）,4.0,,,归档单源,V2,,V1无Q19；此值仅来自V2的同一编号记录，未核对专家纸质原答。
+P01:CreativeFreedom,P01,专家／项目相关人员,Q20,CreativeFreedom,创作自由度,,,4,4.0,,4,4,,,电子两版一致,V1、V2,AC17,同一顺序两版数值一致，但尚无专家中文原答核验。
+P02:Reference_Scale,P02,专家／项目相关人员,Q7 built,Reference_Scale,尺度·参考场景,,,5,5.0,,5,5,,,电子两版一致,V1、V2,H18,同一顺序两版数值一致，但尚无专家中文原答核验。
+P02:Video_Scale,P02,专家／项目相关人员,Q7 video,Video_Scale,尺度·视频,,,2,2.0,,2,2,,,电子两版一致,V1、V2,I18,同一顺序两版数值一致，但尚无专家中文原答核验。
+P02:Drawings_Scale,P02,专家／项目相关人员,Q7 drawings,Drawings_Scale,尺度·图纸,,,4,4.0,,4,4,,,电子两版一致,V1、V2,J18,同一顺序两版数值一致，但尚无专家中文原答核验。
+P02:VRSpace_Scale,P02,专家／项目相关人员,Q7 VR,VRSpace_Scale,尺度·VR,,,4,4.0,,4,4,,,电子两版一致,V1、V2,K18,同一顺序两版数值一致，但尚无专家中文原答核验。
+P02:Reference_Struct,P02,专家／项目相关人员,Q8 built,Reference_Struct,结构·参考场景,,,5,5.0,,5,5,,,电子两版一致,V1、V2,L18,同一顺序两版数值一致，但尚无专家中文原答核验。
+P02:Video_Struct,P02,专家／项目相关人员,Q8 video,Video_Struct,结构·视频,,,3,3.0,,3,3,,,电子两版一致,V1、V2,M18,同一顺序两版数值一致，但尚无专家中文原答核验。
+P02:Drawings_Struct,P02,专家／项目相关人员,Q8 drawings,Drawings_Struct,结构·图纸,,,4,4.0,,4,4,,,电子两版一致,V1、V2,N18,同一顺序两版数值一致，但尚无专家中文原答核验。
+P02:VRSpace_Struct,P02,专家／项目相关人员,Q8 VR,VRSpace_Struct,结构·VR,,,3,3.0,,3,3,,,电子两版一致,V1、V2,O18,同一顺序两版数值一致，但尚无专家中文原答核验。
+P02:Reference_Presence,P02,专家／项目相关人员,Q9 built,Reference_Presence,临场感·参考场景,,,5,5.0,,5,5,,,电子两版一致,V1、V2,P18,同一顺序两版数值一致，但尚无专家中文原答核验。
+P02:Video_Presence,P02,专家／项目相关人员,Q9 video,Video_Presence,临场感·视频,,,3,3.0,,3,3,,,电子两版一致,V1、V2,Q18,同一顺序两版数值一致，但尚无专家中文原答核验。
+P02:Drawings_Presence,P02,专家／项目相关人员,Q9 drawings,Drawings_Presence,临场感·图纸,,,3,3.0,,3,3,,,电子两版一致,V1、V2,R18,同一顺序两版数值一致，但尚无专家中文原答核验。
+P02:VRSpace_Presence,P02,专家／项目相关人员,Q9 VR,VRSpace_Presence,临场感·VR,,,4,4.0,,4,4,,,电子两版一致,V1、V2,S18,同一顺序两版数值一致，但尚无专家中文原答核验。
+P02:Circulation,P02,专家／项目相关人员,Q10,Circulation,路径合理性,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,T18,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P02:Display,P02,专家／项目相关人员,Q11,Display,展示功能,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,U18,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P02:Distinctiveness,P02,专家／项目相关人员,Q12,Distinctiveness,空间辨识度,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,V18,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P02:Comfort,P02,专家／项目相关人员,Q13,Comfort,空间舒适度,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,W18,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P02:Function,P02,专家／项目相关人员,Q14,Function,功能需求,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,X18,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P02:Satisfaction,P02,专家／项目相关人员,Q15,Satisfaction,整体满意度,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,Y18,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P02:VRInterface,P02,专家／项目相关人员,Q16,VRInterface,界面易用性,,,5,3.0,,V1:5 / V2:3,,,,电子两版冲突,V1、V2,Z18,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P02:Discomfort,P02,专家／项目相关人员,Q17,Discomfort,身体不适,,,2,3.0,,V1:2 / V2:3,,,,电子两版冲突,V1、V2,AA18,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P02:SpatialUnderstand,P02,专家／项目相关人员,Q18,SpatialUnderstand,复杂空间关系理解,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,AB18,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P02:IterationEfficiency,P02,专家／项目相关人员,Q19,IterationEfficiency,迭代效率,,,,4.0,,4（归档单源）,4.0,,,归档单源,V2,,V1无Q19；此值仅来自V2的同一编号记录，未核对专家纸质原答。
+P02:CreativeFreedom,P02,专家／项目相关人员,Q20,CreativeFreedom,创作自由度,,,5,3.0,,V1:5 / V2:3,,,,电子两版冲突,V1、V2,AC18,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P03:Reference_Scale,P03,专家／项目相关人员,Q7 built,Reference_Scale,尺度·参考场景,,,5,5.0,,5,5,,,电子两版一致,V1、V2,H19,同一顺序两版数值一致，但尚无专家中文原答核验。
+P03:Video_Scale,P03,专家／项目相关人员,Q7 video,Video_Scale,尺度·视频,,,4,4.0,,4,4,,,电子两版一致,V1、V2,I19,同一顺序两版数值一致，但尚无专家中文原答核验。
+P03:Drawings_Scale,P03,专家／项目相关人员,Q7 drawings,Drawings_Scale,尺度·图纸,,,2,2.0,,2,2,,,电子两版一致,V1、V2,J19,同一顺序两版数值一致，但尚无专家中文原答核验。
+P03:VRSpace_Scale,P03,专家／项目相关人员,Q7 VR,VRSpace_Scale,尺度·VR,,,5,5.0,,5,5,,,电子两版一致,V1、V2,K19,同一顺序两版数值一致，但尚无专家中文原答核验。
+P03:Reference_Struct,P03,专家／项目相关人员,Q8 built,Reference_Struct,结构·参考场景,,,4,4.0,,4,4,,,电子两版一致,V1、V2,L19,同一顺序两版数值一致，但尚无专家中文原答核验。
+P03:Video_Struct,P03,专家／项目相关人员,Q8 video,Video_Struct,结构·视频,,,3,3.0,,3,3,,,电子两版一致,V1、V2,M19,同一顺序两版数值一致，但尚无专家中文原答核验。
+P03:Drawings_Struct,P03,专家／项目相关人员,Q8 drawings,Drawings_Struct,结构·图纸,,,3,3.0,,3,3,,,电子两版一致,V1、V2,N19,同一顺序两版数值一致，但尚无专家中文原答核验。
+P03:VRSpace_Struct,P03,专家／项目相关人员,Q8 VR,VRSpace_Struct,结构·VR,,,4,4.0,,4,4,,,电子两版一致,V1、V2,O19,同一顺序两版数值一致，但尚无专家中文原答核验。
+P03:Reference_Presence,P03,专家／项目相关人员,Q9 built,Reference_Presence,临场感·参考场景,,,4,4.0,,4,4,,,电子两版一致,V1、V2,P19,同一顺序两版数值一致，但尚无专家中文原答核验。
+P03:Video_Presence,P03,专家／项目相关人员,Q9 video,Video_Presence,临场感·视频,,,3,3.0,,3,3,,,电子两版一致,V1、V2,Q19,同一顺序两版数值一致，但尚无专家中文原答核验。
+P03:Drawings_Presence,P03,专家／项目相关人员,Q9 drawings,Drawings_Presence,临场感·图纸,,,3,3.0,,3,3,,,电子两版一致,V1、V2,R19,同一顺序两版数值一致，但尚无专家中文原答核验。
+P03:VRSpace_Presence,P03,专家／项目相关人员,Q9 VR,VRSpace_Presence,临场感·VR,,,2,2.0,,2,2,,,电子两版一致,V1、V2,S19,同一顺序两版数值一致，但尚无专家中文原答核验。
+P03:Circulation,P03,专家／项目相关人员,Q10,Circulation,路径合理性,,,4,4.0,,4,4,,,电子两版一致,V1、V2,T19,同一顺序两版数值一致，但尚无专家中文原答核验。
+P03:Display,P03,专家／项目相关人员,Q11,Display,展示功能,,,4,4.0,,4,4,,,电子两版一致,V1、V2,U19,同一顺序两版数值一致，但尚无专家中文原答核验。
+P03:Distinctiveness,P03,专家／项目相关人员,Q12,Distinctiveness,空间辨识度,,,4,3.0,,V1:4 / V2:3,,,,电子两版冲突,V1、V2,V19,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P03:Comfort,P03,专家／项目相关人员,Q13,Comfort,空间舒适度,,,4,3.0,,V1:4 / V2:3,,,,电子两版冲突,V1、V2,W19,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P03:Function,P03,专家／项目相关人员,Q14,Function,功能需求,,,4,4.0,,4,4,,,电子两版一致,V1、V2,X19,同一顺序两版数值一致，但尚无专家中文原答核验。
+P03:Satisfaction,P03,专家／项目相关人员,Q15,Satisfaction,整体满意度,,,4,3.0,,V1:4 / V2:3,,,,电子两版冲突,V1、V2,Y19,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P03:VRInterface,P03,专家／项目相关人员,Q16,VRInterface,界面易用性,,,4,4.0,,4,4,,,电子两版一致,V1、V2,Z19,同一顺序两版数值一致，但尚无专家中文原答核验。
+P03:Discomfort,P03,专家／项目相关人员,Q17,Discomfort,身体不适,,,1,3.0,,V1:1 / V2:3,,,,电子两版冲突,V1、V2,AA19,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P03:SpatialUnderstand,P03,专家／项目相关人员,Q18,SpatialUnderstand,复杂空间关系理解,,,4,4.0,,4,4,,,电子两版一致,V1、V2,AB19,同一顺序两版数值一致，但尚无专家中文原答核验。
+P03:IterationEfficiency,P03,专家／项目相关人员,Q19,IterationEfficiency,迭代效率,,,,3.0,,3（归档单源）,3.0,,,归档单源,V2,,V1无Q19；此值仅来自V2的同一编号记录，未核对专家纸质原答。
+P03:CreativeFreedom,P03,专家／项目相关人员,Q20,CreativeFreedom,创作自由度,,,4,4.0,,4,4,,,电子两版一致,V1、V2,AC19,同一顺序两版数值一致，但尚无专家中文原答核验。
+P04:Reference_Scale,P04,专家／项目相关人员,Q7 built,Reference_Scale,尺度·参考场景,,,5,5.0,,5,5,,,电子两版一致,V1、V2,H20,同一顺序两版数值一致，但尚无专家中文原答核验。
+P04:Video_Scale,P04,专家／项目相关人员,Q7 video,Video_Scale,尺度·视频,,,3,3.0,,3,3,,,电子两版一致,V1、V2,I20,同一顺序两版数值一致，但尚无专家中文原答核验。
+P04:Drawings_Scale,P04,专家／项目相关人员,Q7 drawings,Drawings_Scale,尺度·图纸,,,4,4.0,,4,4,,,电子两版一致,V1、V2,J20,同一顺序两版数值一致，但尚无专家中文原答核验。
+P04:VRSpace_Scale,P04,专家／项目相关人员,Q7 VR,VRSpace_Scale,尺度·VR,,,5,5.0,,5,5,,,电子两版一致,V1、V2,K20,同一顺序两版数值一致，但尚无专家中文原答核验。
+P04:Reference_Struct,P04,专家／项目相关人员,Q8 built,Reference_Struct,结构·参考场景,,,5,5.0,,5,5,,,电子两版一致,V1、V2,L20,同一顺序两版数值一致，但尚无专家中文原答核验。
+P04:Video_Struct,P04,专家／项目相关人员,Q8 video,Video_Struct,结构·视频,,,3,3.0,,3,3,,,电子两版一致,V1、V2,M20,同一顺序两版数值一致，但尚无专家中文原答核验。
+P04:Drawings_Struct,P04,专家／项目相关人员,Q8 drawings,Drawings_Struct,结构·图纸,,,3,3.0,,3,3,,,电子两版一致,V1、V2,N20,同一顺序两版数值一致，但尚无专家中文原答核验。
+P04:VRSpace_Struct,P04,专家／项目相关人员,Q8 VR,VRSpace_Struct,结构·VR,,,4,4.0,,4,4,,,电子两版一致,V1、V2,O20,同一顺序两版数值一致，但尚无专家中文原答核验。
+P04:Reference_Presence,P04,专家／项目相关人员,Q9 built,Reference_Presence,临场感·参考场景,,,5,5.0,,5,5,,,电子两版一致,V1、V2,P20,同一顺序两版数值一致，但尚无专家中文原答核验。
+P04:Video_Presence,P04,专家／项目相关人员,Q9 video,Video_Presence,临场感·视频,,,3,3.0,,3,3,,,电子两版一致,V1、V2,Q20,同一顺序两版数值一致，但尚无专家中文原答核验。
+P04:Drawings_Presence,P04,专家／项目相关人员,Q9 drawings,Drawings_Presence,临场感·图纸,,,3,3.0,,3,3,,,电子两版一致,V1、V2,R20,同一顺序两版数值一致，但尚无专家中文原答核验。
+P04:VRSpace_Presence,P04,专家／项目相关人员,Q9 VR,VRSpace_Presence,临场感·VR,,,5,5.0,,5,5,,,电子两版一致,V1、V2,S20,同一顺序两版数值一致，但尚无专家中文原答核验。
+P04:Circulation,P04,专家／项目相关人员,Q10,Circulation,路径合理性,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,T20,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P04:Display,P04,专家／项目相关人员,Q11,Display,展示功能,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,U20,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P04:Distinctiveness,P04,专家／项目相关人员,Q12,Distinctiveness,空间辨识度,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,V20,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P04:Comfort,P04,专家／项目相关人员,Q13,Comfort,空间舒适度,,,5,3.0,,V1:5 / V2:3,,,,电子两版冲突,V1、V2,W20,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P04:Function,P04,专家／项目相关人员,Q14,Function,功能需求,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,X20,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P04:Satisfaction,P04,专家／项目相关人员,Q15,Satisfaction,整体满意度,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,Y20,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P04:VRInterface,P04,专家／项目相关人员,Q16,VRInterface,界面易用性,,,5,3.0,,V1:5 / V2:3,,,,电子两版冲突,V1、V2,Z20,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P04:Discomfort,P04,专家／项目相关人员,Q17,Discomfort,身体不适,,,2,2.0,,2,2,,,电子两版一致,V1、V2,AA20,同一顺序两版数值一致，但尚无专家中文原答核验。
+P04:SpatialUnderstand,P04,专家／项目相关人员,Q18,SpatialUnderstand,复杂空间关系理解,,,5,2.0,,V1:5 / V2:2,,,,电子两版冲突,V1、V2,AB20,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P04:IterationEfficiency,P04,专家／项目相关人员,Q19,IterationEfficiency,迭代效率,,,,4.0,,4（归档单源）,4.0,,,归档单源,V2,,V1无Q19；此值仅来自V2的同一编号记录，未核对专家纸质原答。
+P04:CreativeFreedom,P04,专家／项目相关人员,Q20,CreativeFreedom,创作自由度,,,5,3.0,,V1:5 / V2:3,,,,电子两版冲突,V1、V2,AC20,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P05:Reference_Scale,P05,专家／项目相关人员,Q7 built,Reference_Scale,尺度·参考场景,,,4,4.0,,4,4,,,电子两版一致,V1、V2,H21,同一顺序两版数值一致，但尚无专家中文原答核验。
+P05:Video_Scale,P05,专家／项目相关人员,Q7 video,Video_Scale,尺度·视频,,,4,4.0,,4,4,,,电子两版一致,V1、V2,I21,同一顺序两版数值一致，但尚无专家中文原答核验。
+P05:Drawings_Scale,P05,专家／项目相关人员,Q7 drawings,Drawings_Scale,尺度·图纸,,,3,3.0,,3,3,,,电子两版一致,V1、V2,J21,同一顺序两版数值一致，但尚无专家中文原答核验。
+P05:VRSpace_Scale,P05,专家／项目相关人员,Q7 VR,VRSpace_Scale,尺度·VR,,,4,4.0,,4,4,,,电子两版一致,V1、V2,K21,同一顺序两版数值一致，但尚无专家中文原答核验。
+P05:Reference_Struct,P05,专家／项目相关人员,Q8 built,Reference_Struct,结构·参考场景,,,5,5.0,,5,5,,,电子两版一致,V1、V2,L21,同一顺序两版数值一致，但尚无专家中文原答核验。
+P05:Video_Struct,P05,专家／项目相关人员,Q8 video,Video_Struct,结构·视频,,,3,3.0,,3,3,,,电子两版一致,V1、V2,M21,同一顺序两版数值一致，但尚无专家中文原答核验。
+P05:Drawings_Struct,P05,专家／项目相关人员,Q8 drawings,Drawings_Struct,结构·图纸,,,4,4.0,,4,4,,,电子两版一致,V1、V2,N21,同一顺序两版数值一致，但尚无专家中文原答核验。
+P05:VRSpace_Struct,P05,专家／项目相关人员,Q8 VR,VRSpace_Struct,结构·VR,,,5,5.0,,5,5,,,电子两版一致,V1、V2,O21,同一顺序两版数值一致，但尚无专家中文原答核验。
+P05:Reference_Presence,P05,专家／项目相关人员,Q9 built,Reference_Presence,临场感·参考场景,,,5,5.0,,5,5,,,电子两版一致,V1、V2,P21,同一顺序两版数值一致，但尚无专家中文原答核验。
+P05:Video_Presence,P05,专家／项目相关人员,Q9 video,Video_Presence,临场感·视频,,,2,2.0,,2,2,,,电子两版一致,V1、V2,Q21,同一顺序两版数值一致，但尚无专家中文原答核验。
+P05:Drawings_Presence,P05,专家／项目相关人员,Q9 drawings,Drawings_Presence,临场感·图纸,,,3,3.0,,3,3,,,电子两版一致,V1、V2,R21,同一顺序两版数值一致，但尚无专家中文原答核验。
+P05:VRSpace_Presence,P05,专家／项目相关人员,Q9 VR,VRSpace_Presence,临场感·VR,,,3,3.0,,3,3,,,电子两版一致,V1、V2,S21,同一顺序两版数值一致，但尚无专家中文原答核验。
+P05:Circulation,P05,专家／项目相关人员,Q10,Circulation,路径合理性,,,4,3.0,,V1:4 / V2:3,,,,电子两版冲突,V1、V2,T21,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P05:Display,P05,专家／项目相关人员,Q11,Display,展示功能,,,4,3.0,,V1:4 / V2:3,,,,电子两版冲突,V1、V2,U21,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P05:Distinctiveness,P05,专家／项目相关人员,Q12,Distinctiveness,空间辨识度,,,4,3.0,,V1:4 / V2:3,,,,电子两版冲突,V1、V2,V21,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P05:Comfort,P05,专家／项目相关人员,Q13,Comfort,空间舒适度,,,4,3.0,,V1:4 / V2:3,,,,电子两版冲突,V1、V2,W21,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P05:Function,P05,专家／项目相关人员,Q14,Function,功能需求,,,4,2.0,,V1:4 / V2:2,,,,电子两版冲突,V1、V2,X21,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P05:Satisfaction,P05,专家／项目相关人员,Q15,Satisfaction,整体满意度,,,4,3.0,,V1:4 / V2:3,,,,电子两版冲突,V1、V2,Y21,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P05:VRInterface,P05,专家／项目相关人员,Q16,VRInterface,界面易用性,,,4,3.0,,V1:4 / V2:3,,,,电子两版冲突,V1、V2,Z21,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P05:Discomfort,P05,专家／项目相关人员,Q17,Discomfort,身体不适,,,1,3.0,,V1:1 / V2:3,,,,电子两版冲突,V1、V2,AA21,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P05:SpatialUnderstand,P05,专家／项目相关人员,Q18,SpatialUnderstand,复杂空间关系理解,,,4,3.0,,V1:4 / V2:3,,,,电子两版冲突,V1、V2,AB21,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P05:IterationEfficiency,P05,专家／项目相关人员,Q19,IterationEfficiency,迭代效率,,,,3.0,,3（归档单源）,3.0,,,归档单源,V2,,V1无Q19；此值仅来自V2的同一编号记录，未核对专家纸质原答。
+P05:CreativeFreedom,P05,专家／项目相关人员,Q20,CreativeFreedom,创作自由度,,,4,3.0,,V1:4 / V2:3,,,,电子两版冲突,V1、V2,AC21,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P06:Reference_Scale,P06,专家／项目相关人员,Q7 built,Reference_Scale,尺度·参考场景,,,5,5.0,,5,5,,,电子两版一致,V1、V2,H22,同一顺序两版数值一致，但尚无专家中文原答核验。
+P06:Video_Scale,P06,专家／项目相关人员,Q7 video,Video_Scale,尺度·视频,,,3,3.0,,3,3,,,电子两版一致,V1、V2,I22,同一顺序两版数值一致，但尚无专家中文原答核验。
+P06:Drawings_Scale,P06,专家／项目相关人员,Q7 drawings,Drawings_Scale,尺度·图纸,,,3,3.0,,3,3,,,电子两版一致,V1、V2,J22,同一顺序两版数值一致，但尚无专家中文原答核验。
+P06:VRSpace_Scale,P06,专家／项目相关人员,Q7 VR,VRSpace_Scale,尺度·VR,,,4,4.0,,4,4,,,电子两版一致,V1、V2,K22,同一顺序两版数值一致，但尚无专家中文原答核验。
+P06:Reference_Struct,P06,专家／项目相关人员,Q8 built,Reference_Struct,结构·参考场景,,,4,4.0,,4,4,,,电子两版一致,V1、V2,L22,同一顺序两版数值一致，但尚无专家中文原答核验。
+P06:Video_Struct,P06,专家／项目相关人员,Q8 video,Video_Struct,结构·视频,,,3,3.0,,3,3,,,电子两版一致,V1、V2,M22,同一顺序两版数值一致，但尚无专家中文原答核验。
+P06:Drawings_Struct,P06,专家／项目相关人员,Q8 drawings,Drawings_Struct,结构·图纸,,,3,3.0,,3,3,,,电子两版一致,V1、V2,N22,同一顺序两版数值一致，但尚无专家中文原答核验。
+P06:VRSpace_Struct,P06,专家／项目相关人员,Q8 VR,VRSpace_Struct,结构·VR,,,5,5.0,,5,5,,,电子两版一致,V1、V2,O22,同一顺序两版数值一致，但尚无专家中文原答核验。
+P06:Reference_Presence,P06,专家／项目相关人员,Q9 built,Reference_Presence,临场感·参考场景,,,5,5.0,,5,5,,,电子两版一致,V1、V2,P22,同一顺序两版数值一致，但尚无专家中文原答核验。
+P06:Video_Presence,P06,专家／项目相关人员,Q9 video,Video_Presence,临场感·视频,,,4,4.0,,4,4,,,电子两版一致,V1、V2,Q22,同一顺序两版数值一致，但尚无专家中文原答核验。
+P06:Drawings_Presence,P06,专家／项目相关人员,Q9 drawings,Drawings_Presence,临场感·图纸,,,2,2.0,,2,2,,,电子两版一致,V1、V2,R22,同一顺序两版数值一致，但尚无专家中文原答核验。
+P06:VRSpace_Presence,P06,专家／项目相关人员,Q9 VR,VRSpace_Presence,临场感·VR,,,4,4.0,,4,4,,,电子两版一致,V1、V2,S22,同一顺序两版数值一致，但尚无专家中文原答核验。
+P06:Circulation,P06,专家／项目相关人员,Q10,Circulation,路径合理性,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,T22,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P06:Display,P06,专家／项目相关人员,Q11,Display,展示功能,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,U22,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P06:Distinctiveness,P06,专家／项目相关人员,Q12,Distinctiveness,空间辨识度,,,5,3.0,,V1:5 / V2:3,,,,电子两版冲突,V1、V2,V22,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P06:Comfort,P06,专家／项目相关人员,Q13,Comfort,空间舒适度,,,5,3.0,,V1:5 / V2:3,,,,电子两版冲突,V1、V2,W22,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P06:Function,P06,专家／项目相关人员,Q14,Function,功能需求,,,5,3.0,,V1:5 / V2:3,,,,电子两版冲突,V1、V2,X22,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P06:Satisfaction,P06,专家／项目相关人员,Q15,Satisfaction,整体满意度,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,Y22,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P06:VRInterface,P06,专家／项目相关人员,Q16,VRInterface,界面易用性,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,Z22,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P06:Discomfort,P06,专家／项目相关人员,Q17,Discomfort,身体不适,,,2,2.0,,2,2,,,电子两版一致,V1、V2,AA22,同一顺序两版数值一致，但尚无专家中文原答核验。
+P06:SpatialUnderstand,P06,专家／项目相关人员,Q18,SpatialUnderstand,复杂空间关系理解,,,5,3.0,,V1:5 / V2:3,,,,电子两版冲突,V1、V2,AB22,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P06:IterationEfficiency,P06,专家／项目相关人员,Q19,IterationEfficiency,迭代效率,,,,4.0,,4（归档单源）,4.0,,,归档单源,V2,,V1无Q19；此值仅来自V2的同一编号记录，未核对专家纸质原答。
+P06:CreativeFreedom,P06,专家／项目相关人员,Q20,CreativeFreedom,创作自由度,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,AC22,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P07:Reference_Scale,P07,专家／项目相关人员,Q7 built,Reference_Scale,尺度·参考场景,,,5,5.0,,5,5,,,电子两版一致,V1、V2,H23,同一顺序两版数值一致，但尚无专家中文原答核验。
+P07:Video_Scale,P07,专家／项目相关人员,Q7 video,Video_Scale,尺度·视频,,,4,4.0,,4,4,,,电子两版一致,V1、V2,I23,同一顺序两版数值一致，但尚无专家中文原答核验。
+P07:Drawings_Scale,P07,专家／项目相关人员,Q7 drawings,Drawings_Scale,尺度·图纸,,,4,4.0,,4,4,,,电子两版一致,V1、V2,J23,同一顺序两版数值一致，但尚无专家中文原答核验。
+P07:VRSpace_Scale,P07,专家／项目相关人员,Q7 VR,VRSpace_Scale,尺度·VR,,,5,5.0,,5,5,,,电子两版一致,V1、V2,K23,同一顺序两版数值一致，但尚无专家中文原答核验。
+P07:Reference_Struct,P07,专家／项目相关人员,Q8 built,Reference_Struct,结构·参考场景,,,5,5.0,,5,5,,,电子两版一致,V1、V2,L23,同一顺序两版数值一致，但尚无专家中文原答核验。
+P07:Video_Struct,P07,专家／项目相关人员,Q8 video,Video_Struct,结构·视频,,,4,4.0,,4,4,,,电子两版一致,V1、V2,M23,同一顺序两版数值一致，但尚无专家中文原答核验。
+P07:Drawings_Struct,P07,专家／项目相关人员,Q8 drawings,Drawings_Struct,结构·图纸,,,5,5.0,,5,5,,,电子两版一致,V1、V2,N23,同一顺序两版数值一致，但尚无专家中文原答核验。
+P07:VRSpace_Struct,P07,专家／项目相关人员,Q8 VR,VRSpace_Struct,结构·VR,,,4,4.0,,4,4,,,电子两版一致,V1、V2,O23,同一顺序两版数值一致，但尚无专家中文原答核验。
+P07:Reference_Presence,P07,专家／项目相关人员,Q9 built,Reference_Presence,临场感·参考场景,,,5,5.0,,5,5,,,电子两版一致,V1、V2,P23,同一顺序两版数值一致，但尚无专家中文原答核验。
+P07:Video_Presence,P07,专家／项目相关人员,Q9 video,Video_Presence,临场感·视频,,,3,3.0,,3,3,,,电子两版一致,V1、V2,Q23,同一顺序两版数值一致，但尚无专家中文原答核验。
+P07:Drawings_Presence,P07,专家／项目相关人员,Q9 drawings,Drawings_Presence,临场感·图纸,,,3,3.0,,3,3,,,电子两版一致,V1、V2,R23,同一顺序两版数值一致，但尚无专家中文原答核验。
+P07:VRSpace_Presence,P07,专家／项目相关人员,Q9 VR,VRSpace_Presence,临场感·VR,,,4,4.0,,4,4,,,电子两版一致,V1、V2,S23,同一顺序两版数值一致，但尚无专家中文原答核验。
+P07:Circulation,P07,专家／项目相关人员,Q10,Circulation,路径合理性,,,4,4.0,,4,4,,,电子两版一致,V1、V2,T23,同一顺序两版数值一致，但尚无专家中文原答核验。
+P07:Display,P07,专家／项目相关人员,Q11,Display,展示功能,,,4,4.0,,4,4,,,电子两版一致,V1、V2,U23,同一顺序两版数值一致，但尚无专家中文原答核验。
+P07:Distinctiveness,P07,专家／项目相关人员,Q12,Distinctiveness,空间辨识度,,,4,3.0,,V1:4 / V2:3,,,,电子两版冲突,V1、V2,V23,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P07:Comfort,P07,专家／项目相关人员,Q13,Comfort,空间舒适度,,,4,4.0,,4,4,,,电子两版一致,V1、V2,W23,同一顺序两版数值一致，但尚无专家中文原答核验。
+P07:Function,P07,专家／项目相关人员,Q14,Function,功能需求,,,4,3.0,,V1:4 / V2:3,,,,电子两版冲突,V1、V2,X23,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P07:Satisfaction,P07,专家／项目相关人员,Q15,Satisfaction,整体满意度,,,4,4.0,,4,4,,,电子两版一致,V1、V2,Y23,同一顺序两版数值一致，但尚无专家中文原答核验。
+P07:VRInterface,P07,专家／项目相关人员,Q16,VRInterface,界面易用性,,,4,3.0,,V1:4 / V2:3,,,,电子两版冲突,V1、V2,Z23,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P07:Discomfort,P07,专家／项目相关人员,Q17,Discomfort,身体不适,,,1,2.0,,V1:1 / V2:2,,,,电子两版冲突,V1、V2,AA23,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P07:SpatialUnderstand,P07,专家／项目相关人员,Q18,SpatialUnderstand,复杂空间关系理解,,,4,4.0,,4,4,,,电子两版一致,V1、V2,AB23,同一顺序两版数值一致，但尚无专家中文原答核验。
+P07:IterationEfficiency,P07,专家／项目相关人员,Q19,IterationEfficiency,迭代效率,,,,3.0,,3（归档单源）,3.0,,,归档单源,V2,,V1无Q19；此值仅来自V2的同一编号记录，未核对专家纸质原答。
+P07:CreativeFreedom,P07,专家／项目相关人员,Q20,CreativeFreedom,创作自由度,,,4,3.0,,V1:4 / V2:3,,,,电子两版冲突,V1、V2,AC23,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P08:Reference_Scale,P08,专家／项目相关人员,Q7 built,Reference_Scale,尺度·参考场景,,,4,4.0,,4,4,,,电子两版一致,V1、V2,H24,同一顺序两版数值一致，但尚无专家中文原答核验。
+P08:Video_Scale,P08,专家／项目相关人员,Q7 video,Video_Scale,尺度·视频,,,3,3.0,,3,3,,,电子两版一致,V1、V2,I24,同一顺序两版数值一致，但尚无专家中文原答核验。
+P08:Drawings_Scale,P08,专家／项目相关人员,Q7 drawings,Drawings_Scale,尺度·图纸,,,3,3.0,,3,3,,,电子两版一致,V1、V2,J24,同一顺序两版数值一致，但尚无专家中文原答核验。
+P08:VRSpace_Scale,P08,专家／项目相关人员,Q7 VR,VRSpace_Scale,尺度·VR,,,4,4.0,,4,4,,,电子两版一致,V1、V2,K24,同一顺序两版数值一致，但尚无专家中文原答核验。
+P08:Reference_Struct,P08,专家／项目相关人员,Q8 built,Reference_Struct,结构·参考场景,,,5,5.0,,5,5,,,电子两版一致,V1、V2,L24,同一顺序两版数值一致，但尚无专家中文原答核验。
+P08:Video_Struct,P08,专家／项目相关人员,Q8 video,Video_Struct,结构·视频,,,3,3.0,,3,3,,,电子两版一致,V1、V2,M24,同一顺序两版数值一致，但尚无专家中文原答核验。
+P08:Drawings_Struct,P08,专家／项目相关人员,Q8 drawings,Drawings_Struct,结构·图纸,,,3,3.0,,3,3,,,电子两版一致,V1、V2,N24,同一顺序两版数值一致，但尚无专家中文原答核验。
+P08:VRSpace_Struct,P08,专家／项目相关人员,Q8 VR,VRSpace_Struct,结构·VR,,,3,3.0,,3,3,,,电子两版一致,V1、V2,O24,同一顺序两版数值一致，但尚无专家中文原答核验。
+P08:Reference_Presence,P08,专家／项目相关人员,Q9 built,Reference_Presence,临场感·参考场景,,,5,5.0,,5,5,,,电子两版一致,V1、V2,P24,同一顺序两版数值一致，但尚无专家中文原答核验。
+P08:Video_Presence,P08,专家／项目相关人员,Q9 video,Video_Presence,临场感·视频,,,4,4.0,,4,4,,,电子两版一致,V1、V2,Q24,同一顺序两版数值一致，但尚无专家中文原答核验。
+P08:Drawings_Presence,P08,专家／项目相关人员,Q9 drawings,Drawings_Presence,临场感·图纸,,,3,3.0,,3,3,,,电子两版一致,V1、V2,R24,同一顺序两版数值一致，但尚无专家中文原答核验。
+P08:VRSpace_Presence,P08,专家／项目相关人员,Q9 VR,VRSpace_Presence,临场感·VR,,,2,2.0,,2,2,,,电子两版一致,V1、V2,S24,同一顺序两版数值一致，但尚无专家中文原答核验。
+P08:Circulation,P08,专家／项目相关人员,Q10,Circulation,路径合理性,,,5,3.0,,V1:5 / V2:3,,,,电子两版冲突,V1、V2,T24,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P08:Display,P08,专家／项目相关人员,Q11,Display,展示功能,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,U24,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P08:Distinctiveness,P08,专家／项目相关人员,Q12,Distinctiveness,空间辨识度,,,5,3.0,,V1:5 / V2:3,,,,电子两版冲突,V1、V2,V24,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P08:Comfort,P08,专家／项目相关人员,Q13,Comfort,空间舒适度,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,W24,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P08:Function,P08,专家／项目相关人员,Q14,Function,功能需求,,,5,3.0,,V1:5 / V2:3,,,,电子两版冲突,V1、V2,X24,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P08:Satisfaction,P08,专家／项目相关人员,Q15,Satisfaction,整体满意度,,,5,3.0,,V1:5 / V2:3,,,,电子两版冲突,V1、V2,Y24,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P08:VRInterface,P08,专家／项目相关人员,Q16,VRInterface,界面易用性,,,5,3.0,,V1:5 / V2:3,,,,电子两版冲突,V1、V2,Z24,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P08:Discomfort,P08,专家／项目相关人员,Q17,Discomfort,身体不适,,,2,2.0,,2,2,,,电子两版一致,V1、V2,AA24,同一顺序两版数值一致，但尚无专家中文原答核验。
+P08:SpatialUnderstand,P08,专家／项目相关人员,Q18,SpatialUnderstand,复杂空间关系理解,,,5,3.0,,V1:5 / V2:3,,,,电子两版冲突,V1、V2,AB24,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P08:IterationEfficiency,P08,专家／项目相关人员,Q19,IterationEfficiency,迭代效率,,,,3.0,,3（归档单源）,3.0,,,归档单源,V2,,V1无Q19；此值仅来自V2的同一编号记录，未核对专家纸质原答。
+P08:CreativeFreedom,P08,专家／项目相关人员,Q20,CreativeFreedom,创作自由度,,,5,3.0,,V1:5 / V2:3,,,,电子两版冲突,V1、V2,AC24,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P09:Reference_Scale,P09,专家／项目相关人员,Q7 built,Reference_Scale,尺度·参考场景,,,5,5.0,,5,5,,,电子两版一致,V1、V2,H25,同一顺序两版数值一致，但尚无专家中文原答核验。
+P09:Video_Scale,P09,专家／项目相关人员,Q7 video,Video_Scale,尺度·视频,,,3,3.0,,3,3,,,电子两版一致,V1、V2,I25,同一顺序两版数值一致，但尚无专家中文原答核验。
+P09:Drawings_Scale,P09,专家／项目相关人员,Q7 drawings,Drawings_Scale,尺度·图纸,,,4,4.0,,4,4,,,电子两版一致,V1、V2,J25,同一顺序两版数值一致，但尚无专家中文原答核验。
+P09:VRSpace_Scale,P09,专家／项目相关人员,Q7 VR,VRSpace_Scale,尺度·VR,,,5,5.0,,5,5,,,电子两版一致,V1、V2,K25,同一顺序两版数值一致，但尚无专家中文原答核验。
+P09:Reference_Struct,P09,专家／项目相关人员,Q8 built,Reference_Struct,结构·参考场景,,,5,5.0,,5,5,,,电子两版一致,V1、V2,L25,同一顺序两版数值一致，但尚无专家中文原答核验。
+P09:Video_Struct,P09,专家／项目相关人员,Q8 video,Video_Struct,结构·视频,,,4,4.0,,4,4,,,电子两版一致,V1、V2,M25,同一顺序两版数值一致，但尚无专家中文原答核验。
+P09:Drawings_Struct,P09,专家／项目相关人员,Q8 drawings,Drawings_Struct,结构·图纸,,,4,4.0,,4,4,,,电子两版一致,V1、V2,N25,同一顺序两版数值一致，但尚无专家中文原答核验。
+P09:VRSpace_Struct,P09,专家／项目相关人员,Q8 VR,VRSpace_Struct,结构·VR,,,5,5.0,,5,5,,,电子两版一致,V1、V2,O25,同一顺序两版数值一致，但尚无专家中文原答核验。
+P09:Reference_Presence,P09,专家／项目相关人员,Q9 built,Reference_Presence,临场感·参考场景,,,5,5.0,,5,5,,,电子两版一致,V1、V2,P25,同一顺序两版数值一致，但尚无专家中文原答核验。
+P09:Video_Presence,P09,专家／项目相关人员,Q9 video,Video_Presence,临场感·视频,,,3,3.0,,3,3,,,电子两版一致,V1、V2,Q25,同一顺序两版数值一致，但尚无专家中文原答核验。
+P09:Drawings_Presence,P09,专家／项目相关人员,Q9 drawings,Drawings_Presence,临场感·图纸,,,3,3.0,,3,3,,,电子两版一致,V1、V2,R25,同一顺序两版数值一致，但尚无专家中文原答核验。
+P09:VRSpace_Presence,P09,专家／项目相关人员,Q9 VR,VRSpace_Presence,临场感·VR,,,2,2.0,,2,2,,,电子两版一致,V1、V2,S25,同一顺序两版数值一致，但尚无专家中文原答核验。
+P09:Circulation,P09,专家／项目相关人员,Q10,Circulation,路径合理性,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,T25,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P09:Display,P09,专家／项目相关人员,Q11,Display,展示功能,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,U25,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P09:Distinctiveness,P09,专家／项目相关人员,Q12,Distinctiveness,空间辨识度,,,5,3.0,,V1:5 / V2:3,,,,电子两版冲突,V1、V2,V25,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P09:Comfort,P09,专家／项目相关人员,Q13,Comfort,空间舒适度,,,5,3.0,,V1:5 / V2:3,,,,电子两版冲突,V1、V2,W25,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P09:Function,P09,专家／项目相关人员,Q14,Function,功能需求,,,5,2.0,,V1:5 / V2:2,,,,电子两版冲突,V1、V2,X25,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P09:Satisfaction,P09,专家／项目相关人员,Q15,Satisfaction,整体满意度,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,Y25,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P09:VRInterface,P09,专家／项目相关人员,Q16,VRInterface,界面易用性,,,5,3.0,,V1:5 / V2:3,,,,电子两版冲突,V1、V2,Z25,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P09:Discomfort,P09,专家／项目相关人员,Q17,Discomfort,身体不适,,,1,2.0,,V1:1 / V2:2,,,,电子两版冲突,V1、V2,AA25,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P09:SpatialUnderstand,P09,专家／项目相关人员,Q18,SpatialUnderstand,复杂空间关系理解,,,5,3.0,,V1:5 / V2:3,,,,电子两版冲突,V1、V2,AB25,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P09:IterationEfficiency,P09,专家／项目相关人员,Q19,IterationEfficiency,迭代效率,,,,4.0,,4（归档单源）,4.0,,,归档单源,V2,,V1无Q19；此值仅来自V2的同一编号记录，未核对专家纸质原答。
+P09:CreativeFreedom,P09,专家／项目相关人员,Q20,CreativeFreedom,创作自由度,,,5,3.0,,V1:5 / V2:3,,,,电子两版冲突,V1、V2,AC25,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P10:Reference_Scale,P10,专家／项目相关人员,Q7 built,Reference_Scale,尺度·参考场景,,,5,5.0,,5,5,,,电子两版一致,V1、V2,H26,同一顺序两版数值一致，但尚无专家中文原答核验。
+P10:Video_Scale,P10,专家／项目相关人员,Q7 video,Video_Scale,尺度·视频,,,4,4.0,,4,4,,,电子两版一致,V1、V2,I26,同一顺序两版数值一致，但尚无专家中文原答核验。
+P10:Drawings_Scale,P10,专家／项目相关人员,Q7 drawings,Drawings_Scale,尺度·图纸,,,2,2.0,,2,2,,,电子两版一致,V1、V2,J26,同一顺序两版数值一致，但尚无专家中文原答核验。
+P10:VRSpace_Scale,P10,专家／项目相关人员,Q7 VR,VRSpace_Scale,尺度·VR,,,4,4.0,,4,4,,,电子两版一致,V1、V2,K26,同一顺序两版数值一致，但尚无专家中文原答核验。
+P10:Reference_Struct,P10,专家／项目相关人员,Q8 built,Reference_Struct,结构·参考场景,,,5,5.0,,5,5,,,电子两版一致,V1、V2,L26,同一顺序两版数值一致，但尚无专家中文原答核验。
+P10:Video_Struct,P10,专家／项目相关人员,Q8 video,Video_Struct,结构·视频,,,2,2.0,,2,2,,,电子两版一致,V1、V2,M26,同一顺序两版数值一致，但尚无专家中文原答核验。
+P10:Drawings_Struct,P10,专家／项目相关人员,Q8 drawings,Drawings_Struct,结构·图纸,,,4,4.0,,4,4,,,电子两版一致,V1、V2,N26,同一顺序两版数值一致，但尚无专家中文原答核验。
+P10:VRSpace_Struct,P10,专家／项目相关人员,Q8 VR,VRSpace_Struct,结构·VR,,,3,3.0,,3,3,,,电子两版一致,V1、V2,O26,同一顺序两版数值一致，但尚无专家中文原答核验。
+P10:Reference_Presence,P10,专家／项目相关人员,Q9 built,Reference_Presence,临场感·参考场景,,,5,5.0,,5,5,,,电子两版一致,V1、V2,P26,同一顺序两版数值一致，但尚无专家中文原答核验。
+P10:Video_Presence,P10,专家／项目相关人员,Q9 video,Video_Presence,临场感·视频,,,3,3.0,,3,3,,,电子两版一致,V1、V2,Q26,同一顺序两版数值一致，但尚无专家中文原答核验。
+P10:Drawings_Presence,P10,专家／项目相关人员,Q9 drawings,Drawings_Presence,临场感·图纸,,,3,3.0,,3,3,,,电子两版一致,V1、V2,R26,同一顺序两版数值一致，但尚无专家中文原答核验。
+P10:VRSpace_Presence,P10,专家／项目相关人员,Q9 VR,VRSpace_Presence,临场感·VR,,,4,4.0,,4,4,,,电子两版一致,V1、V2,S26,同一顺序两版数值一致，但尚无专家中文原答核验。
+P10:Circulation,P10,专家／项目相关人员,Q10,Circulation,路径合理性,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,T26,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P10:Display,P10,专家／项目相关人员,Q11,Display,展示功能,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,U26,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P10:Distinctiveness,P10,专家／项目相关人员,Q12,Distinctiveness,空间辨识度,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,V26,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P10:Comfort,P10,专家／项目相关人员,Q13,Comfort,空间舒适度,,,5,3.0,,V1:5 / V2:3,,,,电子两版冲突,V1、V2,W26,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P10:Function,P10,专家／项目相关人员,Q14,Function,功能需求,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,X26,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P10:Satisfaction,P10,专家／项目相关人员,Q15,Satisfaction,整体满意度,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,Y26,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P10:VRInterface,P10,专家／项目相关人员,Q16,VRInterface,界面易用性,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,Z26,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P10:Discomfort,P10,专家／项目相关人员,Q17,Discomfort,身体不适,,,2,2.0,,2,2,,,电子两版一致,V1、V2,AA26,同一顺序两版数值一致，但尚无专家中文原答核验。
+P10:SpatialUnderstand,P10,专家／项目相关人员,Q18,SpatialUnderstand,复杂空间关系理解,,,5,3.0,,V1:5 / V2:3,,,,电子两版冲突,V1、V2,AB26,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P10:IterationEfficiency,P10,专家／项目相关人员,Q19,IterationEfficiency,迭代效率,,,,4.0,,4（归档单源）,4.0,,,归档单源,V2,,V1无Q19；此值仅来自V2的同一编号记录，未核对专家纸质原答。
+P10:CreativeFreedom,P10,专家／项目相关人员,Q20,CreativeFreedom,创作自由度,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,AC26,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P11:Reference_Scale,P11,专家／项目相关人员,Q7 built,Reference_Scale,尺度·参考场景,,,4,4.0,,4,4,,,电子两版一致,V1、V2,H27,同一顺序两版数值一致，但尚无专家中文原答核验。
+P11:Video_Scale,P11,专家／项目相关人员,Q7 video,Video_Scale,尺度·视频,,,4,4.0,,4,4,,,电子两版一致,V1、V2,I27,同一顺序两版数值一致，但尚无专家中文原答核验。
+P11:Drawings_Scale,P11,专家／项目相关人员,Q7 drawings,Drawings_Scale,尺度·图纸,,,4,4.0,,4,4,,,电子两版一致,V1、V2,J27,同一顺序两版数值一致，但尚无专家中文原答核验。
+P11:VRSpace_Scale,P11,专家／项目相关人员,Q7 VR,VRSpace_Scale,尺度·VR,,,4,4.0,,4,4,,,电子两版一致,V1、V2,K27,同一顺序两版数值一致，但尚无专家中文原答核验。
+P11:Reference_Struct,P11,专家／项目相关人员,Q8 built,Reference_Struct,结构·参考场景,,,4,4.0,,4,4,,,电子两版一致,V1、V2,L27,同一顺序两版数值一致，但尚无专家中文原答核验。
+P11:Video_Struct,P11,专家／项目相关人员,Q8 video,Video_Struct,结构·视频,,,3,3.0,,3,3,,,电子两版一致,V1、V2,M27,同一顺序两版数值一致，但尚无专家中文原答核验。
+P11:Drawings_Struct,P11,专家／项目相关人员,Q8 drawings,Drawings_Struct,结构·图纸,,,4,4.0,,4,4,,,电子两版一致,V1、V2,N27,同一顺序两版数值一致，但尚无专家中文原答核验。
+P11:VRSpace_Struct,P11,专家／项目相关人员,Q8 VR,VRSpace_Struct,结构·VR,,,3,3.0,,3,3,,,电子两版一致,V1、V2,O27,同一顺序两版数值一致，但尚无专家中文原答核验。
+P11:Reference_Presence,P11,专家／项目相关人员,Q9 built,Reference_Presence,临场感·参考场景,,,5,5.0,,5,5,,,电子两版一致,V1、V2,P27,同一顺序两版数值一致，但尚无专家中文原答核验。
+P11:Video_Presence,P11,专家／项目相关人员,Q9 video,Video_Presence,临场感·视频,,,4,4.0,,4,4,,,电子两版一致,V1、V2,Q27,同一顺序两版数值一致，但尚无专家中文原答核验。
+P11:Drawings_Presence,P11,专家／项目相关人员,Q9 drawings,Drawings_Presence,临场感·图纸,,,3,3.0,,3,3,,,电子两版一致,V1、V2,R27,同一顺序两版数值一致，但尚无专家中文原答核验。
+P11:VRSpace_Presence,P11,专家／项目相关人员,Q9 VR,VRSpace_Presence,临场感·VR,,,4,4.0,,4,4,,,电子两版一致,V1、V2,S27,同一顺序两版数值一致，但尚无专家中文原答核验。
+P11:Circulation,P11,专家／项目相关人员,Q10,Circulation,路径合理性,,,5,3.0,,V1:5 / V2:3,,,,电子两版冲突,V1、V2,T27,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P11:Display,P11,专家／项目相关人员,Q11,Display,展示功能,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,U27,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P11:Distinctiveness,P11,专家／项目相关人员,Q12,Distinctiveness,空间辨识度,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,V27,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P11:Comfort,P11,专家／项目相关人员,Q13,Comfort,空间舒适度,,,5,3.0,,V1:5 / V2:3,,,,电子两版冲突,V1、V2,W27,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P11:Function,P11,专家／项目相关人员,Q14,Function,功能需求,,,5,3.0,,V1:5 / V2:3,,,,电子两版冲突,V1、V2,X27,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P11:Satisfaction,P11,专家／项目相关人员,Q15,Satisfaction,整体满意度,,,5,3.0,,V1:5 / V2:3,,,,电子两版冲突,V1、V2,Y27,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P11:VRInterface,P11,专家／项目相关人员,Q16,VRInterface,界面易用性,,,5,3.0,,V1:5 / V2:3,,,,电子两版冲突,V1、V2,Z27,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P11:Discomfort,P11,专家／项目相关人员,Q17,Discomfort,身体不适,,,1,2.0,,V1:1 / V2:2,,,,电子两版冲突,V1、V2,AA27,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P11:SpatialUnderstand,P11,专家／项目相关人员,Q18,SpatialUnderstand,复杂空间关系理解,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,AB27,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P11:IterationEfficiency,P11,专家／项目相关人员,Q19,IterationEfficiency,迭代效率,,,,3.0,,3（归档单源）,3.0,,,归档单源,V2,,V1无Q19；此值仅来自V2的同一编号记录，未核对专家纸质原答。
+P11:CreativeFreedom,P11,专家／项目相关人员,Q20,CreativeFreedom,创作自由度,,,5,3.0,,V1:5 / V2:3,,,,电子两版冲突,V1、V2,AC27,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P12:Reference_Scale,P12,专家／项目相关人员,Q7 built,Reference_Scale,尺度·参考场景,,,5,5.0,,5,5,,,电子两版一致,V1、V2,H28,同一顺序两版数值一致，但尚无专家中文原答核验。
+P12:Video_Scale,P12,专家／项目相关人员,Q7 video,Video_Scale,尺度·视频,,,4,4.0,,4,4,,,电子两版一致,V1、V2,I28,同一顺序两版数值一致，但尚无专家中文原答核验。
+P12:Drawings_Scale,P12,专家／项目相关人员,Q7 drawings,Drawings_Scale,尺度·图纸,,,3,3.0,,3,3,,,电子两版一致,V1、V2,J28,同一顺序两版数值一致，但尚无专家中文原答核验。
+P12:VRSpace_Scale,P12,专家／项目相关人员,Q7 VR,VRSpace_Scale,尺度·VR,,,5,5.0,,5,5,,,电子两版一致,V1、V2,K28,同一顺序两版数值一致，但尚无专家中文原答核验。
+P12:Reference_Struct,P12,专家／项目相关人员,Q8 built,Reference_Struct,结构·参考场景,,,5,5.0,,5,5,,,电子两版一致,V1、V2,L28,同一顺序两版数值一致，但尚无专家中文原答核验。
+P12:Video_Struct,P12,专家／项目相关人员,Q8 video,Video_Struct,结构·视频,,,3,3.0,,3,3,,,电子两版一致,V1、V2,M28,同一顺序两版数值一致，但尚无专家中文原答核验。
+P12:Drawings_Struct,P12,专家／项目相关人员,Q8 drawings,Drawings_Struct,结构·图纸,,,3,3.0,,3,3,,,电子两版一致,V1、V2,N28,同一顺序两版数值一致，但尚无专家中文原答核验。
+P12:VRSpace_Struct,P12,专家／项目相关人员,Q8 VR,VRSpace_Struct,结构·VR,,,4,4.0,,4,4,,,电子两版一致,V1、V2,O28,同一顺序两版数值一致，但尚无专家中文原答核验。
+P12:Reference_Presence,P12,专家／项目相关人员,Q9 built,Reference_Presence,临场感·参考场景,,,5,5.0,,5,5,,,电子两版一致,V1、V2,P28,同一顺序两版数值一致，但尚无专家中文原答核验。
+P12:Video_Presence,P12,专家／项目相关人员,Q9 video,Video_Presence,临场感·视频,,,4,4.0,,4,4,,,电子两版一致,V1、V2,Q28,同一顺序两版数值一致，但尚无专家中文原答核验。
+P12:Drawings_Presence,P12,专家／项目相关人员,Q9 drawings,Drawings_Presence,临场感·图纸,,,2,2.0,,2,2,,,电子两版一致,V1、V2,R28,同一顺序两版数值一致，但尚无专家中文原答核验。
+P12:VRSpace_Presence,P12,专家／项目相关人员,Q9 VR,VRSpace_Presence,临场感·VR,,,4,4.0,,4,4,,,电子两版一致,V1、V2,S28,同一顺序两版数值一致，但尚无专家中文原答核验。
+P12:Circulation,P12,专家／项目相关人员,Q10,Circulation,路径合理性,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,T28,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P12:Display,P12,专家／项目相关人员,Q11,Display,展示功能,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,U28,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P12:Distinctiveness,P12,专家／项目相关人员,Q12,Distinctiveness,空间辨识度,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,V28,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P12:Comfort,P12,专家／项目相关人员,Q13,Comfort,空间舒适度,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,W28,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P12:Function,P12,专家／项目相关人员,Q14,Function,功能需求,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,X28,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P12:Satisfaction,P12,专家／项目相关人员,Q15,Satisfaction,整体满意度,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,Y28,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P12:VRInterface,P12,专家／项目相关人员,Q16,VRInterface,界面易用性,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,Z28,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P12:Discomfort,P12,专家／项目相关人员,Q17,Discomfort,身体不适,,,2,2.0,,2,2,,,电子两版一致,V1、V2,AA28,同一顺序两版数值一致，但尚无专家中文原答核验。
+P12:SpatialUnderstand,P12,专家／项目相关人员,Q18,SpatialUnderstand,复杂空间关系理解,,,5,3.0,,V1:5 / V2:3,,,,电子两版冲突,V1、V2,AB28,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P12:IterationEfficiency,P12,专家／项目相关人员,Q19,IterationEfficiency,迭代效率,,,,4.0,,4（归档单源）,4.0,,,归档单源,V2,,V1无Q19；此值仅来自V2的同一编号记录，未核对专家纸质原答。
+P12:CreativeFreedom,P12,专家／项目相关人员,Q20,CreativeFreedom,创作自由度,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,AC28,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P13:Reference_Scale,P13,专家／项目相关人员,Q7 built,Reference_Scale,尺度·参考场景,,,5,5.0,,5,5,,,电子两版一致,V1、V2,H29,同一顺序两版数值一致，但尚无专家中文原答核验。
+P13:Video_Scale,P13,专家／项目相关人员,Q7 video,Video_Scale,尺度·视频,,,4,4.0,,4,4,,,电子两版一致,V1、V2,I29,同一顺序两版数值一致，但尚无专家中文原答核验。
+P13:Drawings_Scale,P13,专家／项目相关人员,Q7 drawings,Drawings_Scale,尺度·图纸,,,3,3.0,,3,3,,,电子两版一致,V1、V2,J29,同一顺序两版数值一致，但尚无专家中文原答核验。
+P13:VRSpace_Scale,P13,专家／项目相关人员,Q7 VR,VRSpace_Scale,尺度·VR,,,4,4.0,,4,4,,,电子两版一致,V1、V2,K29,同一顺序两版数值一致，但尚无专家中文原答核验。
+P13:Reference_Struct,P13,专家／项目相关人员,Q8 built,Reference_Struct,结构·参考场景,,,5,5.0,,5,5,,,电子两版一致,V1、V2,L29,同一顺序两版数值一致，但尚无专家中文原答核验。
+P13:Video_Struct,P13,专家／项目相关人员,Q8 video,Video_Struct,结构·视频,,,2,2.0,,2,2,,,电子两版一致,V1、V2,M29,同一顺序两版数值一致，但尚无专家中文原答核验。
+P13:Drawings_Struct,P13,专家／项目相关人员,Q8 drawings,Drawings_Struct,结构·图纸,,,4,4.0,,4,4,,,电子两版一致,V1、V2,N29,同一顺序两版数值一致，但尚无专家中文原答核验。
+P13:VRSpace_Struct,P13,专家／项目相关人员,Q8 VR,VRSpace_Struct,结构·VR,,,3,3.0,,3,3,,,电子两版一致,V1、V2,O29,同一顺序两版数值一致，但尚无专家中文原答核验。
+P13:Reference_Presence,P13,专家／项目相关人员,Q9 built,Reference_Presence,临场感·参考场景,,,5,5.0,,5,5,,,电子两版一致,V1、V2,P29,同一顺序两版数值一致，但尚无专家中文原答核验。
+P13:Video_Presence,P13,专家／项目相关人员,Q9 video,Video_Presence,临场感·视频,,,4,4.0,,4,4,,,电子两版一致,V1、V2,Q29,同一顺序两版数值一致，但尚无专家中文原答核验。
+P13:Drawings_Presence,P13,专家／项目相关人员,Q9 drawings,Drawings_Presence,临场感·图纸,,,3,3.0,,3,3,,,电子两版一致,V1、V2,R29,同一顺序两版数值一致，但尚无专家中文原答核验。
+P13:VRSpace_Presence,P13,专家／项目相关人员,Q9 VR,VRSpace_Presence,临场感·VR,,,4,4.0,,4,4,,,电子两版一致,V1、V2,S29,同一顺序两版数值一致，但尚无专家中文原答核验。
+P13:Circulation,P13,专家／项目相关人员,Q10,Circulation,路径合理性,,,5,3.0,,V1:5 / V2:3,,,,电子两版冲突,V1、V2,T29,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P13:Display,P13,专家／项目相关人员,Q11,Display,展示功能,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,U29,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P13:Distinctiveness,P13,专家／项目相关人员,Q12,Distinctiveness,空间辨识度,,,5,3.0,,V1:5 / V2:3,,,,电子两版冲突,V1、V2,V29,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P13:Comfort,P13,专家／项目相关人员,Q13,Comfort,空间舒适度,,,5,3.0,,V1:5 / V2:3,,,,电子两版冲突,V1、V2,W29,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P13:Function,P13,专家／项目相关人员,Q14,Function,功能需求,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,X29,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P13:Satisfaction,P13,专家／项目相关人员,Q15,Satisfaction,整体满意度,,,5,3.0,,V1:5 / V2:3,,,,电子两版冲突,V1、V2,Y29,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P13:VRInterface,P13,专家／项目相关人员,Q16,VRInterface,界面易用性,,,5,3.0,,V1:5 / V2:3,,,,电子两版冲突,V1、V2,Z29,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P13:Discomfort,P13,专家／项目相关人员,Q17,Discomfort,身体不适,,,1,4.0,,V1:1 / V2:4,,,,电子两版冲突,V1、V2,AA29,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P13:SpatialUnderstand,P13,专家／项目相关人员,Q18,SpatialUnderstand,复杂空间关系理解,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,AB29,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P13:IterationEfficiency,P13,专家／项目相关人员,Q19,IterationEfficiency,迭代效率,,,,3.0,,3（归档单源）,3.0,,,归档单源,V2,,V1无Q19；此值仅来自V2的同一编号记录，未核对专家纸质原答。
+P13:CreativeFreedom,P13,专家／项目相关人员,Q20,CreativeFreedom,创作自由度,,,5,3.0,,V1:5 / V2:3,,,,电子两版冲突,V1、V2,AC29,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P14:Reference_Scale,P14,专家／项目相关人员,Q7 built,Reference_Scale,尺度·参考场景,,,4,4.0,,4,4,,,电子两版一致,V1、V2,H30,同一顺序两版数值一致，但尚无专家中文原答核验。
+P14:Video_Scale,P14,专家／项目相关人员,Q7 video,Video_Scale,尺度·视频,,,3,3.0,,3,3,,,电子两版一致,V1、V2,I30,同一顺序两版数值一致，但尚无专家中文原答核验。
+P14:Drawings_Scale,P14,专家／项目相关人员,Q7 drawings,Drawings_Scale,尺度·图纸,,,4,4.0,,4,4,,,电子两版一致,V1、V2,J30,同一顺序两版数值一致，但尚无专家中文原答核验。
+P14:VRSpace_Scale,P14,专家／项目相关人员,Q7 VR,VRSpace_Scale,尺度·VR,,,4,4.0,,4,4,,,电子两版一致,V1、V2,K30,同一顺序两版数值一致，但尚无专家中文原答核验。
+P14:Reference_Struct,P14,专家／项目相关人员,Q8 built,Reference_Struct,结构·参考场景,,,5,5.0,,5,5,,,电子两版一致,V1、V2,L30,同一顺序两版数值一致，但尚无专家中文原答核验。
+P14:Video_Struct,P14,专家／项目相关人员,Q8 video,Video_Struct,结构·视频,,,3,3.0,,3,3,,,电子两版一致,V1、V2,M30,同一顺序两版数值一致，但尚无专家中文原答核验。
+P14:Drawings_Struct,P14,专家／项目相关人员,Q8 drawings,Drawings_Struct,结构·图纸,,,4,4.0,,4,4,,,电子两版一致,V1、V2,N30,同一顺序两版数值一致，但尚无专家中文原答核验。
+P14:VRSpace_Struct,P14,专家／项目相关人员,Q8 VR,VRSpace_Struct,结构·VR,,,4,4.0,,4,4,,,电子两版一致,V1、V2,O30,同一顺序两版数值一致，但尚无专家中文原答核验。
+P14:Reference_Presence,P14,专家／项目相关人员,Q9 built,Reference_Presence,临场感·参考场景,,,5,5.0,,5,5,,,电子两版一致,V1、V2,P30,同一顺序两版数值一致，但尚无专家中文原答核验。
+P14:Video_Presence,P14,专家／项目相关人员,Q9 video,Video_Presence,临场感·视频,,,3,3.0,,3,3,,,电子两版一致,V1、V2,Q30,同一顺序两版数值一致，但尚无专家中文原答核验。
+P14:Drawings_Presence,P14,专家／项目相关人员,Q9 drawings,Drawings_Presence,临场感·图纸,,,4,4.0,,4,4,,,电子两版一致,V1、V2,R30,同一顺序两版数值一致，但尚无专家中文原答核验。
+P14:VRSpace_Presence,P14,专家／项目相关人员,Q9 VR,VRSpace_Presence,临场感·VR,,,4,4.0,,4,4,,,电子两版一致,V1、V2,S30,同一顺序两版数值一致，但尚无专家中文原答核验。
+P14:Circulation,P14,专家／项目相关人员,Q10,Circulation,路径合理性,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,T30,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P14:Display,P14,专家／项目相关人员,Q11,Display,展示功能,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,U30,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P14:Distinctiveness,P14,专家／项目相关人员,Q12,Distinctiveness,空间辨识度,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,V30,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P14:Comfort,P14,专家／项目相关人员,Q13,Comfort,空间舒适度,,,5,3.0,,V1:5 / V2:3,,,,电子两版冲突,V1、V2,W30,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P14:Function,P14,专家／项目相关人员,Q14,Function,功能需求,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,X30,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P14:Satisfaction,P14,专家／项目相关人员,Q15,Satisfaction,整体满意度,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,Y30,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P14:VRInterface,P14,专家／项目相关人员,Q16,VRInterface,界面易用性,,,5,3.0,,V1:5 / V2:3,,,,电子两版冲突,V1、V2,Z30,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P14:Discomfort,P14,专家／项目相关人员,Q17,Discomfort,身体不适,,,2,3.0,,V1:2 / V2:3,,,,电子两版冲突,V1、V2,AA30,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P14:SpatialUnderstand,P14,专家／项目相关人员,Q18,SpatialUnderstand,复杂空间关系理解,,,5,3.0,,V1:5 / V2:3,,,,电子两版冲突,V1、V2,AB30,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P14:IterationEfficiency,P14,专家／项目相关人员,Q19,IterationEfficiency,迭代效率,,,,4.0,,4（归档单源）,4.0,,,归档单源,V2,,V1无Q19；此值仅来自V2的同一编号记录，未核对专家纸质原答。
+P14:CreativeFreedom,P14,专家／项目相关人员,Q20,CreativeFreedom,创作自由度,,,5,3.0,,V1:5 / V2:3,,,,电子两版冲突,V1、V2,AC30,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P15:Reference_Scale,P15,专家／项目相关人员,Q7 built,Reference_Scale,尺度·参考场景,,,5,5.0,,5,5,,,电子两版一致,V1、V2,H31,同一顺序两版数值一致，但尚无专家中文原答核验。
+P15:Video_Scale,P15,专家／项目相关人员,Q7 video,Video_Scale,尺度·视频,,,3,3.0,,3,3,,,电子两版一致,V1、V2,I31,同一顺序两版数值一致，但尚无专家中文原答核验。
+P15:Drawings_Scale,P15,专家／项目相关人员,Q7 drawings,Drawings_Scale,尺度·图纸,,,4,4.0,,4,4,,,电子两版一致,V1、V2,J31,同一顺序两版数值一致，但尚无专家中文原答核验。
+P15:VRSpace_Scale,P15,专家／项目相关人员,Q7 VR,VRSpace_Scale,尺度·VR,,,4,4.0,,4,4,,,电子两版一致,V1、V2,K31,同一顺序两版数值一致，但尚无专家中文原答核验。
+P15:Reference_Struct,P15,专家／项目相关人员,Q8 built,Reference_Struct,结构·参考场景,,,5,5.0,,5,5,,,电子两版一致,V1、V2,L31,同一顺序两版数值一致，但尚无专家中文原答核验。
+P15:Video_Struct,P15,专家／项目相关人员,Q8 video,Video_Struct,结构·视频,,,3,3.0,,3,3,,,电子两版一致,V1、V2,M31,同一顺序两版数值一致，但尚无专家中文原答核验。
+P15:Drawings_Struct,P15,专家／项目相关人员,Q8 drawings,Drawings_Struct,结构·图纸,,,4,4.0,,4,4,,,电子两版一致,V1、V2,N31,同一顺序两版数值一致，但尚无专家中文原答核验。
+P15:VRSpace_Struct,P15,专家／项目相关人员,Q8 VR,VRSpace_Struct,结构·VR,,,4,4.0,,4,4,,,电子两版一致,V1、V2,O31,同一顺序两版数值一致，但尚无专家中文原答核验。
+P15:Reference_Presence,P15,专家／项目相关人员,Q9 built,Reference_Presence,临场感·参考场景,,,5,5.0,,5,5,,,电子两版一致,V1、V2,P31,同一顺序两版数值一致，但尚无专家中文原答核验。
+P15:Video_Presence,P15,专家／项目相关人员,Q9 video,Video_Presence,临场感·视频,,,4,4.0,,4,4,,,电子两版一致,V1、V2,Q31,同一顺序两版数值一致，但尚无专家中文原答核验。
+P15:Drawings_Presence,P15,专家／项目相关人员,Q9 drawings,Drawings_Presence,临场感·图纸,,,3,3.0,,3,3,,,电子两版一致,V1、V2,R31,同一顺序两版数值一致，但尚无专家中文原答核验。
+P15:VRSpace_Presence,P15,专家／项目相关人员,Q9 VR,VRSpace_Presence,临场感·VR,,,4,4.0,,4,4,,,电子两版一致,V1、V2,S31,同一顺序两版数值一致，但尚无专家中文原答核验。
+P15:Circulation,P15,专家／项目相关人员,Q10,Circulation,路径合理性,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,T31,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P15:Display,P15,专家／项目相关人员,Q11,Display,展示功能,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,U31,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P15:Distinctiveness,P15,专家／项目相关人员,Q12,Distinctiveness,空间辨识度,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,V31,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P15:Comfort,P15,专家／项目相关人员,Q13,Comfort,空间舒适度,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,W31,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P15:Function,P15,专家／项目相关人员,Q14,Function,功能需求,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,X31,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P15:Satisfaction,P15,专家／项目相关人员,Q15,Satisfaction,整体满意度,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,Y31,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P15:VRInterface,P15,专家／项目相关人员,Q16,VRInterface,界面易用性,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,Z31,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P15:Discomfort,P15,专家／项目相关人员,Q17,Discomfort,身体不适,,,1,2.0,,V1:1 / V2:2,,,,电子两版冲突,V1、V2,AA31,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P15:SpatialUnderstand,P15,专家／项目相关人员,Q18,SpatialUnderstand,复杂空间关系理解,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,AB31,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。
+P15:IterationEfficiency,P15,专家／项目相关人员,Q19,IterationEfficiency,迭代效率,,,,4.0,,4（归档单源）,4.0,,,归档单源,V2,,V1无Q19；此值仅来自V2的同一编号记录，未核对专家纸质原答。
+P15:CreativeFreedom,P15,专家／项目相关人员,Q20,CreativeFreedom,创作自由度,,,5,4.0,,V1:5 / V2:4,,,,电子两版冲突,V1、V2,AC31,2026-11-06用户已无法回忆版本来源；不择取单值。V3的20人未建立逐人映射。

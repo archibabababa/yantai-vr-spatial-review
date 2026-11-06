@@ -1,0 +1,30 @@
+{
+  "checks": [
+    {
+      "file": "Questionnaire descriptive results.csv",
+      "rows": 23,
+      "matches_supplied": true
+    },
+    {
+      "file": "Spatial metric results.csv",
+      "rows": 9,
+      "matches_supplied": true
+    },
+    {
+      "file": "Axial correlations.csv",
+      "rows": 4,
+      "matches_supplied": true
+    }
+  ],
+  "input_sha256": {
+    "Axial correlations.csv": "b5b8d1e951f6ee5918c5113445757cefc46b6b2b89d7457a57de51fe256cd805",
+    "Questionnaire descriptive results.csv": "209e739d9bba134b358a3916810ed7c667a5055f584ff9bfacc4585abec6c95b",
+    "Questionnaire rating provenance.csv": "8b1573da2f5e78cd5bee25db87a59fcc1fb000f42871486b0a1e2b61f22c7e66",
+    "Spatial metric results.csv": "b5effd122c5e3e130fd4548c47e4bd6d969022bbc0977c0c46c58c2137cd4324",
+    "Student open-response summaries.csv": "da202810efcdc847255305f5f278d964640d803d07255ade9e18b2419c4fd025",
+    "VGA Map 1.csv": "99d89e246e928f3637b3b410c3739e13e4e23227899e0f6d86c20549a193c99b",
+    "VGA Map 3.csv": "f1d5ec066e036a20f8a2b4d2a5ea330f293f2f8cd2cd75ced0edfa78faa2c11a",
+    "zx1.csv": "b07363023ffaab747ef0918a01705b03dfb4534127965b3b460a30a5af34258d",
+    "zx2.csv": "1a00257944ccb77d104e094f784abc0b4e8a98ac787225a7e8e3715e91b79474"
+  }
+}

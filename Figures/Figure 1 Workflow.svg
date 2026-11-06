@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="590.112pt" height="191.591103pt" viewBox="0 0 590.112 191.591103" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-06T14:20:40.212273</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 191.591103 
+L 590.112 191.591103 
+L 590.112 -0 
+L 0 -0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 6.917184 125.712 
+L 142.886304 125.712 
+L 142.886304 17.7552 
+L 6.917184 17.7552 
+z
+" clip-path="url(#p0eeded2e5a)" style="fill: #f0f3f5; stroke: #56626a; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 152.722368 125.712 
+L 288.691488 125.712 
+L 288.691488 17.7552 
+L 152.722368 17.7552 
+z
+" clip-path="url(#p0eeded2e5a)" style="fill: #f0f3f5; stroke: #56626a; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 298.527552 125.712 
+L 434.496672 125.712 
+L 434.496672 17.7552 
+L 298.527552 17.7552 
+z
+" clip-path="url(#p0eeded2e5a)" style="fill: #f0f3f5; stroke: #56626a; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 444.332736 125.712 
+L 580.301856 125.712 
+L 580.301856 17.7552 
+L 444.332736 17.7552 
+z
+" clip-path="url(#p0eeded2e5a)" style="fill: #f0f3f5; stroke: #56626a; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 9.3px; font-family: 'Times New Roman'; text-anchor: start" x="12.703104" y="39.047589" transform="rotate(-0 12.703104 39.047589)">1  Use feedback</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 8.5px; font-family: 'Times New Roman'" transform="translate(12.703104 69.750141)">Management, staff</text>
+    <text style="font-size: 8.5px; font-family: 'Times New Roman'" transform="translate(12.703104 82.977602)">and visitors</text>
+    <text style="font-size: 8.5px; font-family: 'Times New Roman'" transform="translate(12.703104 94.483813)">Circulation, scale, viewing</text>
+   </g>
+   <g id="patch_6">
+    <path d="M 144.882277 77.7312 
+Q 147.223579 77.7312 148.446846 77.7312 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 144.446846 75.7312 
+L 148.446846 77.7312 
+L 144.446846 79.7312 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 9.3px; font-family: 'Times New Roman'; text-anchor: start" x="158.508288" y="39.052856" transform="rotate(-0 158.508288 39.052856)">2  Model and edit</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 8.5px; font-family: 'Times New Roman'" transform="translate(158.508288 69.754125)">Design team</text>
+    <text style="font-size: 8.5px; font-family: 'Times New Roman'" transform="translate(158.508288 82.118969)">Interactive Unity model</text>
+    <text style="font-size: 8.5px; font-family: 'Times New Roman'" transform="translate(158.508288 95.336469)">Controller transformations</text>
+   </g>
+   <g id="patch_7">
+    <path d="M 290.687461 77.7312 
+Q 293.028763 77.7312 294.25203 77.7312 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 290.25203 75.7312 
+L 294.25203 77.7312 
+L 290.25203 79.7312 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 9.3px; font-family: 'Times New Roman'; text-anchor: start" x="304.313472" y="39.052856" transform="rotate(-0 304.313472 39.052856)">3  Analyse configuration</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 8.5px; font-family: 'Times New Roman'" transform="translate(304.313472 70.612758)">Researcher</text>
+    <text style="font-size: 8.5px; font-family: 'Times New Roman'" transform="translate(304.313472 82.118969)">Separate Depthmap analysis</text>
+    <text style="font-size: 8.5px; font-family: 'Times New Roman'" transform="translate(304.313472 94.485805)">Original / adjusted states</text>
+   </g>
+   <g id="patch_8">
+    <path d="M 436.492645 77.7312 
+Q 438.833947 77.7312 440.057214 77.7312 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 436.057214 75.7312 
+L 440.057214 77.7312 
+L 436.057214 79.7312 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 9.3px; font-family: 'Times New Roman'; text-anchor: start" x="450.118656" y="39.052856" transform="rotate(-0 450.118656 39.052856)">4  Evaluate alternative</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 8.5px; font-family: 'Times New Roman'" transform="translate(450.118656 70.612758)">15 students +</text>
+    <text style="font-size: 8.5px; font-family: 'Times New Roman'" transform="translate(450.118656 82.120961)">15 project stakeholders</text>
+    <text style="font-size: 8.5px; font-family: 'Times New Roman'" transform="translate(450.118656 95.336469)">Scheme and tool feedback</text>
+   </g>
+   <g id="patch_9">
+    <path d="M 367.38 128.310242 
+L 367.38 149.733164 
+L 220.996224 149.733164 
+L 220.996224 129.316472 
+" style="fill: none; stroke: #000000; stroke-width: 0.9; stroke-linecap: round"/>
+    <path d="M 218.996224 133.316472 
+L 220.996224 129.316472 
+L 222.996224 133.316472 
+" style="fill: none; stroke: #000000; stroke-width: 0.9; stroke-linecap: round"/>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 8.5px; font-family: 'Times New Roman'; text-anchor: middle" x="295.056" y="166.49568" transform="rotate(-0 295.056 166.49568)">Manual interpretation and further design revision</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 9px; font-family: 'Times New Roman'; text-anchor: middle" x="295.056" y="183.88872" transform="rotate(-0 295.056 183.88872)">One project-level alternative precedes participant evaluation</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p0eeded2e5a">
+   <rect x="5.76" y="5.76" width="578.592" height="179.928"/>
+  </clipPath>
+ </defs>
+</svg>

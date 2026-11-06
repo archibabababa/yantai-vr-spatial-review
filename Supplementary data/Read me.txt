@@ -1,0 +1,40 @@
+Yantai VR spatial configuration review — supplementary materials
+
+This package supports the revised manuscript prepared in November 2026. It preserves the distinctions between paper-derived scores, electronic archives, interval records and unresolved entries for the 30-person cohort.
+
+1. Questionnaire rating provenance.csv
+One row per participant and rating item (30 × 23 = 690 rows). Participant IDs are de-identified. The paper-mark field and source-page field preserve the link to the available private scans. Archive A, Archive B and the older student electronic value remain separate. exact_value is populated only where a defensible point score is available. lower/upper store bounds, not substituted observations. Chinese status labels are retained to avoid mistranslating the reconciliation record:
+纸本可辨 = legible paper score; 笔迹待复核 = handwriting unresolved; 区间记录 = interval only; 纸本越界 = out of range; 电子两版一致 = agreement between two electronic archives; 电子两版冲突 = electronic conflict; 归档单源 = single electronic source. Consult each row's actual status and note; only exact in-range student scores enter the primary analysis.
+
+Student cells: 310 legible point scores; 11 handwriting-unresolved; 23 interval-only; one out-of-range zero. Do not change tick marks into scores of 5. Confirmed high marks mean 4–5 and low marks 1–2. No participant is removed solely for having one missing/uncertain item. Exact-score results use item-specific n. Interval sensitivity adds the confirmed interval record at its lower or upper bound; it does not fill uncertain handwriting or out-of-range entries.
+
+Stakeholder cells: the 180 Q7–Q9 representation cells agree across both electronic archives. Q10–Q20 contain 128 disagreements plus 15 values appearing in one archive only. Those later blocks are not used for principal stakeholder results. Agreement of archives is not independent verification against original paper. Older files containing 35 participants were not used to infer membership of this 30-person cohort.
+
+2. Questionnaire descriptive results.csv
+Student exact-score n, mean, sample SD, median, quartiles, category counts and scores ≥4 are shown with interval-bound means and separate archive summaries. The archive summaries are a sensitivity/provenance aid, not alternative equally valid versions of the main findings. No test of media superiority is reported: drawings/video show the original scheme and VR the adjusted scheme, in a fixed presentation order. Students' reference is photographs/renderings; stakeholders' reference is previous experience of the completed building.
+
+3. Student open-response summaries.csv
+Chinese semantic reading summaries of the 15 traceable student records, linked to scan IDs/pages. These are not verbatim transcripts or an independently validated coding dataset. Any English account in the manuscript is a paraphrase. Original identifying scans remain in the private research archive. Missing stakeholder originals and unclear words are not reconstructed from polished English files.
+
+4. Graph attributes and native files
+VGA Map 3.csv = original; VGA Map 1.csv = adjusted. Grid spacing: 600 drawing units = 0.6 m. Sample counts: 5,320 and 6,334. The sy.graph source contains other trial layers; the 0.4 m trial layer is not used. The exported point keys use the archived global grid origin; the figures align each design's display origin without interpreting that as a physical displacement. Drawing1.dxf contains the plan representations.
+zx2.csv / zx2.graph = original axial map; zx1.csv / zx1.graph = adjusted. Original: 43 lines, one isolated line with zero connectivity and undefined (-1) integration/depth/choice. Adjusted: 39 lines. Negative undefined values are omitted per metric, not replaced with zero. The isolated line remains in the connectivity mean. Results are descriptive properties of one design pair, not independent node-level experiments.
+Intelligibility: Pearson r² between Connectivity and Integration [HH]. Synergy: Pearson r² between Integration [HH] R3 and Integration [HH]. Both use valid pairs. The supplementary recalculation script reproduces means and correlations from the exported attributes, without re-running graph construction. Re-running the native graph analysis requires compatible Depthmap software and the same represented domains; software/version choices should be recorded in a subsequent replication.
+
+5. Technical sources and VR recovery
+The native drawing, graph files and archived C# scripts are included unchanged. The companion VR reproduction directory additionally contains the recovered Unity project, archived Windows build, action bindings, third-party notices, control mapping and reproduction guide. It separates historical software logs from the 6 November 2026 import/scene audit and startup test. The scene compiled and its assigned model targets were recovered; headset interaction remains unverified in the new environment. No missing historical participant or design-action log has been reconstructed. Read Reproduction guide.txt for exact versions, operations and limits.
+
+6. Recalculation
+Run `python Recalculate results.py` inside this directory with Python 3. The standard-library-only script writes a Recalculated directory and checks its output against the supplied summaries. No external software package is required for the tabular recalculation. Images are supplied separately at publication resolution.
+
+7. Access and exclusions
+This release contains de-identified numerical evidence, analytical code and recovered technical materials. No DOI is claimed. Identifying questionnaire scans, participant photographs, private verification logs and the manuscript are excluded from this repository. Historical source conflicts remain explicitly marked.
+
+ADDITIONAL ANALYSES — 6 NOVEMBER 2026
+FULL STUDENT COHORT BOUNDS: Exact legible scores remain fixed. Confirmed interval scores retain their lower and upper limits. Other unresolved scores range from 1 to 5. Each resulting mean has denominator 15. These are arithmetic identification bounds, not observed full-group means, confidence intervals, or imputed records. They examine missing-record uncertainty within this student cohort, not selection or population uncertainty.
+VGA GRAPH SIZE: Mean connectivity divided by N−1 measures the proportion of other sampled graph locations directly visible, averaged over locations. It allows a descriptive size check, not a matched-geometry experiment or a new measure of overall design quality. Both geometry and sampled domain differ.
+The standalone recalculation script verifies both additional CSVs as well as the original summaries.
+
+
+FIGURE REPRODUCTION
+Generate analytical figures.py regenerates Figures 1, 4 and 7–10 from the supplied data and Figure input summaries.json, using Python, NumPy and Matplotlib. The regenerated figures were checked against the numerical summaries. Figure 7 retains its earlier blue-green-yellow-red palette and typography; Figures 9 and 10 use ordered greys. See Figure generation notes.txt for typography and colour semantics. Figure 3 retains the original image content and colours; only outer white margins have been cropped in the manuscript.
