@@ -1,0 +1,7 @@
+﻿group,rating,reference_mean,reference_n,drawings_original_mean,drawings_original_n,video_original_mean,video_original_n,vr_adjusted_mean,vr_adjusted_n
+Students,Spatial scale,4.17,12,3.77,13,4.08,13,4.08,13
+Students,Spatial structure,4.00,13,3.79,14,3.77,13,3.86,14
+Students,Presence,3.93,14,3.43,14,3.86,14,4.08,13
+Project stakeholders,Spatial scale,4.67,15,3.33,15,3.47,15,4.33,15
+Project stakeholders,Spatial structure,4.73,15,3.73,15,3.00,15,3.80,15
+Project stakeholders,Presence,4.93,15,2.87,15,3.40,15,3.60,15

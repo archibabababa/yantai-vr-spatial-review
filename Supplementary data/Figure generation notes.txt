@@ -7,3 +7,5 @@ The input summaries are the already-reconciled questionnaire results. Validate t
 Continuous metric colours retain the original blue-green-yellow-red palette (turbo) and common limits within each original/adjusted pair. Larger depth is not automatically better; legend values, rather than colour preference, govern interpretation. Ordered Likert greys code scores consistently, including discomfort where a high score indicates a worse experience. Scatterplot fits describe graph relationships and do not imply independent experimental replication.
 
 Figure 3 Original conceptual map.jpg preserves the source; the manuscript uses a copy cropped only at the outside white margins. No interior text, geometry or colour is altered. Its source labels describe the conceptual operation map. The retained implementation uses vertical scaling for the height control; it is not a separate tilt function.
+
+Figure 7 uses a common spatial scale and a shared colour bar for each row, with spacing between the plan panels and the scale bars. Figure 8 uses outlined grey circles for axial lines and dashed black lines for within-map fits.

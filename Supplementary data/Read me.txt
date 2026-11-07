@@ -38,3 +38,8 @@ The standalone recalculation script verifies both additional CSVs as well as the
 
 FIGURE REPRODUCTION
 Generate analytical figures.py regenerates Figures 1, 4 and 7–10 from the supplied data and Figure input summaries.json, using Python, NumPy and Matplotlib. The regenerated figures were checked against the numerical summaries. Figure 7 retains its earlier blue-green-yellow-red palette and typography; Figures 9 and 10 use ordered greys. See Figure generation notes.txt for typography and colour semantics. Figure 3 retains the original image content and colours; only outer white margins have been cropped in the manuscript.
+
+
+Representation ratings by group.csv reproduces Table 4 with means and item-specific counts. Both groups rated spatial scale, spatial structure and presence. Drawings and video showed the original scheme, followed by VR showing the adjusted scheme. The reference condition was photographs and renderings for students and prior experience of the building for stakeholders. Values describe the conditions as presented.
+
+Stakeholder open-response examples.txt contains the paraphrases used alongside student comments in Section 5.4. They come from English translations or summaries of the Chinese responses. Student and stakeholder scheme/tool scores are handled as specified above.

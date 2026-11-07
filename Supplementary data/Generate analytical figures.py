@@ -82,15 +82,19 @@ save(fig,'Figure 4 Plan comparison')
 
 # Identical colour scales within each metric; coordinate frame aligned only for display.
 plt.rcParams.update({'font.family':'DejaVu Sans','font.size':9,'svg.fonttype':'path'})
-fig,axs=plt.subplots(2,2,figsize=(8.2,8.0),layout='constrained')
+fig=plt.figure(figsize=(8.6,8.35))
+grid=fig.add_gridspec(2,3,width_ratios=[1,1,.045],left=.025,right=.935,bottom=.045,top=.955,wspace=.20,hspace=.26)
+axs=np.array([[fig.add_subplot(grid[i,j]) for j in range(2)] for i in range(2)])
 for row,(col,title) in enumerate([('Visual Integration [HH]','Visual integration HH'),('Visual Mean Depth','Visual mean depth')]):
  vals=[np.array([float(r[col]) for r in m['rows']]) for m in maps];lo=min(a.min() for a in vals);hi=max(a.max() for a in vals)
  for j,(m,a) in enumerate(zip(maps,vals)):
   ax=axs[row,j];x=m['x']-m['xmin'];y=m['y']-m['ymin'];xx=np.rint(x/.6).astype(int);yy=np.rint(y/.6).astype(int);arr=np.full((max(yy)+1,max(xx)+1),np.nan);arr[yy,xx]=a
   im=ax.imshow(arr,origin='lower',extent=(-.3,max(x)+.3,-.3,max(y)+.3),cmap='turbo',vmin=lo,vmax=hi,interpolation='none')
-  ax.set(xlim=(-2,68),ylim=(-2,69),aspect='equal');ax.axis('off');ax.set_title(f"({'abcd'[row*2+j]}) {'Original' if j==0 else 'Adjusted'} | {title}",fontsize=9,loc='left')
-  ax.plot([2,22],[0,0],color='black',lw=1);ax.text(12,-1.8,'20 m',fontsize=7,ha='center')
- cb=fig.colorbar(im,ax=axs[row,:],shrink=.75,pad=.01);cb.ax.tick_params(labelsize=8)
+  ax.set(xlim=(-2,68),ylim=(-6,69),aspect='equal');ax.axis('off');ax.set_title(f"({'abcd'[row*2+j]}) {'Original' if j==0 else 'Adjusted'} | {title}",fontsize=9,loc='left')
+  ax.plot([2,22],[-2.0,-2.0],color='black',lw=1);ax.text(12,-4.7,'20 m',fontsize=8,ha='center')
+ cax=fig.add_subplot(grid[row,2])
+ pos=cax.get_position();cax.set_position([pos.x0,pos.y0+pos.height*.13,pos.width,pos.height*.74])
+ cb=fig.colorbar(im,cax=cax);cb.ax.tick_params(labelsize=8)
 save(fig,'Figure 7 Visibility analysis')
 plt.rcParams.update({'font.family':'Times New Roman','font.size':10,'svg.fonttype':'none'})
 
@@ -100,7 +104,7 @@ for j,(name,title) in enumerate([('zx2','Original'),('zx1','Adjusted')]):
  for i,(label,col) in enumerate([('Intelligibility','Connectivity'),('Synergy','Integration [HH] R3')]):
   a=np.array([(float(r[col]),float(r['Integration [HH]'])) for r in rows if float(r[col])>=0 and float(r['Integration [HH]'])>=0]);ax=axs[i,j]
   fit=np.polyfit(a[:,0],a[:,1],1);r2=np.corrcoef(a[:,0],a[:,1])[0,1]**2
-  ax.scatter(*a.T,s=16,color='#335c81',alpha=.8);xs=np.array([0,12]) if i==0 else np.array([0,3.1]);ax.plot(xs,np.polyval(fit,xs),c='#b87c4c',lw=1)
+  ax.scatter(*a.T,s=18,facecolors='#cccccc',edgecolors='#282828',linewidths=.55,zorder=3);xs=np.array([0,12]) if i==0 else np.array([0,3.1]);ax.plot(xs,np.polyval(fit,xs),c='#151515',lw=1.15,ls='--',zorder=2)
   ax.set(xlabel='Connectivity' if i==0 else 'Local integration HH (R3)',ylabel='Global integration HH',xlim=(0,12) if i==0 else (0,3.1),ylim=(.4,2.8));ax.set_title(f"({'abcd'[i*2+j]}) {title} | {label}",loc='left',fontsize=9)
   ax.text(.04,.93,f'n = {len(a)}; R² = {r2:.3f}',transform=ax.transAxes,va='top',fontsize=8);ax.grid(alpha=.15)
 save(fig,'Figure 8 Axial correlations')
@@ -115,7 +119,7 @@ for keys,num,title in [(['Circulation','Display','Distinctiveness','Comfort','Fu
    if nn:ax.text(left[j]+nn/2,j,str(nn),ha='center',va='center',fontsize=8,color='white' if i in [3,4] else 'black')
   left+=v
  for j,d in enumerate(data):ax.text(left[j]+.25,j,'n = '+str(d['student']['n']),fontsize=8,va='center')
- ax.set_yticks(ys,[labels[k] for k in keys]);ax.invert_yaxis();ax.set(xlim=(0,16),xlabel='Number of legible student ratings');ax.set_xticks([0,2,4,6,8,10,12,14]);ax.legend(title='Score',ncol=5,loc='lower center',bbox_to_anchor=(.5,1.0),frameon=False,handlelength=1.4);ax.spines[['left','right','top']].set_visible(False);ax.tick_params(axis='y',length=0)
+ ax.set_yticks(ys,[labels[k] for k in keys]);ax.invert_yaxis();ax.set(xlim=(0,16),xlabel='Number of responses');ax.set_xticks([0,2,4,6,8,10,12,14]);ax.legend(title='Score',ncol=5,loc='lower center',bbox_to_anchor=(.5,1.0),frameon=False,handlelength=1.4);ax.spines[['left','right','top']].set_visible(False);ax.tick_params(axis='y',length=0)
  fig.tight_layout();save(fig,f'Figure {num} {title}')
 
 

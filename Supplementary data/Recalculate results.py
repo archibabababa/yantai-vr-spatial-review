@@ -91,3 +91,23 @@ for name,rows in [('Full student cohort sensitivity bounds.csv',full),('VGA grap
 report['checks']=checks
 (O/'Recalculation checks.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
 print(json.dumps(checks[-2:],indent=2))
+
+# Descriptive display of the twelve representation items for each group (Table 4).
+def representation_table():
+    rows = []
+    for group in ['Students', 'Project stakeholders']:
+        for label, suffix in [('Spatial scale', 'Scale'), ('Spatial structure', 'Struct'), ('Presence', 'Presence')]:
+            row = {'group': group, 'rating': label}
+            for column, prefix in [('reference', 'Reference'), ('drawings_original', 'Drawings'), ('video_original', 'Video'), ('vr_adjusted', 'VRSpace')]:
+                records = [r for r in ledger if r['variable'] == prefix + '_' + suffix and (r['group'] == '学生') == (group == 'Students')]
+                if group == 'Project stakeholders':
+                    assert all(valid(number(r['archive_A'])) and number(r['archive_A']) == number(r['archive_B']) for r in records)
+                field = 'exact_value' if group == 'Students' else 'archive_A'
+                scores = [number(r[field]) for r in records if valid(number(r[field]))]
+                row[column + '_mean'] = format(st.mean(scores), '.2f')
+                row[column + '_n'] = len(scores)
+            rows.append(row)
+    return rows
+
+display_rows = representation_table()
+write('Representation ratings by group.csv', display_rows)

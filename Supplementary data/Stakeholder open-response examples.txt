@@ -1,0 +1,9 @@
+Selected project stakeholder responses used in Section 5.4
+
+The questionnaire was administered in Chinese. These brief paraphrases refer to translated or summarised responses preserved in the electronic record for Q21–Q23. The identifiers correspond to the stakeholder group. Entries illustrate comments and do not represent theme frequencies.
+
+P01, Q21 and Q22. The entrance scale was easier to judge from within the model. The control scheme took time to learn.
+P03, Q21. The immersive view drew attention to spatial relationships in the entrance area.
+P02, Q22. The respondent described dizziness during use.
+P05, Q22. The weight of the headset became uncomfortable during longer use.
+P08, Q22 and Q23. The respondent wanted to take precise measurements in VR and requested measurement and annotation tools.
