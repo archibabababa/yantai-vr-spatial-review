@@ -134,8 +134,8 @@ for i,m in enumerate(maps):
     positions.append([corresponding_anteroom(adjusted_review) if i==0 else adjusted_review,
                       tread_run_centre(flight,m),tread_run_centre(broad,m)])
 
-fig = plt.figure(figsize=(6.30, 3.55))
-axes = [fig.add_axes([.012, .120, .478, .813]), fig.add_axes([.511, .120, .478, .813])]
+fig = plt.figure(figsize=(6.30, 4.10))
+axes = [fig.add_axes([.012, .267, .478, .700]), fig.add_axes([.511, .267, .478, .700])]
 panel_titles = ['(a) Original plan', '(b) Adjusted plan']
 
 for index, (ax, m, title) in enumerate(zip(axes, maps, panel_titles)):
@@ -159,15 +159,30 @@ for index, (ax, m, title) in enumerate(zip(axes, maps, panel_titles)):
         ax.annotate(str(j),xy=(xm,ym),xytext=(0,0),textcoords='offset points',va='center',ha='center',
                     color='white',weight='bold',fontsize=7.1,zorder=7)
 
-legend = fig.add_axes([.012, .005, .976, .073])
-legend.set(xlim=(0,6.15), ylim=(0,1))
-legend.axis('off')
-for x, numeral, text_label in [(.09,'1','Anteroom review area'),(1.61,'2','Ascending approach stair'),
-                               (4.11,'3','Triangular broad steps')]:
-    legend.scatter([x],[.50],s=80,marker='o',c='black',lw=0)
-    legend.text(x,.50,numeral,ha='center',va='center',color='white',weight='bold',fontsize=7.9)
-    legend.text(x+.15,.50,text_label,ha='left',va='center',fontsize=9.4)
+# Figure 4 reports whole-map attributes at positions close to each numbered landmark.
+with (G / 'Landmark visibility.csv').open(encoding='utf-8-sig', newline='') as f:
+    central = {(r['design'], int(r['marker'])): r for r in csv.DictReader(f)
+               if float(r['radius_m']) == 1.2}
+panel = fig.add_axes([.025, .005, .95, .228])
+panel.set(xlim=(0, 1), ylim=(0, 1))
+panel.axis('off')
+panel.text(.008, .90, 'Landmark', weight='bold', fontsize=9.8)
+panel.text(.556, .90, 'Longest sightline (m)', ha='center', weight='bold', fontsize=9.8)
+panel.text(.875, .90, 'Visual clustering', ha='center', weight='bold', fontsize=9.8)
+panel.plot([0, 1], [.78, .78], color='.27', lw=.65)
+for marker, (label, y) in enumerate(zip(
+        ['Anteroom review area', 'Ascending approach stair', 'Triangular broad steps'],
+        [.61, .35, .09]), 1):
+    panel.scatter([.021], [y], s=68, color='black')
+    panel.text(.021, y, str(marker), ha='center', va='center', color='white', weight='bold', fontsize=7.3)
+    panel.text(.048, y, label, va='center', fontsize=9.4)
+    original, adjusted = (central[d, marker] for d in ('Original', 'Adjusted'))
+    for x, key, places in [(.556, 'median_longest_sightline_m', 1),
+                           (.875, 'median_visual_clustering', 3)]:
+        pair = [format(float(row[key]), f'.{places}f') for row in (original, adjusted)]
+        panel.text(x, y, ' → '.join(pair), ha='center', va='center', fontsize=9.5)
 save(fig, 'Figure 4 Plan comparison')
+
 
 # Identical colour scales within each metric; coordinate frame aligned only for display.
 plt.rcParams.update({'font.family':'DejaVu Sans','font.size':9,'svg.fonttype':'path'})
