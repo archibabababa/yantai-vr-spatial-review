@@ -1,0 +1,28 @@
+group,people,structure,presence,count_min,count_max
+Students,15,drawings higher,drawings higher,2,3
+Students,15,drawings higher,tie,1,1
+Students,15,drawings higher,clips higher,0,1
+Students,15,tie,drawings higher,0,1
+Students,15,tie,tie,3,3
+Students,15,tie,clips higher,3,4
+Students,15,clips higher,drawings higher,0,1
+Students,15,clips higher,tie,0,0
+Students,15,clips higher,clips higher,4,5
+Experts,15,drawings higher,drawings higher,2,2
+Experts,15,drawings higher,tie,3,3
+Experts,15,drawings higher,clips higher,4,4
+Experts,15,tie,drawings higher,0,0
+Experts,15,tie,tie,3,3
+Experts,15,tie,clips higher,3,3
+Experts,15,clips higher,drawings higher,0,0
+Experts,15,clips higher,tie,0,0
+Experts,15,clips higher,clips higher,0,0
+Combined,30,drawings higher,drawings higher,4,5
+Combined,30,drawings higher,tie,4,4
+Combined,30,drawings higher,clips higher,4,5
+Combined,30,tie,drawings higher,0,1
+Combined,30,tie,tie,6,6
+Combined,30,tie,clips higher,6,7
+Combined,30,clips higher,drawings higher,0,1
+Combined,30,clips higher,tie,0,0
+Combined,30,clips higher,clips higher,4,5
