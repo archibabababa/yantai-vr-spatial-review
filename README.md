@@ -4,6 +4,8 @@ Research materials for *Spatial configuration review using virtual reality and s
 
 The participant study includes 15 architecture students and 15 anonymous architectural experts. The repository contains anonymous ratings, descriptive summaries, CAD plans, graph attributes, analytical figures, the VR prototype and instructions for reproducing the paper’s analyses.
 
+Both groups contribute to the representation comparisons. The reported scheme and tool outcomes use the student responses, with both groups reported for perceived iteration efficiency (Q19).
+
 ## Reproduction
 
 From **Supplementary data**, run **paper_ratings.py** for Tables 4–6, **Spatial measurements.py** for the geometric and graph comparisons, and **Generate analytical figures.py** for Figures 1, 4 and 7–10. The figure script requires NumPy and Matplotlib. The other two scripts use the Python standard library. See **Read me.txt** for definitions, denominators and study conditions.
