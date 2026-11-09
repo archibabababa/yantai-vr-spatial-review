@@ -1,0 +1,4 @@
+group,participants,basis,both_high_lower,both_high_upper
+Students,15,Within-person thresholds,10,10
+Experts,15,Within-person thresholds,11,11
+Experts (alternative tabulation),15,Bounds from item totals,15,15

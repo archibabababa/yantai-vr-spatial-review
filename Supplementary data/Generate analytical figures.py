@@ -213,34 +213,24 @@ for j,(name,title) in enumerate([('zx2','Original'),('zx1','Adjusted')]):
   ax.text(.04,.93,f'n = {len(a)}; R² = {r2:.3f}',transform=ax.transAxes,va='top',fontsize=8);ax.grid(alpha=.15)
 save(fig,'Figure 8 Axial correlations')
 
-# Figures 9 and 10. The two expert panels represent the same 15 people.
+# Figures 9 and 10. Same questionnaire, response scale and axis for both groups.
 from paper_ratings import calculate
 from matplotlib.patches import Patch
 
 _, items, _ = calculate(B)
-with (B / 'Expert rating sensitivity by item.csv').open(encoding='utf-8-sig', newline='') as stream:
-    alternative = {int(row['item']): row for row in csv.DictReader(stream)}
-
 palette = ['#f5f5f5', '#d2d2d2', '#a6a6a6', '#666666', '#1d1d1d']
 hatches = [('//', '1–2'), ('xx', '4–5'), ('..', 'Unresolved')]
 labels = ['Circulation', 'Display function', 'Spatial distinctiveness', 'Spatial comfort',
           'Functional requirements', 'Overall satisfaction', 'Interface ease', 'Physical discomfort',
           'Spatial understanding', 'Iteration efficiency', 'Creative freedom']
 for number, title, selection in [(9, 'Adjusted scheme', items[:6]), (10, 'Tool experience', items[6:])]:
-    fig, axes = plt.subplots(1, 3, figsize=(8.5, 3.15), sharey=True)
+    fig, axes = plt.subplots(1, 2, figsize=(8.5, 3.15), sharey=True)
     fig.subplots_adjust(left=.205, right=.989, top=.75, bottom=.17, wspace=.12)
-    for ax, group, heading in zip(axes, ['Students', 'Experts', 'Sensitivity'],
-                                  ['Students', 'Experts', 'Experts · sensitivity']):
+    for ax, group, heading in zip(axes, ['Students', 'Experts'],
+                                  ['Architecture students (n = 15)', 'Architectural experts (n = 15)']):
         for y, row in enumerate(selection):
-            item = row['item']
-            if group == 'Sensitivity' and alternative[item]['distinct_series'] == 'no':
-                ax.text(7.5, y, 'Same Q19 series', ha='center', va='center', fontsize=8)
-                continue
-            if group == 'Sensitivity':
-                counts = [int(alternative[item][f'score{k}']) for k in range(1, 6)] + [0, 0, 0]
-            else:
-                counts = [row[f'{group}_score{k}'] for k in range(1, 6)]
-                counts += [row[f'{group}_{suffix}'] for suffix in ('interval12', 'interval45', 'unknown')]
+            counts = [row[f'{group}_score{k}'] for k in range(1, 6)]
+            counts += [row[f'{group}_{suffix}'] for suffix in ('interval12', 'interval45', 'unknown')]
             assert sum(counts) == 15
             left = 0
             for j, count in enumerate(counts):
@@ -258,7 +248,7 @@ for number, title, selection in [(9, 'Adjusted scheme', items[:6]), (10, 'Tool e
         ax.spines[['left', 'right', 'top']].set_visible(False)
     axes[0].set_yticks(range(len(selection)), [f"Q{r['item']}  {labels[r['item']-10]}" for r in selection], fontsize=8.9)
     axes[0].invert_yaxis()
-    fig.text(.60, .015, 'Number of respondents', ha='center', fontsize=9)
+    fig.text(.60, .015, 'Number of respondents per group', ha='center', fontsize=9)
     handles = [Patch(fc=c, ec='#555555', lw=.5, label=str(j)) for j,c in enumerate(palette, 1)]
     handles += [Patch(fc='white', ec='#555555', lw=.5, hatch=h, label=label) for h,label in hatches]
     fig.legend(handles=handles, loc='upper center', bbox_to_anchor=(.58,1.0), ncol=8,

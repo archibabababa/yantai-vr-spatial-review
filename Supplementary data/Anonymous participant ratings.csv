@@ -357,14 +357,14 @@ P01,Experts,Q9 video,Video_Presence,4,,,point
 P01,Experts,Q9 drawings,Drawings_Presence,2,,,point
 P01,Experts,Q9 VR,VRSpace_Presence,4,,,point
 P01,Experts,Q10,Circulation,4,,,point
-P01,Experts,Q11,Display,5,,,point
+P01,Experts,Q11,Display,4,,,point
 P01,Experts,Q12,Distinctiveness,4,,,point
-P01,Experts,Q13,Comfort,5,,,point
+P01,Experts,Q13,Comfort,4,,,point
 P01,Experts,Q14,Function,4,,,point
 P01,Experts,Q15,Satisfaction,4,,,point
 P01,Experts,Q16,VRInterface,4,,,point
-P01,Experts,Q17,Discomfort,1,,,point
-P01,Experts,Q18,SpatialUnderstand,4,,,point
+P01,Experts,Q17,Discomfort,2,,,point
+P01,Experts,Q18,SpatialUnderstand,5,,,point
 P01,Experts,Q19,IterationEfficiency,4,,,point
 P01,Experts,Q20,CreativeFreedom,4,,,point
 P02,Experts,Q7 built,Reference_Scale,5,,,point
@@ -379,17 +379,17 @@ P02,Experts,Q9 built,Reference_Presence,5,,,point
 P02,Experts,Q9 video,Video_Presence,3,,,point
 P02,Experts,Q9 drawings,Drawings_Presence,3,,,point
 P02,Experts,Q9 VR,VRSpace_Presence,4,,,point
-P02,Experts,Q10,Circulation,5,,,point
-P02,Experts,Q11,Display,5,,,point
-P02,Experts,Q12,Distinctiveness,5,,,point
-P02,Experts,Q13,Comfort,5,,,point
-P02,Experts,Q14,Function,5,,,point
-P02,Experts,Q15,Satisfaction,5,,,point
-P02,Experts,Q16,VRInterface,5,,,point
-P02,Experts,Q17,Discomfort,2,,,point
-P02,Experts,Q18,SpatialUnderstand,5,,,point
+P02,Experts,Q10,Circulation,4,,,point
+P02,Experts,Q11,Display,4,,,point
+P02,Experts,Q12,Distinctiveness,4,,,point
+P02,Experts,Q13,Comfort,4,,,point
+P02,Experts,Q14,Function,4,,,point
+P02,Experts,Q15,Satisfaction,4,,,point
+P02,Experts,Q16,VRInterface,3,,,point
+P02,Experts,Q17,Discomfort,3,,,point
+P02,Experts,Q18,SpatialUnderstand,4,,,point
 P02,Experts,Q19,IterationEfficiency,4,,,point
-P02,Experts,Q20,CreativeFreedom,5,,,point
+P02,Experts,Q20,CreativeFreedom,3,,,point
 P03,Experts,Q7 built,Reference_Scale,5,,,point
 P03,Experts,Q7 video,Video_Scale,4,,,point
 P03,Experts,Q7 drawings,Drawings_Scale,2,,,point
@@ -404,12 +404,12 @@ P03,Experts,Q9 drawings,Drawings_Presence,3,,,point
 P03,Experts,Q9 VR,VRSpace_Presence,2,,,point
 P03,Experts,Q10,Circulation,4,,,point
 P03,Experts,Q11,Display,4,,,point
-P03,Experts,Q12,Distinctiveness,4,,,point
-P03,Experts,Q13,Comfort,4,,,point
+P03,Experts,Q12,Distinctiveness,3,,,point
+P03,Experts,Q13,Comfort,3,,,point
 P03,Experts,Q14,Function,4,,,point
-P03,Experts,Q15,Satisfaction,4,,,point
+P03,Experts,Q15,Satisfaction,3,,,point
 P03,Experts,Q16,VRInterface,4,,,point
-P03,Experts,Q17,Discomfort,1,,,point
+P03,Experts,Q17,Discomfort,3,,,point
 P03,Experts,Q18,SpatialUnderstand,4,,,point
 P03,Experts,Q19,IterationEfficiency,3,,,point
 P03,Experts,Q20,CreativeFreedom,4,,,point
@@ -425,17 +425,17 @@ P04,Experts,Q9 built,Reference_Presence,5,,,point
 P04,Experts,Q9 video,Video_Presence,3,,,point
 P04,Experts,Q9 drawings,Drawings_Presence,3,,,point
 P04,Experts,Q9 VR,VRSpace_Presence,5,,,point
-P04,Experts,Q10,Circulation,5,,,point
-P04,Experts,Q11,Display,5,,,point
-P04,Experts,Q12,Distinctiveness,5,,,point
-P04,Experts,Q13,Comfort,5,,,point
-P04,Experts,Q14,Function,5,,,point
-P04,Experts,Q15,Satisfaction,5,,,point
-P04,Experts,Q16,VRInterface,5,,,point
+P04,Experts,Q10,Circulation,4,,,point
+P04,Experts,Q11,Display,4,,,point
+P04,Experts,Q12,Distinctiveness,4,,,point
+P04,Experts,Q13,Comfort,3,,,point
+P04,Experts,Q14,Function,4,,,point
+P04,Experts,Q15,Satisfaction,4,,,point
+P04,Experts,Q16,VRInterface,3,,,point
 P04,Experts,Q17,Discomfort,2,,,point
-P04,Experts,Q18,SpatialUnderstand,5,,,point
+P04,Experts,Q18,SpatialUnderstand,2,,,point
 P04,Experts,Q19,IterationEfficiency,4,,,point
-P04,Experts,Q20,CreativeFreedom,5,,,point
+P04,Experts,Q20,CreativeFreedom,3,,,point
 P05,Experts,Q7 built,Reference_Scale,4,,,point
 P05,Experts,Q7 video,Video_Scale,4,,,point
 P05,Experts,Q7 drawings,Drawings_Scale,3,,,point
@@ -448,17 +448,17 @@ P05,Experts,Q9 built,Reference_Presence,5,,,point
 P05,Experts,Q9 video,Video_Presence,2,,,point
 P05,Experts,Q9 drawings,Drawings_Presence,3,,,point
 P05,Experts,Q9 VR,VRSpace_Presence,3,,,point
-P05,Experts,Q10,Circulation,4,,,point
-P05,Experts,Q11,Display,4,,,point
-P05,Experts,Q12,Distinctiveness,4,,,point
-P05,Experts,Q13,Comfort,4,,,point
-P05,Experts,Q14,Function,4,,,point
-P05,Experts,Q15,Satisfaction,4,,,point
-P05,Experts,Q16,VRInterface,4,,,point
-P05,Experts,Q17,Discomfort,1,,,point
-P05,Experts,Q18,SpatialUnderstand,4,,,point
+P05,Experts,Q10,Circulation,3,,,point
+P05,Experts,Q11,Display,3,,,point
+P05,Experts,Q12,Distinctiveness,3,,,point
+P05,Experts,Q13,Comfort,3,,,point
+P05,Experts,Q14,Function,2,,,point
+P05,Experts,Q15,Satisfaction,3,,,point
+P05,Experts,Q16,VRInterface,3,,,point
+P05,Experts,Q17,Discomfort,3,,,point
+P05,Experts,Q18,SpatialUnderstand,3,,,point
 P05,Experts,Q19,IterationEfficiency,3,,,point
-P05,Experts,Q20,CreativeFreedom,4,,,point
+P05,Experts,Q20,CreativeFreedom,3,,,point
 P06,Experts,Q7 built,Reference_Scale,5,,,point
 P06,Experts,Q7 video,Video_Scale,3,,,point
 P06,Experts,Q7 drawings,Drawings_Scale,3,,,point
@@ -471,17 +471,17 @@ P06,Experts,Q9 built,Reference_Presence,5,,,point
 P06,Experts,Q9 video,Video_Presence,4,,,point
 P06,Experts,Q9 drawings,Drawings_Presence,2,,,point
 P06,Experts,Q9 VR,VRSpace_Presence,4,,,point
-P06,Experts,Q10,Circulation,5,,,point
-P06,Experts,Q11,Display,5,,,point
-P06,Experts,Q12,Distinctiveness,5,,,point
-P06,Experts,Q13,Comfort,5,,,point
-P06,Experts,Q14,Function,5,,,point
-P06,Experts,Q15,Satisfaction,5,,,point
-P06,Experts,Q16,VRInterface,5,,,point
+P06,Experts,Q10,Circulation,4,,,point
+P06,Experts,Q11,Display,4,,,point
+P06,Experts,Q12,Distinctiveness,3,,,point
+P06,Experts,Q13,Comfort,3,,,point
+P06,Experts,Q14,Function,3,,,point
+P06,Experts,Q15,Satisfaction,4,,,point
+P06,Experts,Q16,VRInterface,4,,,point
 P06,Experts,Q17,Discomfort,2,,,point
-P06,Experts,Q18,SpatialUnderstand,5,,,point
+P06,Experts,Q18,SpatialUnderstand,3,,,point
 P06,Experts,Q19,IterationEfficiency,4,,,point
-P06,Experts,Q20,CreativeFreedom,5,,,point
+P06,Experts,Q20,CreativeFreedom,4,,,point
 P07,Experts,Q7 built,Reference_Scale,5,,,point
 P07,Experts,Q7 video,Video_Scale,4,,,point
 P07,Experts,Q7 drawings,Drawings_Scale,4,,,point
@@ -496,15 +496,15 @@ P07,Experts,Q9 drawings,Drawings_Presence,3,,,point
 P07,Experts,Q9 VR,VRSpace_Presence,4,,,point
 P07,Experts,Q10,Circulation,4,,,point
 P07,Experts,Q11,Display,4,,,point
-P07,Experts,Q12,Distinctiveness,4,,,point
+P07,Experts,Q12,Distinctiveness,3,,,point
 P07,Experts,Q13,Comfort,4,,,point
-P07,Experts,Q14,Function,4,,,point
+P07,Experts,Q14,Function,3,,,point
 P07,Experts,Q15,Satisfaction,4,,,point
-P07,Experts,Q16,VRInterface,4,,,point
-P07,Experts,Q17,Discomfort,1,,,point
+P07,Experts,Q16,VRInterface,3,,,point
+P07,Experts,Q17,Discomfort,2,,,point
 P07,Experts,Q18,SpatialUnderstand,4,,,point
 P07,Experts,Q19,IterationEfficiency,3,,,point
-P07,Experts,Q20,CreativeFreedom,4,,,point
+P07,Experts,Q20,CreativeFreedom,3,,,point
 P08,Experts,Q7 built,Reference_Scale,4,,,point
 P08,Experts,Q7 video,Video_Scale,3,,,point
 P08,Experts,Q7 drawings,Drawings_Scale,3,,,point
@@ -517,17 +517,17 @@ P08,Experts,Q9 built,Reference_Presence,5,,,point
 P08,Experts,Q9 video,Video_Presence,4,,,point
 P08,Experts,Q9 drawings,Drawings_Presence,3,,,point
 P08,Experts,Q9 VR,VRSpace_Presence,2,,,point
-P08,Experts,Q10,Circulation,5,,,point
-P08,Experts,Q11,Display,5,,,point
-P08,Experts,Q12,Distinctiveness,5,,,point
-P08,Experts,Q13,Comfort,5,,,point
-P08,Experts,Q14,Function,5,,,point
-P08,Experts,Q15,Satisfaction,5,,,point
-P08,Experts,Q16,VRInterface,5,,,point
+P08,Experts,Q10,Circulation,3,,,point
+P08,Experts,Q11,Display,4,,,point
+P08,Experts,Q12,Distinctiveness,3,,,point
+P08,Experts,Q13,Comfort,4,,,point
+P08,Experts,Q14,Function,3,,,point
+P08,Experts,Q15,Satisfaction,3,,,point
+P08,Experts,Q16,VRInterface,3,,,point
 P08,Experts,Q17,Discomfort,2,,,point
-P08,Experts,Q18,SpatialUnderstand,5,,,point
+P08,Experts,Q18,SpatialUnderstand,3,,,point
 P08,Experts,Q19,IterationEfficiency,3,,,point
-P08,Experts,Q20,CreativeFreedom,5,,,point
+P08,Experts,Q20,CreativeFreedom,3,,,point
 P09,Experts,Q7 built,Reference_Scale,5,,,point
 P09,Experts,Q7 video,Video_Scale,3,,,point
 P09,Experts,Q7 drawings,Drawings_Scale,4,,,point
@@ -540,17 +540,17 @@ P09,Experts,Q9 built,Reference_Presence,5,,,point
 P09,Experts,Q9 video,Video_Presence,3,,,point
 P09,Experts,Q9 drawings,Drawings_Presence,3,,,point
 P09,Experts,Q9 VR,VRSpace_Presence,2,,,point
-P09,Experts,Q10,Circulation,5,,,point
-P09,Experts,Q11,Display,5,,,point
-P09,Experts,Q12,Distinctiveness,5,,,point
-P09,Experts,Q13,Comfort,5,,,point
-P09,Experts,Q14,Function,5,,,point
-P09,Experts,Q15,Satisfaction,5,,,point
-P09,Experts,Q16,VRInterface,5,,,point
-P09,Experts,Q17,Discomfort,1,,,point
-P09,Experts,Q18,SpatialUnderstand,5,,,point
+P09,Experts,Q10,Circulation,4,,,point
+P09,Experts,Q11,Display,4,,,point
+P09,Experts,Q12,Distinctiveness,3,,,point
+P09,Experts,Q13,Comfort,3,,,point
+P09,Experts,Q14,Function,2,,,point
+P09,Experts,Q15,Satisfaction,4,,,point
+P09,Experts,Q16,VRInterface,3,,,point
+P09,Experts,Q17,Discomfort,2,,,point
+P09,Experts,Q18,SpatialUnderstand,3,,,point
 P09,Experts,Q19,IterationEfficiency,4,,,point
-P09,Experts,Q20,CreativeFreedom,5,,,point
+P09,Experts,Q20,CreativeFreedom,3,,,point
 P10,Experts,Q7 built,Reference_Scale,5,,,point
 P10,Experts,Q7 video,Video_Scale,4,,,point
 P10,Experts,Q7 drawings,Drawings_Scale,2,,,point
@@ -563,17 +563,17 @@ P10,Experts,Q9 built,Reference_Presence,5,,,point
 P10,Experts,Q9 video,Video_Presence,3,,,point
 P10,Experts,Q9 drawings,Drawings_Presence,3,,,point
 P10,Experts,Q9 VR,VRSpace_Presence,4,,,point
-P10,Experts,Q10,Circulation,5,,,point
-P10,Experts,Q11,Display,5,,,point
-P10,Experts,Q12,Distinctiveness,5,,,point
-P10,Experts,Q13,Comfort,5,,,point
-P10,Experts,Q14,Function,5,,,point
-P10,Experts,Q15,Satisfaction,5,,,point
-P10,Experts,Q16,VRInterface,5,,,point
+P10,Experts,Q10,Circulation,4,,,point
+P10,Experts,Q11,Display,4,,,point
+P10,Experts,Q12,Distinctiveness,4,,,point
+P10,Experts,Q13,Comfort,3,,,point
+P10,Experts,Q14,Function,4,,,point
+P10,Experts,Q15,Satisfaction,4,,,point
+P10,Experts,Q16,VRInterface,4,,,point
 P10,Experts,Q17,Discomfort,2,,,point
-P10,Experts,Q18,SpatialUnderstand,5,,,point
+P10,Experts,Q18,SpatialUnderstand,3,,,point
 P10,Experts,Q19,IterationEfficiency,4,,,point
-P10,Experts,Q20,CreativeFreedom,5,,,point
+P10,Experts,Q20,CreativeFreedom,4,,,point
 P11,Experts,Q7 built,Reference_Scale,4,,,point
 P11,Experts,Q7 video,Video_Scale,4,,,point
 P11,Experts,Q7 drawings,Drawings_Scale,4,,,point
@@ -586,17 +586,17 @@ P11,Experts,Q9 built,Reference_Presence,5,,,point
 P11,Experts,Q9 video,Video_Presence,4,,,point
 P11,Experts,Q9 drawings,Drawings_Presence,3,,,point
 P11,Experts,Q9 VR,VRSpace_Presence,4,,,point
-P11,Experts,Q10,Circulation,5,,,point
-P11,Experts,Q11,Display,5,,,point
-P11,Experts,Q12,Distinctiveness,5,,,point
-P11,Experts,Q13,Comfort,5,,,point
-P11,Experts,Q14,Function,5,,,point
-P11,Experts,Q15,Satisfaction,5,,,point
-P11,Experts,Q16,VRInterface,5,,,point
-P11,Experts,Q17,Discomfort,1,,,point
-P11,Experts,Q18,SpatialUnderstand,5,,,point
+P11,Experts,Q10,Circulation,3,,,point
+P11,Experts,Q11,Display,4,,,point
+P11,Experts,Q12,Distinctiveness,4,,,point
+P11,Experts,Q13,Comfort,3,,,point
+P11,Experts,Q14,Function,3,,,point
+P11,Experts,Q15,Satisfaction,3,,,point
+P11,Experts,Q16,VRInterface,3,,,point
+P11,Experts,Q17,Discomfort,2,,,point
+P11,Experts,Q18,SpatialUnderstand,4,,,point
 P11,Experts,Q19,IterationEfficiency,3,,,point
-P11,Experts,Q20,CreativeFreedom,5,,,point
+P11,Experts,Q20,CreativeFreedom,3,,,point
 P12,Experts,Q7 built,Reference_Scale,5,,,point
 P12,Experts,Q7 video,Video_Scale,4,,,point
 P12,Experts,Q7 drawings,Drawings_Scale,3,,,point
@@ -609,17 +609,17 @@ P12,Experts,Q9 built,Reference_Presence,5,,,point
 P12,Experts,Q9 video,Video_Presence,4,,,point
 P12,Experts,Q9 drawings,Drawings_Presence,2,,,point
 P12,Experts,Q9 VR,VRSpace_Presence,4,,,point
-P12,Experts,Q10,Circulation,5,,,point
-P12,Experts,Q11,Display,5,,,point
-P12,Experts,Q12,Distinctiveness,5,,,point
-P12,Experts,Q13,Comfort,5,,,point
-P12,Experts,Q14,Function,5,,,point
-P12,Experts,Q15,Satisfaction,5,,,point
-P12,Experts,Q16,VRInterface,5,,,point
+P12,Experts,Q10,Circulation,4,,,point
+P12,Experts,Q11,Display,4,,,point
+P12,Experts,Q12,Distinctiveness,4,,,point
+P12,Experts,Q13,Comfort,4,,,point
+P12,Experts,Q14,Function,4,,,point
+P12,Experts,Q15,Satisfaction,4,,,point
+P12,Experts,Q16,VRInterface,4,,,point
 P12,Experts,Q17,Discomfort,2,,,point
-P12,Experts,Q18,SpatialUnderstand,5,,,point
+P12,Experts,Q18,SpatialUnderstand,3,,,point
 P12,Experts,Q19,IterationEfficiency,4,,,point
-P12,Experts,Q20,CreativeFreedom,5,,,point
+P12,Experts,Q20,CreativeFreedom,4,,,point
 P13,Experts,Q7 built,Reference_Scale,5,,,point
 P13,Experts,Q7 video,Video_Scale,4,,,point
 P13,Experts,Q7 drawings,Drawings_Scale,3,,,point
@@ -632,17 +632,17 @@ P13,Experts,Q9 built,Reference_Presence,5,,,point
 P13,Experts,Q9 video,Video_Presence,4,,,point
 P13,Experts,Q9 drawings,Drawings_Presence,3,,,point
 P13,Experts,Q9 VR,VRSpace_Presence,4,,,point
-P13,Experts,Q10,Circulation,5,,,point
-P13,Experts,Q11,Display,5,,,point
-P13,Experts,Q12,Distinctiveness,5,,,point
-P13,Experts,Q13,Comfort,5,,,point
-P13,Experts,Q14,Function,5,,,point
-P13,Experts,Q15,Satisfaction,5,,,point
-P13,Experts,Q16,VRInterface,5,,,point
-P13,Experts,Q17,Discomfort,1,,,point
-P13,Experts,Q18,SpatialUnderstand,5,,,point
+P13,Experts,Q10,Circulation,3,,,point
+P13,Experts,Q11,Display,4,,,point
+P13,Experts,Q12,Distinctiveness,3,,,point
+P13,Experts,Q13,Comfort,3,,,point
+P13,Experts,Q14,Function,4,,,point
+P13,Experts,Q15,Satisfaction,3,,,point
+P13,Experts,Q16,VRInterface,3,,,point
+P13,Experts,Q17,Discomfort,4,,,point
+P13,Experts,Q18,SpatialUnderstand,4,,,point
 P13,Experts,Q19,IterationEfficiency,3,,,point
-P13,Experts,Q20,CreativeFreedom,5,,,point
+P13,Experts,Q20,CreativeFreedom,3,,,point
 P14,Experts,Q7 built,Reference_Scale,4,,,point
 P14,Experts,Q7 video,Video_Scale,3,,,point
 P14,Experts,Q7 drawings,Drawings_Scale,4,,,point
@@ -655,17 +655,17 @@ P14,Experts,Q9 built,Reference_Presence,5,,,point
 P14,Experts,Q9 video,Video_Presence,3,,,point
 P14,Experts,Q9 drawings,Drawings_Presence,4,,,point
 P14,Experts,Q9 VR,VRSpace_Presence,4,,,point
-P14,Experts,Q10,Circulation,5,,,point
-P14,Experts,Q11,Display,5,,,point
-P14,Experts,Q12,Distinctiveness,5,,,point
-P14,Experts,Q13,Comfort,5,,,point
-P14,Experts,Q14,Function,5,,,point
-P14,Experts,Q15,Satisfaction,5,,,point
-P14,Experts,Q16,VRInterface,5,,,point
-P14,Experts,Q17,Discomfort,2,,,point
-P14,Experts,Q18,SpatialUnderstand,5,,,point
+P14,Experts,Q10,Circulation,4,,,point
+P14,Experts,Q11,Display,4,,,point
+P14,Experts,Q12,Distinctiveness,4,,,point
+P14,Experts,Q13,Comfort,3,,,point
+P14,Experts,Q14,Function,4,,,point
+P14,Experts,Q15,Satisfaction,4,,,point
+P14,Experts,Q16,VRInterface,3,,,point
+P14,Experts,Q17,Discomfort,3,,,point
+P14,Experts,Q18,SpatialUnderstand,3,,,point
 P14,Experts,Q19,IterationEfficiency,4,,,point
-P14,Experts,Q20,CreativeFreedom,5,,,point
+P14,Experts,Q20,CreativeFreedom,3,,,point
 P15,Experts,Q7 built,Reference_Scale,5,,,point
 P15,Experts,Q7 video,Video_Scale,3,,,point
 P15,Experts,Q7 drawings,Drawings_Scale,4,,,point
@@ -678,14 +678,14 @@ P15,Experts,Q9 built,Reference_Presence,5,,,point
 P15,Experts,Q9 video,Video_Presence,4,,,point
 P15,Experts,Q9 drawings,Drawings_Presence,3,,,point
 P15,Experts,Q9 VR,VRSpace_Presence,4,,,point
-P15,Experts,Q10,Circulation,5,,,point
-P15,Experts,Q11,Display,5,,,point
-P15,Experts,Q12,Distinctiveness,5,,,point
-P15,Experts,Q13,Comfort,5,,,point
-P15,Experts,Q14,Function,5,,,point
-P15,Experts,Q15,Satisfaction,5,,,point
-P15,Experts,Q16,VRInterface,5,,,point
-P15,Experts,Q17,Discomfort,1,,,point
-P15,Experts,Q18,SpatialUnderstand,5,,,point
+P15,Experts,Q10,Circulation,4,,,point
+P15,Experts,Q11,Display,4,,,point
+P15,Experts,Q12,Distinctiveness,4,,,point
+P15,Experts,Q13,Comfort,4,,,point
+P15,Experts,Q14,Function,4,,,point
+P15,Experts,Q15,Satisfaction,4,,,point
+P15,Experts,Q16,VRInterface,4,,,point
+P15,Experts,Q17,Discomfort,2,,,point
+P15,Experts,Q18,SpatialUnderstand,4,,,point
 P15,Experts,Q19,IterationEfficiency,4,,,point
-P15,Experts,Q20,CreativeFreedom,5,,,point
+P15,Experts,Q20,CreativeFreedom,4,,,point

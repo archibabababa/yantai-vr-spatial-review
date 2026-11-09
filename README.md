@@ -4,7 +4,7 @@ Research materials for *Editing linked spaces in virtual reality: A museum study
 
 The participant study includes 15 architecture students and 15 anonymous architectural experts. The repository contains anonymous ratings, descriptive summaries, CAD plans, graph attributes, analytical figures, the VR prototype and instructions for reproducing the paper’s analyses.
 
-Table 5 presents high-rating counts for each of the eleven scheme and tool items (Q10–20), with separate columns for students and experts and a pooled count. Figures 9 and 10 also show an aggregate sensitivity distribution for the same 15 experts. This panel does not add participants. Table 5 gives the primary counts. A high Q17 score indicates physical discomfort.
+Table 5 presents high-rating counts for each of the eleven scheme and tool items (Q10–20), with separate columns for students and experts and a pooled count. Figures 9 and 10 show the distributions for the two groups on identical count axes. Expert rating sensitivity by item.csv gives an alternate tabulation for the same experts. Run **Joint circulation and display ratings.py** to reproduce the Q10–Q11 overlap and its bounds. A high Q17 score indicates physical discomfort.
 
 ## Reproduction
 
