@@ -208,15 +208,10 @@ labels=['Circulation','Display function','Spatial distinctiveness','Spatial comf
         'Functional requirements','Overall satisfaction','Interface ease','Physical discomfort',
         'Spatial understanding support','Perceived iteration efficiency','Creative freedom']
 for number,title,selection in [(9,'Adjusted scheme',items[:6]),(10,'Tool experience',items[6:])]:
- groups = ['Students'] if number == 9 else ['Students', 'Experts']
- fig,axes=plt.subplots(1,len(groups),figsize=(8.5,3.35),sharey=True,squeeze=False)
- axes=axes[0]
+ fig,axes=plt.subplots(1,2,figsize=(8.5,3.35),sharey=True)
  fig.subplots_adjust(left=.255,right=.986,top=.72,bottom=.20,wspace=.11)
- for j,(ax,group) in enumerate(zip(axes,groups)):
+ for j,(ax,group) in enumerate(zip(axes,['Students','Experts'])):
   for y,r in enumerate(selection):
-   if group == 'Experts' and r['item'] != 19:
-    ax.text(7.5,y,'Not reported',ha='center',va='center',color='#555555',fontsize=8)
-    continue
    left=0
    for k,color in enumerate(colors,1):
     count=r[f'{group}_score{k}']

@@ -54,12 +54,6 @@ def calculate(root):
             a[group+'_yes_max']=a[group+'_yes_min']+unknown
             assert sum(a[f'{group}_score{k}'] for k in range(1,6))+lo+hi+unknown==15
         for key in ('yes_min','yes_max'):a['Combined_'+key]=a['Students_'+key]+a['Experts_'+key]
-    # Only the expert item on perceived iteration efficiency is reported in this table.
-    for item in scheme:
-        if item['item'] != 19:
-            for column in item:
-                if column.startswith(('Experts_', 'Combined_')):
-                    item[column] = ''
     save(root/'Scheme and tool ratings by group.csv',scheme)
     comp=[('Drawings_Struct','Video_Struct'),('Video_Presence','Drawings_Presence'),
           ('VRSpace_Presence','Drawings_Presence'),('VRSpace_Struct','Drawings_Struct'),
@@ -67,8 +61,6 @@ def calculate(root):
     pairs=[]
     for a,b in comp:
         for g,ids in [*groups.items(),('Combined',groups['Students']+groups['Experts'])]:
-            if g != 'Students' and a in ('Display', 'Satisfaction'):
-                continue
             vals=[(cells[i,a]['score'],cells[i,b]['score']) for i in ids]
             dif=[x-y for x,y in vals if x!='' and y!='']
             pairs.append(dict(first_item=a,second_item=b,group=g,cohort=len(ids),complete_pairs=len(dif),
