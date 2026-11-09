@@ -1,0 +1,8 @@
+PRESENT-DAY STARTUP TEST, 6 NOVEMBER 2026
+The archived executable was started with -batchmode -nographics and a dedicated log path. It remained active for the 15-second observation window and was then stopped by the test runner. This checks process/engine startup only. OpenVR reported that no headset was detected. Rendering, tracking, controller actions and human comfort were not tested.
+The headless configuration also reported unsupported shaders; this is not a display-quality test. The complete original test log is retained in the private author review record. The following lines are verbatim technical excerpts, with duplicate lines omitted:
+
+Initialize engine version: 2022.3.53f1c1 (f16e16b78e06)
+[XR] [OpenVR] [ERROR] VR_Init initError: VRInitError_Init_HmdNotFoundPresenceFailed
+<b>[OpenVR]</b> Could not initialize OpenVR. Error code: Init_HmdNotFoundPresenceFailed
+<b>[SteamVR]</b> Not Initialized (109)

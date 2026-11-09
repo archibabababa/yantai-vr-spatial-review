@@ -1,0 +1,12 @@
+﻿item,variable,Students_score1,Students_score2,Students_score3,Students_score4,Students_score5,Students_high,Students_n,Experts_score1,Experts_score2,Experts_score3,Experts_score4,Experts_score5,Experts_high,Experts_n,Combined_score1,Combined_score2,Combined_score3,Combined_score4,Combined_score5,Combined_high,Combined_n,Students_interval45,Students_interval12,Students_unknown,Students_yes_min,Students_yes_max,Experts_interval45,Experts_interval12,Experts_unknown,Experts_yes_min,Experts_yes_max,Combined_yes_min,Combined_yes_max
+10,Circulation,0,1,2,8,3,11,14,0,0,0,4,11,15,15,0,1,2,12,14,26,29,0,1,0,11,11,0,0,0,15,15,26,26
+11,Display,0,1,2,6,5,11,14,0,0,0,3,12,15,15,0,1,2,9,17,26,29,1,0,0,12,12,0,0,0,15,15,27,27
+12,Distinctiveness,0,1,2,6,4,10,13,0,0,0,4,11,15,15,0,1,2,10,15,25,28,1,0,1,11,12,0,0,0,15,15,26,27
+13,Comfort,0,0,4,9,1,10,14,0,0,0,3,12,15,15,0,0,4,12,13,25,29,1,0,0,11,11,0,0,0,15,15,26,26
+14,Function,0,1,4,7,1,8,13,0,0,0,4,11,15,15,0,1,4,11,12,23,28,1,0,1,9,10,0,0,0,15,15,24,25
+15,Satisfaction,0,0,2,10,2,12,14,0,0,0,4,11,15,15,0,0,2,14,13,27,29,1,0,0,13,13,0,0,0,15,15,28,28
+16,VRInterface,0,0,5,5,4,9,14,0,0,0,4,11,15,15,0,0,5,9,15,24,29,1,0,0,10,10,0,0,0,15,15,25,25
+17,Discomfort,5,4,1,3,0,3,13,8,7,0,0,0,0,15,13,11,1,3,0,3,28,0,1,1,3,4,0,0,0,0,0,3,4
+18,SpatialUnderstand,0,0,0,5,8,13,13,0,0,0,4,11,15,15,0,0,0,9,19,28,28,1,0,1,14,15,0,0,0,15,15,29,30
+19,IterationEfficiency,0,0,4,5,5,10,14,0,0,6,9,0,9,15,0,0,10,14,5,19,29,0,1,0,10,10,0,0,0,9,9,19,19
+20,CreativeFreedom,0,0,3,3,8,11,14,0,0,0,4,11,15,15,0,0,3,7,19,26,29,1,0,0,12,12,0,0,0,15,15,27,27
