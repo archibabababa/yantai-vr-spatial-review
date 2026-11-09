@@ -213,45 +213,45 @@ for j,(name,title) in enumerate([('zx2','Original'),('zx1','Adjusted')]):
   ax.text(.04,.93,f'n = {len(a)}; R² = {r2:.3f}',transform=ax.transAxes,va='top',fontsize=8);ax.grid(alpha=.15)
 save(fig,'Figure 8 Axial correlations')
 
-# Figures 9 and 10. Same questionnaire, response scale and axis for both groups.
-from paper_ratings import calculate
-from matplotlib.patches import Patch
-
-_, items, _ = calculate(B)
-palette = ['#f5f5f5', '#d2d2d2', '#a6a6a6', '#666666', '#1d1d1d']
-hatches = [('//', '1–2'), ('xx', '4–5'), ('..', 'Unresolved')]
-labels = ['Circulation', 'Display function', 'Spatial distinctiveness', 'Spatial comfort',
-          'Functional requirements', 'Overall satisfaction', 'Interface ease', 'Physical discomfort',
-          'Spatial understanding', 'Iteration efficiency', 'Creative freedom']
-for number, title, selection in [(9, 'Adjusted scheme', items[:6]), (10, 'Tool experience', items[6:])]:
-    fig, axes = plt.subplots(1, 2, figsize=(8.5, 3.15), sharey=True)
-    fig.subplots_adjust(left=.205, right=.989, top=.75, bottom=.17, wspace=.12)
-    for ax, group, heading in zip(axes, ['Students', 'Experts'],
-                                  ['Architecture students (n = 15)', 'Architectural experts (n = 15)']):
-        for y, row in enumerate(selection):
-            counts = [row[f'{group}_score{k}'] for k in range(1, 6)]
-            counts += [row[f'{group}_{suffix}'] for suffix in ('interval12', 'interval45', 'unknown')]
-            assert sum(counts) == 15
-            left = 0
-            for j, count in enumerate(counts):
-                if count:
-                    ax.barh(y, count, left=left, height=.69, color=palette[j] if j < 5 else 'white',
-                            ec='#505050', lw=.45, hatch=None if j < 5 else hatches[j-5][0])
-                    if j < 5 or count > 1:
-                        ax.text(left+count/2, y, str(count), ha='center', va='center',
-                                color='white' if j in (3, 4) else 'black', fontsize=8.8)
-                left += count
-        ax.set_xlim(0, 15.1)
-        ax.set_xticks([0, 5, 10, 15])
-        ax.tick_params(axis='y', length=0, pad=3)
-        ax.set_title(heading, loc='left', fontsize=10)
-        ax.spines[['left', 'right', 'top']].set_visible(False)
-    axes[0].set_yticks(range(len(selection)), [f"Q{r['item']}  {labels[r['item']-10]}" for r in selection], fontsize=8.9)
-    axes[0].invert_yaxis()
-    fig.text(.60, .015, 'Number of respondents per group', ha='center', fontsize=9)
-    handles = [Patch(fc=c, ec='#555555', lw=.5, label=str(j)) for j,c in enumerate(palette, 1)]
-    handles += [Patch(fc='white', ec='#555555', lw=.5, hatch=h, label=label) for h,label in hatches]
-    fig.legend(handles=handles, loc='upper center', bbox_to_anchor=(.58,1.0), ncol=8,
-               columnspacing=.9, handlelength=1.25, frameon=False, fontsize=8.5)
+# Figures 9 and 10. Each cell is a count on the recorded response scale.
+import runpy
+_, rating_rows = runpy.run_path(str(B/'Compare presence and score spread.py'))['calculate'](B)
+grid_data = {(r['group'], r['variable']): r for r in rating_rows}
+presence_items = [('Drawings_Presence','Drawings · original'),('Video_Presence','Video clips · original'),
+                  ('VRSpace_Presence','VR · revised'),('Reference_Presence','Group reference*')]
+scheme_items = [('Circulation','Q10   Circulation'),('Display','Q11   Display function'),
+                ('Distinctiveness','Q12   Spatial distinctiveness'),('Comfort','Q13   Spatial comfort'),
+                ('Function','Q14   Functional fit'),('Satisfaction','Q15   Overall satisfaction'),
+                ('VRInterface','Q16   Interface ease'),('Discomfort','Q17   Physical discomfort'),
+                ('SpatialUnderstand','Q18   Spatial understanding'),('IterationEfficiency','Q19   Iteration efficiency'),
+                ('CreativeFreedom','Q20   Creative freedom')]
+keys = ['score_'+str(i) for i in range(1,6)] + ['interval_1_2','interval_4_5','unresolved']
+headers = ['1','2','3','4','5','1–2','4–5','?']
+for number, title, entries in [(9,'Presence by representation',presence_items),(10,'Scheme and tool ratings',scheme_items)]:
+    h = 1.38 + .305*len(entries)
+    fig = plt.figure(figsize=(9.4,h))
+    ax = fig.add_axes([.015,.04,.978,.935])
+    ax.set_xlim(0,25.2);ax.set_ylim(len(entries)+.70,-2.15);ax.axis('off')
+    cuts = [3] if number==9 else [6]
+    for left, group, heading in [(6.5,'Students','Architecture students (15)'),(16.1,'Experts','Architectural experts (15)')]:
+        ax.text(left+4.0,-1.80,heading,ha='center',va='center',fontsize=12.4,weight='bold')
+        ax.plot([left,left+8],[-1.37,-1.37],color='.24',lw=.65)
+        for j,txt in enumerate(headers):
+            ax.text(left+j+.5,-.75,txt,ha='center',va='center',fontsize=10.5)
+        for i,(var, label) in enumerate(entries):
+            y=i+.18
+            if group=='Students':
+                ax.text(.08,y,label,ha='left',va='center',fontsize=11)
+            for j,key in enumerate(keys):
+                count=grid_data[group,var][key]
+                shade = 1 - .80*(count/15)
+                ax.add_patch(Rectangle((left+j,y-.43),1,.87,facecolor=str(shade),edgecolor='.86',lw=.38))
+                ax.text(left+j+.5,y,str(count),ha='center',va='center',fontsize=10.3,
+                        color='white' if shade<.52 else '.48' if count==0 else '.08')
+        ax.plot([left+5,left+5],[-.36,len(entries)-.38],lw=.82,color='.4')
+    for cut in cuts:
+        ax.plot([.08,24.1],[cut-.33,cut-.33],color='.45',lw=.6)
+    ax.text(.08,-.75,'Representation' if number==9 else 'Questionnaire item',fontsize=11.3,weight='bold',va='center')
+    ax.text(.08,len(entries)+.36,'Each row totals 15 per group.   1–2 and 4–5 = interval responses.   ? = unscorable response.',
+            fontsize=9.6,ha='left',va='center')
     save(fig, f'Figure {number} {title}')
-

@@ -1,0 +1,47 @@
+﻿group,item,variable,n,score_1,score_2,score_3,score_4,score_5,interval_1_2,interval_4_5,unresolved,Q1_min,Q1_max,median_min,median_max,Q3_min,Q3_max,unequally_rated_pairs_min,unequally_rated_pairs_max,possible_pairs
+Students,Q7 built,Reference_Scale,15,0,0,2,6,4,1,0,2,3,4,4,4,5,5,70,82,105
+Students,Q7 video,Video_Scale,15,0,2,0,6,5,0,1,1,4,4,4,4,5,5,66,74,105
+Students,Q7 drawings,Drawings_Scale,15,0,1,4,5,3,0,1,1,3,3,4,4,4,5,75,83,105
+Students,Q7 VR,VRSpace_Scale,15,0,1,1,7,4,0,1,1,4,4,4,4,5,5,63,74,105
+Students,Q8 built,Reference_Struct,15,0,0,4,5,4,0,1,1,3,3,4,4,5,5,72,79,105
+Students,Q8 video,Video_Struct,15,0,2,2,6,3,0,1,1,3,3,4,4,4,5,72,82,105
+Students,Q8 drawings,Drawings_Struct,15,0,2,3,5,4,0,1,0,3,3,4,4,5,5,80,81,105
+Students,Q8 VR,VRSpace_Struct,15,0,1,2,9,2,1,0,0,3,3,4,4,4,4,66,67,105
+Students,Q9 built,Reference_Presence,15,1,0,3,5,5,0,1,0,3,3,4,4,5,5,77,77,105
+Students,Q9 video,Video_Presence,15,0,1,3,7,3,0,1,0,3,3,4,4,4,5,71,75,105
+Students,Q9 drawings,Drawings_Presence,15,0,2,7,2,3,1,0,0,3,3,3,3,4,4,77,79,105
+Students,Q9 VR,VRSpace_Presence,15,0,0,4,4,5,0,1,1,3,3,4,4,5,5,72,79,105
+Students,Q10,Circulation,15,0,1,2,8,3,1,0,0,3,3,4,4,4,4,72,73,105
+Students,Q11,Display,15,0,1,2,6,5,0,1,0,4,4,4,4,5,5,73,74,105
+Students,Q12,Distinctiveness,15,0,1,2,6,4,0,1,1,3,4,4,4,5,5,70,79,105
+Students,Q13,Comfort,15,0,0,4,9,1,0,1,0,3,3,4,4,4,4,54,62,105
+Students,Q14,Function,15,0,1,4,7,1,0,1,1,3,3,4,4,4,4,63,77,105
+Students,Q15,Satisfaction,15,0,0,2,10,2,0,1,0,4,4,4,4,4,4,48,56,105
+Students,Q16,VRInterface,15,0,0,5,5,4,0,1,0,3,3,4,4,5,5,74,75,105
+Students,Q17,Discomfort,15,5,4,1,3,0,1,0,1,1,1,2,2,3,4,75,82,105
+Students,Q18,SpatialUnderstand,15,0,0,0,5,8,0,1,1,4,4,5,5,5,5,50,62,105
+Students,Q19,IterationEfficiency,15,0,0,4,5,5,1,0,0,3,3,4,4,5,5,79,79,105
+Students,Q20,CreativeFreedom,15,0,0,3,3,8,0,1,0,4,4,5,5,5,5,63,68,105
+Experts,Q7 built,Reference_Scale,15,0,0,0,5,10,0,0,0,4,4,5,5,5,5,50,50,105
+Experts,Q7 video,Video_Scale,15,0,1,6,8,0,0,0,0,3,3,4,4,4,4,62,62,105
+Experts,Q7 drawings,Drawings_Scale,15,0,2,6,7,0,0,0,0,3,3,3,3,4,4,68,68,105
+Experts,Q7 VR,VRSpace_Scale,15,0,0,0,10,5,0,0,0,4,4,4,4,5,5,50,50,105
+Experts,Q8 built,Reference_Struct,15,0,0,0,4,11,0,0,0,4,4,5,5,5,5,44,44,105
+Experts,Q8 video,Video_Struct,15,0,2,11,2,0,0,0,0,3,3,3,3,3,3,48,48,105
+Experts,Q8 drawings,Drawings_Struct,15,0,0,5,9,1,0,0,0,3,3,4,4,4,4,59,59,105
+Experts,Q8 VR,VRSpace_Struct,15,0,0,6,6,3,0,0,0,3,3,4,4,4,4,72,72,105
+Experts,Q9 built,Reference_Presence,15,0,0,0,1,14,0,0,0,5,5,5,5,5,5,14,14,105
+Experts,Q9 video,Video_Presence,15,0,1,7,7,0,0,0,0,3,3,3,3,4,4,63,63,105
+Experts,Q9 drawings,Drawings_Presence,15,0,3,11,1,0,0,0,0,3,3,3,3,3,3,47,47,105
+Experts,Q9 VR,VRSpace_Presence,15,0,3,1,10,1,0,0,0,3,3,4,4,4,4,57,57,105
+Experts,Q10,Circulation,15,0,0,4,11,0,0,0,0,3,3,4,4,4,4,44,44,105
+Experts,Q11,Display,15,0,0,1,14,0,0,0,0,4,4,4,4,4,4,14,14,105
+Experts,Q12,Distinctiveness,15,0,0,7,8,0,0,0,0,3,3,4,4,4,4,56,56,105
+Experts,Q13,Comfort,15,0,0,9,6,0,0,0,0,3,3,3,3,4,4,54,54,105
+Experts,Q14,Function,15,0,2,4,9,0,0,0,0,3,3,4,4,4,4,62,62,105
+Experts,Q15,Satisfaction,15,0,0,5,10,0,0,0,0,3,3,4,4,4,4,50,50,105
+Experts,Q16,VRInterface,15,0,0,9,6,0,0,0,0,3,3,3,3,4,4,54,54,105
+Experts,Q17,Discomfort,15,0,10,4,1,0,0,0,0,2,2,2,2,3,3,54,54,105
+Experts,Q18,SpatialUnderstand,15,0,1,7,6,1,0,0,0,3,3,3,3,4,4,69,69,105
+Experts,Q19,IterationEfficiency,15,0,0,6,9,0,0,0,0,3,3,4,4,4,4,54,54,105
+Experts,Q20,CreativeFreedom,15,0,0,9,6,0,0,0,0,3,3,3,3,4,4,54,54,105

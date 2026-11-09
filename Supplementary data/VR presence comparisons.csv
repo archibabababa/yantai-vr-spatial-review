@@ -1,0 +1,10 @@
+﻿group,participants,comparator,VR_higher_min,VR_higher_max,equal_min,equal_max,VR_lower_min,VR_lower_max,mean_paired_difference_min,mean_paired_difference_max
+Students,15,Drawings,8,8,4,5,2,3,0.5333333333333333,0.9333333333333333
+Students,15,Video clips,6,8,3,5,4,6,-0.06666666666666667,0.3333333333333333
+Students,15,Higher of drawings and clips,6,7,2,4,5,7,-0.26666666666666666,0.13333333333333333
+Experts,15,Drawings,10,10,2,2,3,3,0.7333333333333333,0.7333333333333333
+Experts,15,Video clips,6,6,6,6,3,3,0.2,0.2
+Experts,15,Higher of drawings and clips,4,4,8,8,3,3,0.06666666666666667,0.06666666666666667
+All,30,Drawings,18,18,6,7,5,6,0.6333333333333333,0.8333333333333334
+All,30,Video clips,12,14,9,11,7,9,0.06666666666666667,0.26666666666666666
+All,30,Higher of drawings and clips,10,11,10,12,8,10,-0.1,0.1

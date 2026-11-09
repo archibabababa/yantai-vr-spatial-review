@@ -11,6 +11,9 @@ Video_Presence,Drawings_Presence,Combined,30,29,14,10,5,1
 VRSpace_Presence,Drawings_Presence,Students,15,13,7,4,2,2
 VRSpace_Presence,Drawings_Presence,Experts,15,15,10,2,3,0
 VRSpace_Presence,Drawings_Presence,Combined,30,28,17,6,5,2
+VRSpace_Presence,Video_Presence,Students,15,13,6,3,4,2
+VRSpace_Presence,Video_Presence,Experts,15,15,6,6,3,0
+VRSpace_Presence,Video_Presence,Combined,30,28,12,9,7,2
 VRSpace_Struct,Drawings_Struct,Students,15,14,7,2,5,1
 VRSpace_Struct,Drawings_Struct,Experts,15,15,6,3,6,0
 VRSpace_Struct,Drawings_Struct,Combined,30,29,13,5,11,1
