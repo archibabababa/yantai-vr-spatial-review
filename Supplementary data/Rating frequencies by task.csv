@@ -1,0 +1,9 @@
+group,domain,rating_slots,score_1,score_2,score_3,score_4,score_5,interval_slots,unresolved_slots
+Experts,Reference items,45,0,0,0,10,35,0,0
+Experts,Other media items,135,0,12,53,60,10,0,0
+Experts,Revised scheme,90,0,2,30,58,0,0,0
+Experts,VR tool,75,0,11,35,28,1,0,0
+Students,Reference items,45,1,0,9,16,13,3,3
+Students,Other media items,135,0,12,26,51,32,9,5
+Students,Revised scheme,90,0,4,16,46,16,6,2
+Students,VR tool,75,5,4,13,21,25,5,2
