@@ -225,33 +225,34 @@ scheme_items = [('Circulation','Q10   Circulation'),('Display','Q11   Display fu
                 ('VRInterface','Q16   Interface ease'),('Discomfort','Q17   Physical discomfort'),
                 ('SpatialUnderstand','Q18   Spatial understanding'),('IterationEfficiency','Q19   Iteration efficiency'),
                 ('CreativeFreedom','Q20   Creative freedom')]
-keys = ['score_'+str(i) for i in range(1,6)] + ['interval_1_2','interval_4_5','unresolved']
-headers = ['1','2','3','4','5','1–2','4–5','?']
+keys = ['score_'+str(i) for i in range(1,6)]
 for number, title, entries in [(9,'Presence by representation',presence_items),(10,'Scheme and tool ratings',scheme_items)]:
-    h = 1.38 + .305*len(entries)
-    fig = plt.figure(figsize=(9.4,h))
-    ax = fig.add_axes([.015,.04,.978,.935])
-    ax.set_xlim(0,25.2);ax.set_ylim(len(entries)+.70,-2.15);ax.axis('off')
-    cuts = [3] if number==9 else [6]
-    for left, group, heading in [(6.5,'Students','Architecture students (15)'),(16.1,'Experts','Architectural experts (15)')]:
-        ax.text(left+4.0,-1.80,heading,ha='center',va='center',fontsize=12.4,weight='bold')
-        ax.plot([left,left+8],[-1.37,-1.37],color='.24',lw=.65)
-        for j,txt in enumerate(headers):
-            ax.text(left+j+.5,-.75,txt,ha='center',va='center',fontsize=10.5)
-        for i,(var, label) in enumerate(entries):
-            y=i+.18
+    fig = plt.figure(figsize=(9.4,1.10+.32*len(entries)))
+    ax = fig.add_axes([.015,.035,.978,.94])
+    ax.set(xlim=(0,18.3), ylim=(len(entries)-.23,-2.05))
+    ax.axis('off')
+    ax.text(.04,-.65,'Representation' if number==9 else 'Questionnaire item',fontsize=11,weight='bold',va='center')
+    for left,group,heading in [(6.40,'Students','Architecture students'),(12.85,'Experts','Architectural experts (n = 15)')]:
+        first=left-1.12 if group=='Students' else left
+        ax.text((first+left+5)/2,-1.65,heading,va='center',ha='center',fontsize=12,weight='bold')
+        ax.plot([first,left+5],[-1.25,-1.25],color='.30',lw=.66)
+        for j in range(5):
+            ax.text(left+j+.5,-.65,str(j+1),ha='center',va='center',fontsize=10.5)
+        if group=='Students':
+            ax.text(left-.57,-.65,'n',va='center',ha='center',fontsize=10.5,style='italic')
+        for i,(var,label) in enumerate(entries):
+            y=i+.16
+            counts=[int(grid_data[group,var][key]) for key in keys]
             if group=='Students':
-                ax.text(.08,y,label,ha='left',va='center',fontsize=11)
-            for j,key in enumerate(keys):
-                count=grid_data[group,var][key]
-                shade = 1 - .80*(count/15)
-                ax.add_patch(Rectangle((left+j,y-.43),1,.87,facecolor=str(shade),edgecolor='.86',lw=.38))
-                ax.text(left+j+.5,y,str(count),ha='center',va='center',fontsize=10.3,
-                        color='white' if shade<.52 else '.48' if count==0 else '.08')
-        ax.plot([left+5,left+5],[-.36,len(entries)-.38],lw=.82,color='.4')
-    for cut in cuts:
-        ax.plot([.08,24.1],[cut-.33,cut-.33],color='.45',lw=.6)
-    ax.text(.08,-.75,'Representation' if number==9 else 'Questionnaire item',fontsize=11.3,weight='bold',va='center')
-    ax.text(.08,len(entries)+.36,'Each row totals 15 per group.   1–2 and 4–5 = interval responses.   ? = unscorable response.',
-            fontsize=9.6,ha='left',va='center')
-    save(fig, f'Figure {number} {title}')
+                ax.text(.04,y,label,ha='left',va='center',fontsize=11)
+                ax.text(left-.57,y,str(sum(counts)),ha='center',va='center',fontsize=10.3)
+            else:
+                assert sum(counts)==15
+            for j,count in enumerate(counts):
+                shade=1-.80*(count/15)
+                ax.add_patch(Rectangle((left+j,y-.42),1,.85,facecolor=str(shade),edgecolor='.84',lw=.44))
+                ax.text(left+j+.5,y,str(count),ha='center',va='center',fontsize=10.7,
+                        color='white' if shade<.52 else '.45' if count==0 else '.08')
+    divider=(3 if number==9 else 6)-.33
+    ax.plot([.04,17.85],[divider,divider],color='.40',lw=.63)
+    save(fig,f'Figure {number} {title}')
