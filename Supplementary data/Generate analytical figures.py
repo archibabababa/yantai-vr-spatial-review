@@ -154,11 +154,10 @@ for index, (ax, m, title) in enumerate(zip(axes, maps, panel_titles)):
     ax.plot([2,22],[-2,-2], color='black', lw=1.05)
     ax.text(12, -3.25, '20 m', va='top', ha='center', fontsize=8.8)
     for j,(xm,ym) in enumerate(positions[index],1):
-        hollow = (index==0 and j==1)
-        ax.scatter([xm],[ym],marker='o',s=56,facecolor='white' if hollow else 'black',
-                   edgecolor='black' if hollow else 'white',linewidths=.65,zorder=6)
+        ax.scatter([xm],[ym],marker='o',s=56,facecolor='black',
+                   edgecolor='white',linewidths=.65,zorder=6)
         ax.annotate(str(j),xy=(xm,ym),xytext=(0,0),textcoords='offset points',va='center',ha='center',
-                    color='black' if hollow else 'white',weight='bold',fontsize=7.1,zorder=7)
+                    color='white',weight='bold',fontsize=7.1,zorder=7)
 
 legend = fig.add_axes([.012, .005, .976, .073])
 legend.set(xlim=(0,6.15), ylim=(0,1))
@@ -199,38 +198,55 @@ for j,(name,title) in enumerate([('zx2','Original'),('zx1','Adjusted')]):
   ax.text(.04,.93,f'n = {len(a)}; R² = {r2:.3f}',transform=ax.transAxes,va='top',fontsize=8);ax.grid(alpha=.15)
 save(fig,'Figure 8 Axial correlations')
 
-# Figures 9 and 10 display the item distributions reported in Table 5.
+# Figures 9 and 10. The two expert panels represent the same 15 people.
 from paper_ratings import calculate
 from matplotlib.patches import Patch
-_,items,_=calculate(B)
-colors=['#f2f2f2','#cccccc','#999999','#666666','#222222']
-labels=['Circulation','Display function','Spatial distinctiveness','Spatial comfort',
-        'Functional requirements','Overall satisfaction','Interface ease','Physical discomfort',
-        'Spatial understanding support','Perceived iteration efficiency','Creative freedom']
-for number,title,selection in [(9,'Adjusted scheme',items[:6]),(10,'Tool experience',items[6:])]:
- fig,axes=plt.subplots(1,2,figsize=(8.5,3.35),sharey=True)
- fig.subplots_adjust(left=.255,right=.986,top=.72,bottom=.20,wspace=.11)
- for j,(ax,group) in enumerate(zip(axes,['Students','Experts'])):
-  for y,r in enumerate(selection):
-   left=0
-   for k,color in enumerate(colors,1):
-    count=r[f'{group}_score{k}']
-    if count:
-     ax.barh(y,count,left=left,height=.66,color=color,ec='.36',lw=.36)
-     ax.text(left+count/2,y,str(count),fontsize=8,ha='center',va='center',color='white' if k>=4 else 'black')
-    left+=count
-   for key,hatch in [('interval12','//'),('interval45','xx'),('unknown','..')]:
-    count=r[group+'_'+key]
-    if count:
-     ax.barh(y,count,left=left,height=.66,color='white',edgecolor='#444444',hatch=hatch,lw=.5)
-     if count>1:ax.text(left+count/2,y,str(count),ha='center',va='center',fontsize=7)
-    left+=count
-   assert left==15
-  ax.set_xlim(0,15.2);ax.set_xticks([0,5,10,15]);ax.tick_params(axis='y',length=0,pad=3)
-  ax.set_title(group if j==0 else 'Architectural experts',fontsize=9,loc='left')
-  ax.spines[['left','right','top']].set_visible(False);ax.set_xlabel('Number of responses',fontsize=8)
- axes[0].set_yticks(range(len(selection)),[f"Q{r['item']}  {labels[r['item']-10]}" for r in selection],fontsize=8.1)
- axes[0].invert_yaxis()
- fig.legend(handles=[Patch(fc=c,ec='.35',lw=.5,label=str(k)) for k,c in enumerate(colors,1)] + [Patch(fc='white',ec='.3',hatch=h,label=l) for h,l in [('//','1–2'),('xx','4–5'),('..','Unresolved')]],
-            loc='upper center',bbox_to_anchor=(.60,1.0),ncol=4,frameon=False,handlelength=1.25,fontsize=8)
- save(fig,f'Figure {number} {title}')
+
+_, items, _ = calculate(B)
+with (B / 'Expert rating sensitivity by item.csv').open(encoding='utf-8-sig', newline='') as stream:
+    alternative = {int(row['item']): row for row in csv.DictReader(stream)}
+
+palette = ['#f5f5f5', '#d2d2d2', '#a6a6a6', '#666666', '#1d1d1d']
+hatches = [('//', '1–2'), ('xx', '4–5'), ('..', 'Unresolved')]
+labels = ['Circulation', 'Display function', 'Spatial distinctiveness', 'Spatial comfort',
+          'Functional requirements', 'Overall satisfaction', 'Interface ease', 'Physical discomfort',
+          'Spatial understanding', 'Iteration efficiency', 'Creative freedom']
+for number, title, selection in [(9, 'Adjusted scheme', items[:6]), (10, 'Tool experience', items[6:])]:
+    fig, axes = plt.subplots(1, 3, figsize=(8.5, 3.15), sharey=True)
+    fig.subplots_adjust(left=.205, right=.989, top=.75, bottom=.17, wspace=.12)
+    for ax, group, heading in zip(axes, ['Students', 'Experts', 'Sensitivity'],
+                                  ['Students', 'Experts', 'Experts · sensitivity']):
+        for y, row in enumerate(selection):
+            item = row['item']
+            if group == 'Sensitivity' and alternative[item]['distinct_series'] == 'no':
+                ax.text(7.5, y, 'Same Q19 series', ha='center', va='center', fontsize=8)
+                continue
+            if group == 'Sensitivity':
+                counts = [int(alternative[item][f'score{k}']) for k in range(1, 6)] + [0, 0, 0]
+            else:
+                counts = [row[f'{group}_score{k}'] for k in range(1, 6)]
+                counts += [row[f'{group}_{suffix}'] for suffix in ('interval12', 'interval45', 'unknown')]
+            assert sum(counts) == 15
+            left = 0
+            for j, count in enumerate(counts):
+                if count:
+                    ax.barh(y, count, left=left, height=.69, color=palette[j] if j < 5 else 'white',
+                            ec='#505050', lw=.45, hatch=None if j < 5 else hatches[j-5][0])
+                    if j < 5 or count > 1:
+                        ax.text(left+count/2, y, str(count), ha='center', va='center',
+                                color='white' if j in (3, 4) else 'black', fontsize=8.8)
+                left += count
+        ax.set_xlim(0, 15.1)
+        ax.set_xticks([0, 5, 10, 15])
+        ax.tick_params(axis='y', length=0, pad=3)
+        ax.set_title(heading, loc='left', fontsize=10)
+        ax.spines[['left', 'right', 'top']].set_visible(False)
+    axes[0].set_yticks(range(len(selection)), [f"Q{r['item']}  {labels[r['item']-10]}" for r in selection], fontsize=8.9)
+    axes[0].invert_yaxis()
+    fig.text(.60, .015, 'Number of respondents', ha='center', fontsize=9)
+    handles = [Patch(fc=c, ec='#555555', lw=.5, label=str(j)) for j,c in enumerate(palette, 1)]
+    handles += [Patch(fc='white', ec='#555555', lw=.5, hatch=h, label=label) for h,label in hatches]
+    fig.legend(handles=handles, loc='upper center', bbox_to_anchor=(.58,1.0), ncol=8,
+               columnspacing=.9, handlelength=1.25, frameon=False, fontsize=8.5)
+    save(fig, f'Figure {number} {title}')
+

@@ -7,3 +7,5 @@ Anonymous participant ratings.csv records exact ratings and any interval or unre
 Run paper_ratings.py to reproduce the rating matrix, Tables 4–6 and student bounds. Run "Spatial measurements.py" for Table 3, the axial correlations, exterior dimensions and sightline measures. Run "Generate analytical figures.py" with NumPy and Matplotlib for Figures 1, 4 and 7–10. The ASCII CAD drawing and original graph attributes are supplied under Technical sources and in the graph CSVs. Original and adjusted visibility maps are Map 3 and Map 1; original and adjusted axial maps are zx2 and zx1.
 
 The Unity project and Windows build are provided under VR reproduction, together with instructions and third-party notices. Individual participant scans and photographs are excluded from the public materials.
+
+Expert rating sensitivity by item.csv gives aggregate counts at each scale point for the same 15 experts. The figures use these as a sensitivity comparison, with no averaging of records. Q19 has one series. The primary group and pooled counts remain those of Table 5.

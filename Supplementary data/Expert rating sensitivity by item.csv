@@ -1,0 +1,12 @@
+item,variable,n,score1,score2,score3,score4,score5,high,distinct_series
+10,Circulation,15,0,0,4,11,0,11,yes
+11,Display,15,0,0,1,14,0,14,yes
+12,Distinctiveness,15,0,0,7,8,0,8,yes
+13,Comfort,15,0,0,9,6,0,6,yes
+14,Function,15,0,2,4,9,0,9,yes
+15,Satisfaction,15,0,0,5,10,0,10,yes
+16,VRInterface,15,0,0,9,6,0,6,yes
+17,Discomfort,15,0,10,4,1,0,1,yes
+18,SpatialUnderstand,15,0,1,7,6,1,7,yes
+19,IterationEfficiency,15,0,0,6,9,0,9,no
+20,CreativeFreedom,15,0,0,9,6,0,6,yes
