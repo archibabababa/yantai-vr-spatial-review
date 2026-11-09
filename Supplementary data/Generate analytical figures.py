@@ -39,7 +39,7 @@ ax.plot([.07, 6.23], [3.11, 3.11], color='black', lw=.85)
 action(.07, 3.01, 'Building stakeholders',
        'Report problems with routes,\nscale and viewing distance.')
 action(2.21, 3.01, 'Research team',
-       'Model spatial relationships\nand build the VR tool.')
+       'Encode linked movements of\nthree volumes in the VR tool.')
 action(4.40, 3.01, 'Design team',
        'Edit the volumes in VR and\nretain one revised layout.')
 direction(1.67, 2.04, 2.94)
@@ -51,7 +51,7 @@ ax.plot([3.10, 3.10], [.91, 1.73], color='.65', lw=.55)
 action(.07, 1.69, 'Plan comparison',
        'Researchers redraw the adjusted plan in CAD\nand compare the two layouts in Depthmap.')
 action(3.24, 1.69, 'Participant assessment',
-       '15 experts and 15 students review original\ndrawings and film, then the adjusted design\nin VR, and rate their experience.')
+       'Both groups review drawings and video clips\nof the original layout, then explore and rate\nthe adjusted proposal in VR.')
 
 # Join the geometric and participant evidence at the single interpretation step.
 ax.plot([1.5, 1.5, 4.75, 4.75], [.87, .76, .76, .87], color='.28', lw=.75)

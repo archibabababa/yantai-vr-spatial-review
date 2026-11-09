@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-08T14:42:36.338448</dc:date>
+    <dc:date>2026-11-09T11:22:38.533161</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -35,29 +35,29 @@ L 454.32 252.72
 L 454.32 216 
 L 10.8 216 
 z
-" clip-path="url(#p63ccda7994)" style="fill: #f0f0f0"/>
+" clip-path="url(#p5854ffae06)" style="fill: #f0f0f0"/>
    </g>
    <g id="line2d_1">
     <path d="M 10.8 30.96 
 L 454.32 30.96 
-" clip-path="url(#p63ccda7994)" style="fill: none; stroke: #000000; stroke-width: 0.85; stroke-linecap: square"/>
+" clip-path="url(#p5854ffae06)" style="fill: none; stroke: #000000; stroke-width: 0.85; stroke-linecap: square"/>
    </g>
    <g id="line2d_2">
     <path d="M 10.8 125.28 
 L 454.32 125.28 
-" clip-path="url(#p63ccda7994)" style="fill: none; stroke: #000000; stroke-width: 0.85; stroke-linecap: square"/>
+" clip-path="url(#p5854ffae06)" style="fill: none; stroke: #000000; stroke-width: 0.85; stroke-linecap: square"/>
    </g>
    <g id="line2d_3">
     <path d="M 228.96 189.36 
 L 228.96 130.32 
-" clip-path="url(#p63ccda7994)" style="fill: none; stroke: #a6a6a6; stroke-width: 0.55; stroke-linecap: square"/>
+" clip-path="url(#p5854ffae06)" style="fill: none; stroke: #a6a6a6; stroke-width: 0.55; stroke-linecap: square"/>
    </g>
    <g id="line2d_4">
     <path d="M 113.76 192.24 
 L 113.76 200.16 
 L 347.76 200.16 
 L 347.76 192.24 
-" clip-path="url(#p63ccda7994)" style="fill: none; stroke: #474747; stroke-width: 0.75; stroke-linecap: square"/>
+" clip-path="url(#p5854ffae06)" style="fill: none; stroke: #474747; stroke-width: 0.75; stroke-linecap: square"/>
    </g>
    <g id="text_1">
     <text style="font-weight: 700; font-size: 12px; font-family: 'Times New Roman'; text-anchor: start" x="10.8" y="18.21375" transform="rotate(-0 10.8 18.21375)">Development of the alternative</text>
@@ -73,8 +73,8 @@ L 347.76 192.24
     <text style="font-weight: 700; font-size: 10.2px; font-family: 'Times New Roman'; text-anchor: start" x="164.88" y="45.06791" transform="rotate(-0 164.88 45.06791)">Research team</text>
    </g>
    <g id="text_5">
-    <text style="font-size: 9.9px; font-family: 'Times New Roman'" transform="translate(164.88 61.508821)">Model spatial relationships</text>
-    <text style="font-size: 9.9px; font-family: 'Times New Roman'" transform="translate(164.88 72.753636)">and build the VR tool.</text>
+    <text style="font-size: 9.9px; font-family: 'Times New Roman'" transform="translate(164.88 62.499595)">Encode linked movements of</text>
+    <text style="font-size: 9.9px; font-family: 'Times New Roman'" transform="translate(164.88 72.753636)">three volumes in the VR tool.</text>
    </g>
    <g id="text_6">
     <text style="font-weight: 700; font-size: 10.2px; font-family: 'Times New Roman'; text-anchor: start" x="322.56" y="45.073688" transform="rotate(-0 322.56 45.073688)">Design team</text>
@@ -117,9 +117,9 @@ z
     <text style="font-weight: 700; font-size: 10.2px; font-family: 'Times New Roman'; text-anchor: start" x="239.04" y="140.113687" transform="rotate(-0 239.04 140.113687)">Participant assessment</text>
    </g>
    <g id="text_12">
-    <text style="font-size: 9.9px; font-family: 'Times New Roman'" transform="translate(239.04 156.53954)">15 experts and 15 students review original</text>
-    <text style="font-size: 9.9px; font-family: 'Times New Roman'" transform="translate(239.04 166.802862)">drawings and film, then the adjusted design</text>
-    <text style="font-size: 9.9px; font-family: 'Times New Roman'" transform="translate(239.04 177.070825)">in VR, and rate their experience.</text>
+    <text style="font-size: 9.9px; font-family: 'Times New Roman'" transform="translate(239.04 156.53954)">Both groups review drawings and video clips</text>
+    <text style="font-size: 9.9px; font-family: 'Times New Roman'" transform="translate(239.04 166.800542)">of the original layout, then explore and rate</text>
+    <text style="font-size: 9.9px; font-family: 'Times New Roman'" transform="translate(239.04 177.063864)">the adjusted proposal in VR.</text>
    </g>
    <g id="patch_5">
     <path d="M 231.12 200.16 
@@ -140,7 +140,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p63ccda7994">
+  <clipPath id="p5854ffae06">
    <rect x="5.76" y="5.76" width="453.6" height="249.12"/>
   </clipPath>
  </defs>

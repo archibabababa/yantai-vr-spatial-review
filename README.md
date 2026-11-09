@@ -1,6 +1,6 @@
 # Yantai VR spatial configuration review
 
-Research materials for *Spatial configuration review using virtual reality and space syntax: A retrospective museum case study*, by Fan Huang, Yan Zhu and Jia Ning Luo.
+Research materials for *Editing linked spaces in virtual reality: A museum study of layout and representation*, by Fan Huang, Yan Zhu and Jia Ning Luo.
 
 The participant study includes 15 architecture students and 15 anonymous architectural experts. The repository contains anonymous ratings, descriptive summaries, CAD plans, graph attributes, analytical figures, the VR prototype and instructions for reproducing the paper’s analyses.
 

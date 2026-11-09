@@ -55,7 +55,7 @@ def calculate(root):
             assert sum(a[f'{group}_score{k}'] for k in range(1,6))+lo+hi+unknown==15
         for key in ('yes_min','yes_max'):a['Combined_'+key]=a['Students_'+key]+a['Experts_'+key]
     save(root/'Scheme and tool ratings by group.csv',scheme)
-    comp=[('Drawings_Struct','Video_Struct'),('Video_Presence','Drawings_Presence'),
+    comp=[('Drawings_Scale','Video_Scale'),('Drawings_Struct','Video_Struct'),('Video_Presence','Drawings_Presence'),
           ('VRSpace_Presence','Drawings_Presence'),('VRSpace_Struct','Drawings_Struct'),
           ('VRSpace_Scale','Drawings_Scale'),('Display','Comfort'),('Satisfaction','Function')]
     pairs=[]

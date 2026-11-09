@@ -1,4 +1,7 @@
 ﻿first_item,second_item,group,cohort,complete_pairs,first_higher,equal,second_higher,without_two_point_scores
+Drawings_Scale,Video_Scale,Students,15,13,2,6,5,2
+Drawings_Scale,Video_Scale,Experts,15,15,5,4,6,0
+Drawings_Scale,Video_Scale,Combined,30,28,7,10,11,2
 Drawings_Struct,Video_Struct,Students,15,13,3,6,4,2
 Drawings_Struct,Video_Struct,Experts,15,15,9,6,0,0
 Drawings_Struct,Video_Struct,Combined,30,28,12,12,4,2
