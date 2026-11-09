@@ -8,6 +8,6 @@ Table 5 presents high-rating counts for each of the eleven scheme and tool items
 
 ## Reproduction
 
-From **Supplementary data**, run **paper_ratings.py** for Tables 4–6, **Spatial measurements.py** for the geometric and graph comparisons, and **Generate analytical figures.py** for Figures 1, 4 and 7–10. The figure script requires NumPy and Matplotlib. The other two scripts use the Python standard library. See **Read me.txt** for definitions, denominators and study conditions.
+From **Supplementary data**, run **paper_ratings.py** for Tables 4–6, **Spatial measurements.py** for the geometric and graph comparisons, and **Generate analytical figures.py** for Figures 1, 4 and 7–10. The figure script requires NumPy and Matplotlib. Run **Check spatial and paired relationships.py** (Python 3.10 or later) to reproduce the within-plan rank correlations and the full-cohort bounds on paired rating directions. The numerical analyses use the Python standard library. See **Read me.txt** for definitions, denominators and study conditions.
 
 **VR reproduction/Reproduction guide.txt** covers the Unity project, the archived Windows build, controller mappings and checks. Third-party licences are retained. **Checksums.csv** provides file hashes. The repository accompanies a manuscript and does not imply acceptance or publication.

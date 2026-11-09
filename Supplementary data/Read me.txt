@@ -9,3 +9,5 @@ Run paper_ratings.py to reproduce the rating matrix, Tables 4–6 and student bo
 The Unity project and Windows build are provided under VR reproduction, together with instructions and third-party notices. Individual participant scans and photographs are excluded from the public materials.
 
 Expert rating sensitivity by item.csv gives aggregate counts at each scale point for the same 15 experts. The figures use these as a sensitivity comparison, with no averaging of records. Q19 has one series. The primary group and pooled counts remain those of Table 5.
+
+Run Check spatial and paired relationships.py (Python 3.10 or later) for the two supplementary checks. Within-plan visibility association.csv describes the association of the two attributes at the same sampled positions in each plan. Tied values receive average ranks. Paired rating direction bounds.csv reports the minimum and maximum feasible counts for each direction when all respondents are retained. These are bounds from response coding, not confidence intervals. Marginal endpoints for different categories need not all be attainable together.
