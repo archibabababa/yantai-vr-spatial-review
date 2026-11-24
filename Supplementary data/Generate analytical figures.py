@@ -12,7 +12,7 @@ G=B
 plt.rcParams.update({'font.family':'Times New Roman','font.size':10,'svg.fonttype':'none','axes.spines.top':False,'axes.spines.right':False,'savefig.facecolor':'white'})
 def save(fig,name):
     fig.savefig(F/(name+'.png'),dpi=350,bbox_inches='tight',pad_inches=.08)
-    fig.savefig(F/(name+'.svg'),bbox_inches='tight',pad_inches=.08)
+    fig.savefig(F/(name+'.svg'),bbox_inches='tight',pad_inches=.08,metadata={'Date':None})
     plt.close(fig)
 
 # Figure 1. Revision proceeds in sequence; evidence comes back through two parallel comparisons.

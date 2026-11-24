@@ -1,6 +1,6 @@
 # Analytical figures
 
-These figures accompany *Editing linked spaces in virtual reality: A museum study of layout and representation*. The participant study took place in July 2025. Numbering follows the manuscript. Each figure is available as PNG and SVG; the repository contains the analytical figures listed below.
+July 2025 study. Figure numbers follow the manuscript.
 
 | Figure | Files | Description |
 | --- | --- | --- |
@@ -24,7 +24,3 @@ These figures accompany *Editing linked spaces in virtual reality: A museum stud
 **Figure 9.** Presence ratings (Q9) by representation. Cells show the number of exact ratings at each score from 1 to 5. Student *n* is the number of exact ratings for that item; expert *n* is 15 throughout. The starred group reference means previous site experience for experts and photographs and renderings for students. Drawings and clips depict the original layout, and VR depicts the revision.
 
 **Figure 10.** Exact score counts for the revised scheme (Q10–15) and tool (Q16–20). Student *n* varies by item; each expert row contains 15 ratings. Higher Q17 scores indicate greater physical discomfort. Interval and unscorable responses are reported separately in the data files, so the exact-score counts can differ from Table 5, which also includes confirmed 4–5 intervals.
-
-## Regenerate the figures
-
-Follow the [data and analysis guide](../Supplementary%20data/Read%20me.txt). Run `Check landmark visibility.py` before `Generate analytical figures.py`. The latter requires NumPy and Matplotlib and writes the six PNG/SVG pairs to this directory.
