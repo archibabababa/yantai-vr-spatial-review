@@ -8,7 +8,7 @@ Anonymous participant ratings.csv is the analysis input, with participant, group
 
 Expert rating sensitivity by item.csv retains the alternate tabulation for the same 15 experts. It contains item-level score counts; Q19 has one series. Primary results use the participant-level ratings. Results that differ between the records, including comfort endorsements, should be read with the alternate tabulation.
 
-Student open-response summaries.csv contains Chinese semantic summaries with scan references. Expert open-response examples.txt contains selected English summaries. Individual questionnaire scans and participant photographs are excluded from the public files.
+Student open-response summaries.csv contains English translations of the existing Chinese reading summaries, with participant codes and scan references. These are summaries, not verbatim quotations; reading_note preserves unclear handwriting, crossed-out responses and an author comment. Expert open-response examples.txt contains selected English summaries. Individual questionnaire scans and participant photographs are excluded from the public files.
 
 2. Reading the results
 

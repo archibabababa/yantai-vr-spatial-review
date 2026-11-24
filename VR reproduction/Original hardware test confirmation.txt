@@ -1,3 +1,0 @@
-Hardware test statement recorded 6 November 2026
-
-Fan Huang reported that the headset and controller functions were tested during the original work and operated normally. A headset was unavailable for a new hardware test on 6 November 2026. This statement records the author's account; the automated scene and headless startup checks from that date are documented separately.

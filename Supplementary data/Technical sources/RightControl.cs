@@ -60,14 +60,14 @@ public class RightControl : MonoBehaviour
             }
         }
 
-        if (GrabGrip.GetState(SteamVR_Input_Sources.RightHand))//右手持握键模型向外移动
+        if (GrabGrip.GetState(SteamVR_Input_Sources.RightHand))// Right grip moves the linked models along their assigned local axes.
         {
             box1.transform.Translate(Vector3.left * Time.deltaTime * 0.5f);
             box2.transform.Translate(Vector3.forward * Time.deltaTime * 0.5f);
             box3.transform.Translate(Vector3.forward * Time.deltaTime * 0.5f);
         }
 
-        if (GrabGrip.GetState(SteamVR_Input_Sources.LeftHand))//左手持握键向里移动
+        if (GrabGrip.GetState(SteamVR_Input_Sources.LeftHand))// Left grip reverses the linked movement.
         {
             box1.transform.Translate(-Vector3.left * Time.deltaTime * 0.5f);
             box2.transform.Translate(-Vector3.forward * Time.deltaTime * 0.5f);

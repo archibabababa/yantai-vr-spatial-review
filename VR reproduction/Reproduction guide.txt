@@ -1,52 +1,33 @@
-Yantai VR prototype — setup and reproduction
-Documentation updated 24 November 2026. Recorded software checks: 6 November 2026.
+Yantai VR prototype — setup and controls
 
-1. Prototype and files
+Files
 
-Fan Huang implemented the Unity/C# prototype to adjust three linked gallery volumes and inspect the intervening spaces in VR. SteamVR/OpenVR supplies the tracking, input and navigation components. The original study used HTC Vive.
+Yantai VR - Unity source.zip contains Assets, Packages and ProjectSettings: the scene, three project FBX models, scripts, materials, controller bindings and local OpenVR dependency. SampleScene uses 5.15.fbx. Original asset names are preserved. Source file manifest.csv records the source and Windows build file sizes and hashes. Editor caches are omitted.
 
-Yantai VR - Unity source.zip contains Assets, Packages and ProjectSettings, including SampleScene, FBX models, control scripts, bindings and the local OpenVR dependency. Yantai VR - Archived Windows build.zip contains the executable and runtime files. Source file manifest.csv records the source hashes. Editor caches are omitted; historical instructions and technical logs are retained separately.
+Yantai VR - Archived Windows build.zip contains the executable and runtime files. The CAD drawing and native Depthmap graphs are in Supplementary data/Technical sources. Earlier native modelling files are not included.
 
-2. Open the Unity project
+Fan Huang implemented the linked-volume controls in RightControl.cs. SteamVR/OpenVR supplies tracking, input and navigation components, including vendor example assets. The standalone RightControl.cs in Technical sources has English comments; its executable code matches the archived version. See Third-party notices.txt for software credits and licences.
 
-a. Extract the source archive into a new folder with Assets, Packages and ProjectSettings at its root.
-b. ProjectVersion.txt records Unity 2022.3.53f1c1. A separate copy was compiled and checked in 2022.3.62f3c1 on 6 November 2026. If using another version, work on a copy and record package changes.
-c. Let Package Manager restore the dependencies. The OpenVR archive is included at the relative path in Packages/manifest.json.
-d. Open Assets/Scenes/SampleScene.unity. On the Player rig's right-hand object, check that RightControl has Box1, Box2 and Box3 assigned. The supplied Vive bindings include GrabPinch, GrabGrip, menu and teleport.
+Open the project
 
-3. Run the Windows build
+1. Extract the source archive so that Assets, Packages and ProjectSettings share a root folder.
+2. ProjectVersion.txt records Unity 2022.3.53f1c1. Use a separate copy for a different editor version. Let Package Manager restore dependencies; the OpenVR archive is included at the relative path specified in Packages/manifest.json.
+3. Open Assets/Scenes/SampleScene.unity. RightControl on the Player rig's right-hand object has three model targets assigned. Supplied Vive bindings include GrabPinch, GrabGrip, menu and teleport.
+4. Configure SteamVR and the HTC Vive headset/controllers, confirm tracking and room setup, then enter Play mode. Other devices require suitable bindings and compatibility testing.
 
-Extract the Windows archive, keeping VR_DemoFbx.exe, UnityPlayer.dll, MonoBleedingEdge and VR_DemoFbx_Data together in EXE. Configure SteamVR and a tracked headset/controller pair, confirm tracking and room setup, then start VR_DemoFbx.exe. Other devices need suitable bindings and a separate compatibility check.
+To use the Windows build, extract it and keep VR_DemoFbx.exe, UnityPlayer.dll, MonoBleedingEdge and VR_DemoFbx_Data together in EXE. Configure SteamVR before launching the executable.
 
-4. Controller mapping
+Controls
 
-- Right trigger, held: rotates all three groups around their local vertical axes at 5 degrees per second.
-- Right grip, held: moves Box1 along local left and Box2/Box3 along local forward at 0.5 Unity units per second. Left grip reverses these directions. Local axes change with each group's orientation.
-- Left trigger, successive presses: decreases each scale component by 0.002 on presses 1–4, increases it on presses 5–8 and resets the counter on press 9.
-- Right menu, successive presses: increases local Y scale by 0.002 on presses 1–4, decreases it on presses 5–8 and resets the counter on press 9. This implements the height adjustment labelled “tilt” in the historical conceptual diagram. Neither counter-reset press changes the geometry.
+- Right trigger, held: rotate the three groups around their local vertical axes at 5 degrees per second.
+- Right grip, held: move Box1 along local left and Box2/Box3 along local forward at 0.5 Unity units per second. Left grip reverses these movements. Local axes change with each group's orientation.
+- Left trigger: presses 1–4 reduce every local scale component by 0.002; presses 5–8 increase them by 0.002. Press 9 resets the counter without changing the geometry.
+- Right menu: presses 1–4 increase local Y scale by 0.002; presses 5–8 reduce it by 0.002. Press 9 resets the counter without changing the geometry. This is the height adjustment labelled “tilt” in the conceptual diagram.
 
-These values are code parameters in Unity coordinates. The controls apply predefined linked transformations; architectural constraints and Depthmap analysis are handled separately from the interaction code.
+These controls apply predefined linked transformations. Architectural constraints and spatial analysis are handled separately.
 
-5. Recorded checks and their scope
+Testing scope
 
-On 6 November 2026, a separate source copy was imported and compiled in Unity 2022.3.62f3c1. Timeline changed from 1.7.6 to 1.7.7. The files named “2026-11-06 Verified package manifest.json” and “2026-11-06 Verified package lock.json” record that check's dependencies.
+A separate copy compiled in Unity 2022.3.62f3c1 on 6 November 2026, with Timeline updated from 1.7.6 to 1.7.7. The scene check found no missing scripts and confirmed all three RightControl targets. A headless startup check of the archived executable reported no headset; it did not test rendering or controller interaction. A new headset test is required to assess operation on another setup.
 
-ReproductionAudit.cs checked SampleScene: 133 transforms, 38 MeshFilter components, no missing MonoBehaviour scripts and one RightControl with all three targets assigned. The scene log includes their initial transforms. The source archive retains the earlier project configuration and excludes this later check script.
-
-The archived Windows executable ran for a 15-second headless startup check before being stopped. OpenVR reported HmdNotFoundPresenceFailed. Rendering and headset/controller interaction were not tested in that check. Fan Huang's statement about successful hardware use during the original work is recorded separately in Original hardware test confirmation.txt.
-
-The retained scene and graph files allow inspection of the saved configurations. Complete historical input and intermediate-design logs are unavailable, so they cannot reconstruct every edit or date participant sessions. Historical package and shader logs document software development.
-
-To repeat the scene check, copy ReproductionAudit.cs into Assets/Editor in a separate project copy. Create a sibling folder named Verification logs, then run Unity in batch mode with -executeMethod ReproductionAudit.Run and -logFile. The script writes Editor scene audit.txt and exits after checking scene objects and references.
-
-6. Record a new hardware check
-
-Hardware verification blank.csv is an optional template for a new test. Record the date, operator, software versions, devices, action, baseline/final transforms, observed result and errors. Mark untested actions accordingly and retain any logs or screenshots with the new session. These records supplement the archived checks.
-
-7. Reproduce the paper's analyses
-
-Follow Supplementary data/Read me.txt for the complete command sequence and study conditions. The numerical analyses use Python 3.10+; figure generation also requires NumPy and Matplotlib.
-
-In Depthmap, use the 0.6 m VGA Map 3 (original) and VGA Map 1 (adjusted) in Technical sources/sy.graph. Use zx2.graph for the original axial map and zx1.graph for the adjusted map. Drawing1.dxf contains the plan representations. The CSV exports preserve the attributes used in the manuscript. Record the software version and graph-construction settings if rebuilding the graphs from CAD.
-
-Third-party notices.txt and the retained licence files describe the software dependencies.
+The saved scene and graphs support inspection of the supplied configurations. Complete historical input and intermediate-design logs are unavailable. For spatial and questionnaire analyses, follow Supplementary data/Read me.txt.
