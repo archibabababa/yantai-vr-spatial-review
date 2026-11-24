@@ -33,4 +33,4 @@ python "Compare presence and score spread.py"
 python "Joint circulation and display ratings.py"
 python "Generate analytical figures.py"
 
-The scripts recreate the result CSVs, intermediate tables and Figures 1, 4 and 7–10, including SVG exports. Run them in a copy to retain the published outputs. See the repository README for Unity setup and study limitations, and Figures/README.md for captions.
+The scripts recreate the result CSVs, intermediate tables and Figures 1, 4 and 7–10, including SVG exports. Run them in a copy to retain the published outputs. See VR reproduction/README.md for Unity setup, the repository README for study limitations, and Figures/README.md for captions.

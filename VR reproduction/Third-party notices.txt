@@ -1,7 +1,0 @@
-THIRD-PARTY NOTICES
-
-The Unity project includes Valve SteamVR/OpenVR. See SteamVR LICENSE.txt; the upstream licence is at https://github.com/ValveSoftware/steamvr_unity_plugin/blob/master/LICENSE. JSON.NET licences are retained under Assets/SteamVR/Input/Plugins/JSON.NET in the source archive.
-
-Unity dependencies are listed in the archived Packages/manifest.json and packages-lock.json. The local OpenVR package is included. Unity Editor, the SteamVR runtime and bundled runtime components remain subject to their respective licences.
-
-Original rights and licence notices apply to all software and project assets.
