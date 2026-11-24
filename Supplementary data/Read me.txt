@@ -2,7 +2,7 @@ Yantai museum design review — data and analysis guide
 
 1. Study and records
 
-Fifteen architecture students and fifteen architectural experts each supplied 23 rating entries. Experts used previous site experience as their reference; students used photographs and renderings. Both groups then reviewed drawings and video clips of the original layout, followed by VR of the revised layout. Comparisons across representations pair the same person's ratings. The two participant groups are analysed separately.
+The participant study took place in July 2025. Fifteen architecture students and fifteen architectural experts each supplied 23 rating entries. Experts used previous site experience as their reference; students used photographs and renderings. Both groups then reviewed drawings and video clips of the original layout, followed by VR of the revised layout. Comparisons across representations pair the same person's ratings. The two participant groups are analysed separately.
 
 Anonymous participant ratings.csv is the analysis input, with participant, group, item, variable, score, lower, upper and status fields. Status is point, interval or unresolved. Students supplied 310 exact scores, 23 confirmed intervals and 12 unscorable entries; the primary expert record contains 345 exact scores. Expert and student rating matrix.csv presents the exact scores in wide form.
 

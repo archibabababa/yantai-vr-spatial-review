@@ -1,5 +1,7 @@
 # Yantai VR spatial configuration review
 
+**Participant study: July 2025.**
+
 At the Yantai High-Tech Zone Science Popularization Museum, feedback from building users identified problems with circulation, spatial scale and exhibit viewing distance. This project developed a VR tool that let architects adjust three linked gallery volumes and inspect the resulting spaces from within the model. The selected layout was redrawn in CAD and assessed through space syntax analysis and feedback from 15 architecture students and 15 architectural experts.
 
 Materials accompany the manuscript *Editing linked spaces in virtual reality: A museum study of layout and representation*, by **Fan Huang, Yan Zhu and Jia Ning Luo**.
@@ -26,6 +28,7 @@ The mean longest horizontal sightline increased from **31.5 to 41.3 m**. From th
 
 | Material | Contents |
 | --- | --- |
+| [SketchUp source model](VR%20reproduction/Yantai%20VR%20-%20July%202025%20study%20-%20SketchUp%20source.skp) | Editable architectural model for the July 2025 study (4.4 MB) |
 | [Unity source project](VR%20reproduction/Yantai%20VR%20-%20Unity%20source.zip) | Assets, Packages and ProjectSettings, including the scene, three project FBX models and dependencies (84.4 MB) |
 | [Windows build](VR%20reproduction/Yantai%20VR%20-%20Archived%20Windows%20build.zip) | Archived executable and runtime files (33.1 MB); requires compatible VR hardware |
 | [CAD drawing](Supplementary%20data/Technical%20sources/Drawing1.dxf) | Plan geometry used for the original and revised layouts |
@@ -35,7 +38,7 @@ The mean longest horizontal sightline increased from **31.5 to 41.3 m**. From th
 | [VR setup guide](VR%20reproduction/Reproduction%20guide.txt) | Software requirements, controls and testing scope |
 | [File checksums](Checksums.csv) | File sizes and SHA-256 hashes |
 
-The Unity scene references `5.15.fbx`; two additional project FBX assets remain in the archive. These are the models supplied with the Unity project. Earlier native modelling files, such as SketchUp or Rhino source files, are not included. Original asset names and CAD layer names are preserved.
+The SketchUp model corresponds geometrically to the earlier FBX export in the Unity archive (SHA-256 prefix `fe5fb7ff33fb`). The scene uses `5.15.fbx`, which includes additional mesh detail. Use the SketchUp file to inspect the editable architectural source and the archived FBX to reproduce the supplied scene; an exact native source for the final FBX has not been located. One verified SketchUp version is included. Original asset names, file contents and CAD layer names are preserved.
 
 The numerical scripts require Python 3.10 or later; figure generation also requires NumPy and Matplotlib. Follow the command sequence in the data and analysis guide. The VR prototype uses Unity and SteamVR/OpenVR with HTC Vive controllers.
 

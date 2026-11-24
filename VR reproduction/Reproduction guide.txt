@@ -1,10 +1,14 @@
 Yantai VR prototype — setup and controls
 
+Study period: July 2025.
+
 Files
 
 Yantai VR - Unity source.zip contains Assets, Packages and ProjectSettings: the scene, three project FBX models, scripts, materials, controller bindings and local OpenVR dependency. SampleScene uses 5.15.fbx. Original asset names are preserved. Source file manifest.csv records the source and Windows build file sizes and hashes. Editor caches are omitted.
 
-Yantai VR - Archived Windows build.zip contains the executable and runtime files. The CAD drawing and native Depthmap graphs are in Supplementary data/Technical sources. Earlier native modelling files are not included.
+Yantai VR - Archived Windows build.zip contains the executable and runtime files. The CAD drawing and native Depthmap graphs are in Supplementary data/Technical sources.
+
+Yantai VR - July 2025 study - SketchUp source.skp preserves one verified native model. After accounting for coordinate conventions, all vertices of the earlier FBX export (SHA-256 prefix fe5fb7ff33fb) match positions in this SketchUp model at 0.1 mm rounding. The active 5.15.fbx has additional mesh detail; its exact final native source has not been located. The SketchUp file is supplied unchanged, without duplicate saves or backup versions. Its study label refers to July 2025; the original model and FBX export dates precede the experiment.
 
 Fan Huang implemented the linked-volume controls in RightControl.cs. SteamVR/OpenVR supplies tracking, input and navigation components, including vendor example assets. The standalone RightControl.cs in Technical sources has English comments; its executable code matches the archived version. See Third-party notices.txt for software credits and licences.
 
@@ -26,8 +30,8 @@ Controls
 
 These controls apply predefined linked transformations. Architectural constraints and spatial analysis are handled separately.
 
-Testing scope
+Later software checks
 
-A separate copy compiled in Unity 2022.3.62f3c1 on 6 November 2026, with Timeline updated from 1.7.6 to 1.7.7. The scene check found no missing scripts and confirmed all three RightControl targets. A headless startup check of the archived executable reported no headset; it did not test rendering or controller interaction. A new headset test is required to assess operation on another setup.
+The following checks concern the archived software, not the July 2025 participant sessions. A separate copy compiled in Unity 2022.3.62f3c1 on 6 November 2026, with Timeline updated from 1.7.6 to 1.7.7. The scene check found no missing scripts and confirmed all three RightControl targets. A headless startup check of the archived executable reported no headset; it did not test rendering or controller interaction. A new headset test is required to assess operation on another setup.
 
 The saved scene and graphs support inspection of the supplied configurations. Complete historical input and intermediate-design logs are unavailable. For spatial and questionnaire analyses, follow Supplementary data/Read me.txt.

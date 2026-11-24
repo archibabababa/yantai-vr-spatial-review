@@ -1,6 +1,6 @@
 # Analytical figures
 
-These figures accompany *Editing linked spaces in virtual reality: A museum study of layout and representation*. Numbering follows the manuscript. Each figure is available as PNG and SVG; the repository contains the analytical figures listed below.
+These figures accompany *Editing linked spaces in virtual reality: A museum study of layout and representation*. The participant study took place in July 2025. Numbering follows the manuscript. Each figure is available as PNG and SVG; the repository contains the analytical figures listed below.
 
 | Figure | Files | Description |
 | --- | --- | --- |
