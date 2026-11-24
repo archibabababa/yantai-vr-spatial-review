@@ -1,27 +1,60 @@
-Yantai museum design review
+Yantai museum design review — data and analysis guide
 
-The questionnaire dataset contains ratings for 15 architecture students and 15 anonymous architectural experts. Each person has 23 rating items. The student reference condition used photographs and renderings; experts drew on prior experience of the building. Both groups reviewed drawings and video clips of the original design, followed by VR of the adjusted design. Cross-media pairings use responses from the same person to the same item. The two groups are independent. No student–expert pairs are formed.
+1. Study and records
 
-Anonymous participant ratings.csv records exact ratings and any interval or unresolved marks. The participant codes allow within-person comparisons. Expert and student rating matrix.csv provides the same participants in wide form. Student responses include 310 exact scores, 23 confirmed intervals and 12 unscorable marks. Table 4 gives exact-score means and denominators. Table 5 reports scores of 4–5 for all eleven scheme and tool items separately for 15 students and 15 experts, together with their combined counts. Bounds account for unclassified responses. Figure 9 gives Q9 presence distributions; Figure 10 gives all Q10–Q20 distributions. Both show counts at the five exact scores, with the student denominator for each item. All expert denominators are 15. Score frequencies and dispersion.csv includes the interval and unscorable counts. Table 6 groups paired comparisons by direction and indicates cases without two exact scores. A high Q17 score indicates greater physical discomfort. The distributions are descriptive. Concentration in the top categories limits differentiation among design criteria.
+Fifteen architecture students and fifteen architectural experts each supplied 23 rating entries. Experts used previous site experience as their reference; students used photographs and renderings. Both groups then reviewed drawings and video clips of the original layout, followed by VR of the revised layout. Comparisons across representations pair the same person's ratings. The two participant groups are analysed separately.
 
-Run paper_ratings.py to reproduce the rating matrix, Tables 4–6 and student bounds. Run "Spatial measurements.py" for Table 3, the axial correlations, exterior dimensions and sightline measures. Run "Generate analytical figures.py" with NumPy and Matplotlib for Figures 1, 4 and 7–10. The ASCII CAD drawing and original graph attributes are supplied under Technical sources and in the graph CSVs. Original and adjusted visibility maps are Map 3 and Map 1; original and adjusted axial maps are zx2 and zx1.
+Anonymous participant ratings.csv is the analysis input, with participant, group, item, variable, score, lower, upper and status fields. Status is point, interval or unresolved. Students supplied 310 exact scores, 23 confirmed intervals and 12 unscorable entries; the primary expert record contains 345 exact scores. Expert and student rating matrix.csv presents the exact scores in wide form.
 
-The Unity project and Windows build are provided under VR reproduction, together with instructions and third-party notices. Individual participant scans and photographs are excluded from the public materials.
+Expert rating sensitivity by item.csv retains the alternate tabulation for the same 15 experts. It contains item-level score counts; Q19 has one series. Primary results use the participant-level ratings. Results that differ between the records, including comfort endorsements, should be read with the alternate tabulation.
 
-Expert rating sensitivity by item.csv gives aggregate counts at each scale point for the same 15 experts. This supplementary comparison covers the same respondents as the expert panel. Q19 has one series. The primary group and pooled counts remain those of Table 5.
+Student open-response summaries.csv contains Chinese semantic summaries with scan references. Expert open-response examples.txt contains selected English summaries. Individual questionnaire scans and participant photographs are excluded from the public files.
 
-Run Check spatial and paired relationships.py (Python 3.10 or later) for the two supplementary checks. Within-plan visibility association.csv describes the association of the two attributes at the same sampled positions in each plan. Tied values receive average ranks. Paired rating direction bounds.csv reports the minimum and maximum feasible counts for each direction when all respondents are retained. These are bounds from response coding, not confidence intervals. Marginal endpoints for different categories need not all be attainable together.
+2. Reading the results
 
-Figure 4 landmark analysis. Run "Check landmark visibility.py" before regenerating the figures. The point-map headers in sy.graph give a 600 mm grid and its CAD origin. Marker 1 transfers the author-identified approximate area using corresponding tread endpoints; markers 2 and 3 use tread centres. Landmark visibility.csv reports the median horizontal isovist maximum radial and visual clustering within 0.6, 1.2 and 2.4 m of each centre on each full graph. Figure 4 uses 1.2 m (two grid intervals). Landmark grid membership.csv lists every included point within the largest radius, with distance and both attributes. Anteroom registration check.csv repeats the original-plan calculation with the other reference tread. These are model locations, not participant trajectories.
+Table 4 reports exact-score means and denominators. Table 5 counts scores of 4 or 5, including confirmed 4–5 intervals, for every scheme and tool item (Q10–20). Table 6 compares the direction of paired exact scores and reports how many pairs lack two exact scores. A high Q17 rating indicates greater physical discomfort.
 
-Joint circulation and display ratings.py summarises the number of participants who rated both circulation and display function 4–5. The primary result uses within-person ratings; a score interval entirely above or below the threshold has a known classification. For the alternate expert tabulation only item totals are supplied, so the last row gives the minimum and maximum overlap compatible with those totals.
+Figures 9 and 10 show exact score frequencies. Student denominators vary by item; expert denominators are 15. Score frequencies and dispersion.csv also lists interval and unscorable entries. For fifteen ordered scores, the 4th, 8th and 12th values define the quartiles and median used here. The dispersion count uses the 105 distinct pairs within a group as a descriptive summary.
 
-Direct visibility and review tasks. After generating the existing Figure 4 inputs, run "Test sightlines and review tasks.py" (Python 3.10+). Table 3(b) uses the Figure 4 registration, 1.2 m radius and 1e-5 relative distance-moment tolerance. Landmark identifiers 1, 2 and 3 denote the main exhibition hall anteroom, ascending approach stair and broad steps. For each two neighbourhoods, divide the number of direct horizontal VGA links by the Cartesian product of their grid points. a_points_seeing_any_b counts distinct points in the first neighbourhood with a link to the second. All are model counts, not visitor observations.
+For uncertain entries, the scripts consider every integer within a recorded interval, or 1–5 for an unresolved response. Reported bounds describe the possible results of that coding; they are not confidence intervals. Bounds for different categories need not be attainable simultaneously.
 
-The version-440 graph reader decodes the native neighbour runs in sy.graph, checks the summed bin degree of every stored node against the published export, and verifies coordinates for the landmark nodes. A link decision requires agreement in the two directed reads and at least one endpoint whose decoded neighbourhood has the exported degree, valid unique nodes and distance sums consistent with the archived first and second moments. The two tolerances are 1e-5 and 5e-5 relative to the archived sums. Possible disagreements remain bounded in the CSV. Every pair in Table 3(b) resolves at both tolerances. Wider radii and a second-tread reference for the approximate original anteroom are included. Landmark node checks.csv retains the numerical checks for independent inspection.
+These are descriptive comparisons of a proposed redesign. Layout and presentation order changed with the VR condition, while expertise coincided with previous site experience. Model-based visibility and self-reported assessments do not establish effects on actual visitor behaviour.
 
-Paired media tasks by reviewer.csv cross-tabulates, within each person, the direction of the drawing–clip comparison for spatial structure and for presence. Each cell gives its attainable lower and upper count; upper endpoints from different cells need not be attainable together. Comfort among joint endorsements.csv conditions Q13 on the same respondent rating both Q10 and Q11 at least 4. All three thresholds are classifiable for both groups. The analysis uses the same 15 students and 15 experts as Tables 4–6.
+3. Run the analyses
 
-Compare reference conditions.py uses the original layout for within-person comparisons of the reference with drawings and with video clips. The experts recalled previous visits; the students used photographs and renderings. Each is analysed separately. Bounds on direction counts retain all admissible integer scores. Rating frequencies by task.csv counts exact ratings of 1–5 by group and task, with intervals and unresolved entries listed separately; counts are rating slots, not people.
+Use Python 3.10 or later. Numerical analyses use the standard library; figure generation additionally requires NumPy and Matplotlib. From this directory, run:
 
-Compare presence and score spread.py uses the same unmodified 30 records. VR presence comparisons.csv compares each reviewer’s Q9 rating in the revised VR scene with their own rating for the original drawings, the original clips, and the higher of the two. Lower and upper bounds range over admissible integer scores. These are coding bounds, not confidence intervals. For dispersion, the 4th, 8th and 12th of fifteen ordered scores define the quartiles and median here. The number of pairs giving different scores is out of 105 distinct pairs in a cohort; these descriptive pairs are not independent observations. Score frequencies and dispersion.csv includes every rating variable, so similarity can be assessed without selecting participants or changing their scores.
+python "Check landmark visibility.py"
+python paper_ratings.py
+python "Spatial measurements.py"
+python "Check spatial and paired relationships.py"
+python "Test sightlines and review tasks.py"
+python "Compare reference conditions.py"
+python "Compare presence and score spread.py"
+python "Joint circulation and display ratings.py"
+python "Generate analytical figures.py"
+
+The scripts regenerate the corresponding result CSVs and analytical figures. Use a copy of the repository to retain the published outputs for comparison.
+
+Script outputs:
+- paper_ratings.py: Tables 4–6, the wide rating matrix and full-student-cohort bounds.
+- Spatial measurements.py: floor-wide graph measures, axial correlations, exterior plan spans and sightline summaries for Table 3.
+- Check spatial and paired relationships.py: within-plan rank correlations and drawing–clip comparison bounds. Tied observations receive average ranks.
+- Compare reference conditions.py: within-person comparisons of each group's reference with drawings and clips, plus score frequencies by task. Frequency totals count rating entries.
+- Compare presence and score spread.py: each person's VR presence rating against drawings, clips and the higher of the two, plus item-level dispersion.
+- Joint circulation and display ratings.py: overlap of Q10 and Q11 endorsements. The alternate expert record supplies item totals, from which the script calculates minimum and maximum overlap.
+- Generate analytical figures.py: Figures 1, 4 and 7–10. Captions are in Figures/README.md.
+
+4. Spatial files and landmark checks
+
+Original and adjusted visibility maps are VGA Map 3.csv and VGA Map 1.csv; axial maps are zx2.csv and zx1.csv. Their native graphs and the CAD drawing are under Technical sources. The analysed visibility grid is 0.6 m; sy.graph also contains an unused 0.4 m trial layer.
+
+Check landmark visibility.py uses the stored grid origin and corresponding stair treads to locate the three Figure 4 landmarks: the anteroom, approach stair and broad steps. The anteroom is an approximate author-identified model location; the stair landmarks use tread centres. Landmark visibility.csv reports median longest horizontal sightlines and visual clustering within 0.6, 1.2 and 2.4 m. Figure 4 uses 1.2 m. Landmark grid membership.csv lists the included points, and Anteroom registration check.csv repeats the original-plan calculation using a second reference tread.
+
+Test sightlines and review tasks.py reads direct links from the version-440 native graph. Table 3(b) divides visible point pairs between two landmark areas by all possible pairs, using the 1.2 m areas and a 1e-5 relative distance-moment tolerance. The a_points_seeing_any_b fields count positions in the first area with a view of the second.
+
+The graph reader checks node degrees against the CSV export and coordinates against the grid. A link decision requires matching forward and reverse reads and at least one endpoint with valid unique neighbours, the exported degree and consistent first and second distance moments. The checks use tolerances of 1e-5 and 5e-5; all Table 3(b) pairs resolve at both. Wider radii and the second-tread registration are included in Direct visibility between landmarks.csv. Landmark node checks.csv retains the numerical checks.
+
+The same script produces Paired media tasks by reviewer.csv, comparing drawing–clip preferences for structure and presence within each person, and Comfort among joint endorsements.csv, counting Q13 endorsements among people endorsing both Q10 and Q11. These three thresholds are classifiable for all participants.
+
+For the Unity source, Windows build and controller setup, see VR reproduction/Reproduction guide.txt.

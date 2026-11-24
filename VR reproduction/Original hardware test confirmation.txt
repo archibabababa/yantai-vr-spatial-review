@@ -1,2 +1,3 @@
-AUTHOR CONFIRMATION — 6 NOVEMBER 2026
-The author confirms that the headset and controller functions were tested during the original work and worked normally. No headset is currently available for a fresh hardware test. This statement records author recollection; it is distinct from the recovered software logs and the independently generated present-day scene audit.
+Hardware test statement recorded 6 November 2026
+
+Fan Huang reported that the headset and controller functions were tested during the original work and operated normally. A headset was unavailable for a new hardware test on 6 November 2026. This statement records the author's account; the automated scene and headless startup checks from that date are documented separately.

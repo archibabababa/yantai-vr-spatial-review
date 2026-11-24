@@ -1,13 +1,41 @@
 # Yantai VR spatial configuration review
 
-Research materials for *Editing linked spaces in virtual reality: A museum study of layout and representation*, by Fan Huang, Yan Zhu and Jia Ning Luo.
+At the Yantai High-Tech Zone Science Popularization Museum, feedback from building users identified problems with circulation, spatial scale and exhibit viewing distance. This project developed a VR tool that let architects adjust three linked gallery volumes and inspect the resulting spaces from within the model. The selected layout was redrawn in CAD and assessed through space syntax analysis and feedback from 15 architecture students and 15 architectural experts.
 
-The participant study includes 15 architecture students and 15 anonymous architectural experts. The repository contains anonymous ratings, descriptive summaries, CAD plans, graph attributes, analytical figures, the VR prototype and instructions for reproducing the paper’s analyses.
+Materials accompany the manuscript *Editing linked spaces in virtual reality: A museum study of layout and representation*, by **Fan Huang, Yan Zhu and Jia Ning Luo**.
 
-Table 5 presents high-rating counts for each of the eleven scheme and tool items (Q10–20), with separate columns for students and experts and a pooled count. Figures 9 and 10 give counts at each exact score (1 to 5) for presence and all eleven scheme and tool items. Each student row gives its exact-score denominator; all expert denominators are 15. The item-frequency CSV also lists interval and unscorable entries. Run **Compare presence and score spread.py** for paired comparisons of VR with drawings, clips and the higher of the two, and for the item-level dispersion summaries. Expert rating sensitivity by item.csv gives an alternate tabulation for the same experts. Run **Joint circulation and display ratings.py** to reproduce the Q10–Q11 overlap and its bounds. A high Q17 score indicates physical discomfort.
+## Research contribution
 
-## Reproduction
+- **Linked editing in VR:** a Unity/C# prototype maps HTC Vive controller inputs to the translation, rotation, size and height of three predefined gallery volumes. SteamVR/OpenVR provides tracking, input and navigation components.
+- **Connecting local edits to the wider layout:** CAD and Depthmap comparisons examine how the selected revision changes visibility across the floor and between particular locations.
+- **Evaluating the proposed design:** participant ratings and comments describe how reviewers assessed spatial scale, structure, presence and the revised scheme.
 
-From **Supplementary data**, first run **Check landmark visibility.py** (Python 3.10+) to generate the local medians used in Figure 4, grid membership and the alternate-tread check. Then run **paper_ratings.py** for Tables 4–6, **Spatial measurements.py** for the geometric and graph comparisons, and **Generate analytical figures.py** for Figures 1, 4 and 7–10. The figure script requires NumPy and Matplotlib. Run **Check spatial and paired relationships.py** (Python 3.10 or later) to reproduce the within-plan rank correlations and the full-cohort bounds on paired rating directions. Run **Test sightlines and review tasks.py** for Table 3(b), the within-person structure/presence cross-tabulation and the joint comfort counts. Run **Compare reference conditions.py** for within-person comparisons against each group’s reference condition and the score frequencies by task. The numerical analyses use the Python standard library. See **Read me.txt** for definitions, denominators and study conditions.
+The mean longest horizontal sightline increased from **31.5 to 41.3 m**. From the approach stair, visibility improved substantially towards the broad steps but changed little towards the anteroom. Most reviewers endorsed improvements in circulation and display function. These results show why an overall spatial measure needs to be considered alongside local connections and reviewers' experience.
 
-**VR reproduction/Reproduction guide.txt** covers the Unity project, the archived Windows build, controller mappings and checks. Third-party licences are retained. **Checksums.csv** provides file hashes. The repository accompanies a manuscript and does not imply acceptance or publication.
+![Original and revised floor plans, with corresponding landmarks and local visibility measures](Figures/Figure%204%20Plan%20comparison.png)
+
+*Figure 4. Original and revised plans at the same scale. Values are medians for sampled positions within 1.2 m of each landmark; arrows run from original to revised values. Sightlines are horizontal. See the [figure guide](Figures/README.md) for all analytical figures.*
+
+## Author contributions
+
+**Fan Huang** developed the research, implemented the VR prototype, conducted the spatial analysis, prepared the figures and wrote the manuscript. His involvement in the architectural project provided access to the building drawings, model and post-occupancy feedback.
+
+**Yan Zhu** organised the participant study. **Jia Ning Luo** provided academic guidance. Shanghai Jiahe Architectural Design Co., Ltd. and Shanghai Jiujing Culture Technology Co., Ltd. provided equipment and facilities.
+
+## Explore the materials
+
+| Material | Contents |
+| --- | --- |
+| [Figures and captions](Figures/README.md) | Workflow, plan comparisons and participant rating distributions |
+| [Core interaction code](Supplementary%20data/Technical%20sources/RightControl.cs) | Controller mappings for the three linked volumes |
+| [Data and analysis guide](Supplementary%20data/Read%20me.txt) | Questionnaire coding, spatial measures and script instructions |
+| [VR reproduction guide](VR%20reproduction/Reproduction%20guide.txt) | Unity source, Windows build, setup and recorded checks |
+| [File checksums](Checksums.csv) | File sizes and SHA-256 hashes |
+
+The numerical scripts require Python 3.10 or later; figure generation also requires NumPy and Matplotlib. Follow the command sequence in the data and analysis guide. The VR prototype uses Unity and SteamVR/OpenVR with HTC Vive controllers.
+
+## Study scope
+
+This is a case study of one proposed redesign. Drawings and video clips showed the original layout, followed by VR of the revision, so VR ratings combine differences in layout, medium and presentation order. Experts had previously visited the building; students used photographs and renderings as their reference. The findings describe model geometry and participants' assessments; effects on actual visitor routes, comfort and viewing conditions remain to be measured.
+
+The [data guide](Supplementary%20data/Read%20me.txt) explains uncertain student responses and the alternate expert tabulation. The [VR guide](VR%20reproduction/Reproduction%20guide.txt) records software checks and the extent of hardware verification. [Third-party notices](VR%20reproduction/Third-party%20notices.txt) accompany the archived software.
